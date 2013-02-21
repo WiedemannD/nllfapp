@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1A1A6B16795FC70022F65F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6A16795FC70022F65F /* UIKit.framework */; };
+		DB1A1A6D16795FC70022F65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6C16795FC70022F65F /* Foundation.framework */; };
+		DB1A1A6F16795FC70022F65F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6E16795FC70022F65F /* CoreGraphics.framework */; };
+		DB1A1A7516795FC70022F65F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A7316795FC70022F65F /* InfoPlist.strings */; };
+		DB1A1A7716795FC70022F65F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A1A7616795FC70022F65F /* main.m */; };
+		DB1A1A7B16795FC70022F65F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A1A7A16795FC70022F65F /* AppDelegate.m */; };
+		DB1A1A7D16795FC70022F65F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A7C16795FC70022F65F /* Default.png */; };
+		DB1A1A7F16795FC70022F65F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A7E16795FC70022F65F /* Default@2x.png */; };
+		DB1A1A8116795FC70022F65F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8016795FC70022F65F /* Default-568h@2x.png */; };
+		DB1A1A8416795FC70022F65F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A1A8316795FC70022F65F /* ViewController.m */; };
+		DB1A1A8716795FC70022F65F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8516795FC70022F65F /* ViewController_iPhone.xib */; };
+		DB1A1A8A16795FC70022F65F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8816795FC70022F65F /* ViewController_iPad.xib */; };
+		DB9D47C016D29FF30096647F /* author.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A416D29FF30096647F /* author.jpg */; };
+		DB9D47C116D29FF30096647F /* BezierPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47A516D29FF30096647F /* BezierPlugin.min.js */; };
+		DB9D47C216D29FF30096647F /* cal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A616D29FF30096647F /* cal.jpg */; };
+		DB9D47C316D29FF30096647F /* ColorPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47A716D29FF30096647F /* ColorPropsPlugin.min.js */; };
+		DB9D47C416D29FF30096647F /* CSSPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47A816D29FF30096647F /* CSSPlugin.min.js */; };
+		DB9D47C516D29FF30096647F /* CSSRulePlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47A916D29FF30096647F /* CSSRulePlugin.min.js */; };
+		DB9D47C616D29FF30096647F /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AA16D29FF30096647F /* default.css */; };
+		DB9D47C716D29FF30096647F /* default.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47AB16D29FF30096647F /* default.js */; };
+		DB9D47C816D29FF30096647F /* EaselPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47AC16D29FF30096647F /* EaselPlugin.min.js */; };
+		DB9D47C916D29FF30096647F /* EasePack.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47AD16D29FF30096647F /* EasePack.min.js */; };
+		DB9D47CA16D29FF30096647F /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AE16D29FF30096647F /* header.jpg */; };
+		DB9D47CB16D29FF30096647F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AF16D29FF30096647F /* index.html */; };
+		DB9D47CC16D29FF30096647F /* jsonfn.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B016D29FF30096647F /* jsonfn.js */; };
+		DB9D47CD16D29FF30096647F /* localContent.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B116D29FF30096647F /* localContent.js */; };
+		DB9D47CE16D29FF30096647F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B216D29FF30096647F /* map.png */; };
+		DB9D47CF16D29FF30096647F /* mootools-core-1.4.5-full-compat.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B316D29FF30096647F /* mootools-core-1.4.5-full-compat.js */; };
+		DB9D47D016D29FF30096647F /* mootools-more-1.4.0.1.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B416D29FF30096647F /* mootools-more-1.4.0.1.js */; };
+		DB9D47D116D29FF30096647F /* RaphaelPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B516D29FF30096647F /* RaphaelPlugin.min.js */; };
+		DB9D47D216D29FF30096647F /* RoundPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B616D29FF30096647F /* RoundPropsPlugin.min.js */; };
+		DB9D47D316D29FF30096647F /* ScrollToPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B716D29FF30096647F /* ScrollToPlugin.min.js */; };
+		DB9D47D416D29FF30096647F /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B816D29FF30096647F /* sound1.mp3 */; };
+		DB9D47D516D29FF30096647F /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B916D29FF30096647F /* sound2.mp3 */; };
+		DB9D47D616D29FF30096647F /* sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BA16D29FF30096647F /* sound3.mp3 */; };
+		DB9D47D716D29FF30096647F /* testContent.html in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BB16D29FF30096647F /* testContent.html */; };
+		DB9D47D816D29FF30096647F /* TimelineLite.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47BC16D29FF30096647F /* TimelineLite.min.js */; };
+		DB9D47D916D29FF30096647F /* TimelineMax.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47BD16D29FF30096647F /* TimelineMax.min.js */; };
+		DB9D47DA16D29FF30096647F /* TweenLite.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47BE16D29FF30096647F /* TweenLite.min.js */; };
+		DB9D47DB16D29FF30096647F /* TweenMax.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47BF16D29FF30096647F /* TweenMax.min.js */; };
+		DB9D47DC16D2A0280096647F /* BezierPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A516D29FF30096647F /* BezierPlugin.min.js */; };
+		DB9D47DD16D2A0280096647F /* ColorPropsPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A716D29FF30096647F /* ColorPropsPlugin.min.js */; };
+		DB9D47DE16D2A0280096647F /* CSSPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A816D29FF30096647F /* CSSPlugin.min.js */; };
+		DB9D47DF16D2A0280096647F /* CSSRulePlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A916D29FF30096647F /* CSSRulePlugin.min.js */; };
+		DB9D47E016D2A0280096647F /* default.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AB16D29FF30096647F /* default.js */; };
+		DB9D47E116D2A0280096647F /* EaselPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AC16D29FF30096647F /* EaselPlugin.min.js */; };
+		DB9D47E216D2A0280096647F /* EasePack.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AD16D29FF30096647F /* EasePack.min.js */; };
+		DB9D47E316D2A0280096647F /* jsonfn.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B016D29FF30096647F /* jsonfn.js */; };
+		DB9D47E416D2A0280096647F /* localContent.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B116D29FF30096647F /* localContent.js */; };
+		DB9D47E516D2A0280096647F /* mootools-core-1.4.5-full-compat.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B316D29FF30096647F /* mootools-core-1.4.5-full-compat.js */; };
+		DB9D47E616D2A0280096647F /* mootools-more-1.4.0.1.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B416D29FF30096647F /* mootools-more-1.4.0.1.js */; };
+		DB9D47E716D2A0280096647F /* RaphaelPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B516D29FF30096647F /* RaphaelPlugin.min.js */; };
+		DB9D47E816D2A0280096647F /* RoundPropsPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B616D29FF30096647F /* RoundPropsPlugin.min.js */; };
+		DB9D47E916D2A0280096647F /* ScrollToPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B716D29FF30096647F /* ScrollToPlugin.min.js */; };
+		DB9D47EA16D2A0280096647F /* TimelineLite.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BC16D29FF30096647F /* TimelineLite.min.js */; };
+		DB9D47EB16D2A0280096647F /* TimelineMax.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BD16D29FF30096647F /* TimelineMax.min.js */; };
+		DB9D47EC16D2A0280096647F /* TweenLite.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BE16D29FF30096647F /* TweenLite.min.js */; };
+		DB9D47ED16D2A0280096647F /* TweenMax.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BF16D29FF30096647F /* TweenMax.min.js */; };
+		DBD694CE16D5674000163BF1 /* deviceLocationPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD694CD16D5674000163BF1 /* deviceLocationPointer.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB1A1A6616795FC70022F65F /* literaryFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = literaryFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A1A6A16795FC70022F65F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB1A1A6C16795FC70022F65F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB1A1A6E16795FC70022F65F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB1A1A7216795FC70022F65F /* literaryFestival-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "literaryFestival-Info.plist"; sourceTree = "<group>"; };
+		DB1A1A7416795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB1A1A7616795FC70022F65F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1A1A7816795FC70022F65F /* literaryFestival-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "literaryFestival-Prefix.pch"; sourceTree = "<group>"; };
+		DB1A1A7916795FC70022F65F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1A1A7A16795FC70022F65F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1A1A7C16795FC70022F65F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB1A1A7E16795FC70022F65F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB1A1A8016795FC70022F65F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB1A1A8216795FC70022F65F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1A1A8316795FC70022F65F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1A1A8616795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DB1A1A8916795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		DB9D47A416D29FF30096647F /* author.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = author.jpg; sourceTree = "<group>"; };
+		DB9D47A516D29FF30096647F /* BezierPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BezierPlugin.min.js; sourceTree = "<group>"; };
+		DB9D47A616D29FF30096647F /* cal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cal.jpg; sourceTree = "<group>"; };
+		DB9D47A716D29FF30096647F /* ColorPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ColorPropsPlugin.min.js; sourceTree = "<group>"; };
+		DB9D47A816D29FF30096647F /* CSSPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CSSPlugin.min.js; sourceTree = "<group>"; };
+		DB9D47A916D29FF30096647F /* CSSRulePlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CSSRulePlugin.min.js; sourceTree = "<group>"; };
+		DB9D47AA16D29FF30096647F /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
+		DB9D47AB16D29FF30096647F /* default.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = default.js; sourceTree = "<group>"; };
+		DB9D47AC16D29FF30096647F /* EaselPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = EaselPlugin.min.js; sourceTree = "<group>"; };
+		DB9D47AD16D29FF30096647F /* EasePack.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = EasePack.min.js; sourceTree = "<group>"; };
+		DB9D47AE16D29FF30096647F /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
+		DB9D47AF16D29FF30096647F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		DB9D47B016D29FF30096647F /* jsonfn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsonfn.js; sourceTree = "<group>"; };
+		DB9D47B116D29FF30096647F /* localContent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = localContent.js; sourceTree = "<group>"; };
+		DB9D47B216D29FF30096647F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		DB9D47B316D29FF30096647F /* mootools-core-1.4.5-full-compat.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mootools-core-1.4.5-full-compat.js"; sourceTree = "<group>"; };
+		DB9D47B416D29FF30096647F /* mootools-more-1.4.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mootools-more-1.4.0.1.js"; sourceTree = "<group>"; };
+		DB9D47B516D29FF30096647F /* RaphaelPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RaphaelPlugin.min.js; sourceTree = "<group>"; };
+		DB9D47B616D29FF30096647F /* RoundPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RoundPropsPlugin.min.js; sourceTree = "<group>"; };
+		DB9D47B716D29FF30096647F /* ScrollToPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ScrollToPlugin.min.js; sourceTree = "<group>"; };
+		DB9D47B816D29FF30096647F /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		DB9D47B916D29FF30096647F /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
+		DB9D47BA16D29FF30096647F /* sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound3.mp3; sourceTree = "<group>"; };
+		DB9D47BB16D29FF30096647F /* testContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testContent.html; sourceTree = "<group>"; };
+		DB9D47BC16D29FF30096647F /* TimelineLite.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TimelineLite.min.js; sourceTree = "<group>"; };
+		DB9D47BD16D29FF30096647F /* TimelineMax.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TimelineMax.min.js; sourceTree = "<group>"; };
+		DB9D47BE16D29FF30096647F /* TweenLite.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TweenLite.min.js; sourceTree = "<group>"; };
+		DB9D47BF16D29FF30096647F /* TweenMax.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TweenMax.min.js; sourceTree = "<group>"; };
+		DBD694CD16D5674000163BF1 /* deviceLocationPointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deviceLocationPointer.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1A1A6316795FC70022F65F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A1A6B16795FC70022F65F /* UIKit.framework in Frameworks */,
+				DB1A1A6D16795FC70022F65F /* Foundation.framework in Frameworks */,
+				DB1A1A6F16795FC70022F65F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1A1A5B16795FC70022F65F = {
+			isa = PBXGroup;
+			children = (
+				DB1A1A7016795FC70022F65F /* literaryFestival */,
+				DB1A1A90167960640022F65F /* Ressources */,
+				DB1A1A6916795FC70022F65F /* Frameworks */,
+				DB1A1A6716795FC70022F65F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1A1A6716795FC70022F65F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1A6616795FC70022F65F /* literaryFestival.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1A1A6916795FC70022F65F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1A6A16795FC70022F65F /* UIKit.framework */,
+				DB1A1A6C16795FC70022F65F /* Foundation.framework */,
+				DB1A1A6E16795FC70022F65F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB1A1A7016795FC70022F65F /* literaryFestival */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1A7916795FC70022F65F /* AppDelegate.h */,
+				DB1A1A7A16795FC70022F65F /* AppDelegate.m */,
+				DB1A1A8216795FC70022F65F /* ViewController.h */,
+				DB1A1A8316795FC70022F65F /* ViewController.m */,
+				DB1A1A8516795FC70022F65F /* ViewController_iPhone.xib */,
+				DB1A1A8816795FC70022F65F /* ViewController_iPad.xib */,
+				DB1A1A7116795FC70022F65F /* Supporting Files */,
+			);
+			path = literaryFestival;
+			sourceTree = "<group>";
+		};
+		DB1A1A7116795FC70022F65F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A1A7216795FC70022F65F /* literaryFestival-Info.plist */,
+				DB1A1A7316795FC70022F65F /* InfoPlist.strings */,
+				DB1A1A7616795FC70022F65F /* main.m */,
+				DB1A1A7816795FC70022F65F /* literaryFestival-Prefix.pch */,
+				DB1A1A7C16795FC70022F65F /* Default.png */,
+				DB1A1A7E16795FC70022F65F /* Default@2x.png */,
+				DB1A1A8016795FC70022F65F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB1A1A90167960640022F65F /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				DB9D47A316D29FF30096647F /* web */,
+			);
+			name = Ressources;
+			path = literaryFestival;
+			sourceTree = "<group>";
+		};
+		DB9D47A316D29FF30096647F /* web */ = {
+			isa = PBXGroup;
+			children = (
+				DBD694CD16D5674000163BF1 /* deviceLocationPointer.png */,
+				DB9D47A416D29FF30096647F /* author.jpg */,
+				DB9D47A516D29FF30096647F /* BezierPlugin.min.js */,
+				DB9D47A616D29FF30096647F /* cal.jpg */,
+				DB9D47A716D29FF30096647F /* ColorPropsPlugin.min.js */,
+				DB9D47A816D29FF30096647F /* CSSPlugin.min.js */,
+				DB9D47A916D29FF30096647F /* CSSRulePlugin.min.js */,
+				DB9D47AA16D29FF30096647F /* default.css */,
+				DB9D47AB16D29FF30096647F /* default.js */,
+				DB9D47AC16D29FF30096647F /* EaselPlugin.min.js */,
+				DB9D47AD16D29FF30096647F /* EasePack.min.js */,
+				DB9D47AE16D29FF30096647F /* header.jpg */,
+				DB9D47AF16D29FF30096647F /* index.html */,
+				DB9D47B016D29FF30096647F /* jsonfn.js */,
+				DB9D47B116D29FF30096647F /* localContent.js */,
+				DB9D47B216D29FF30096647F /* map.png */,
+				DB9D47B316D29FF30096647F /* mootools-core-1.4.5-full-compat.js */,
+				DB9D47B416D29FF30096647F /* mootools-more-1.4.0.1.js */,
+				DB9D47B516D29FF30096647F /* RaphaelPlugin.min.js */,
+				DB9D47B616D29FF30096647F /* RoundPropsPlugin.min.js */,
+				DB9D47B716D29FF30096647F /* ScrollToPlugin.min.js */,
+				DB9D47B816D29FF30096647F /* sound1.mp3 */,
+				DB9D47B916D29FF30096647F /* sound2.mp3 */,
+				DB9D47BA16D29FF30096647F /* sound3.mp3 */,
+				DB9D47BB16D29FF30096647F /* testContent.html */,
+				DB9D47BC16D29FF30096647F /* TimelineLite.min.js */,
+				DB9D47BD16D29FF30096647F /* TimelineMax.min.js */,
+				DB9D47BE16D29FF30096647F /* TweenLite.min.js */,
+				DB9D47BF16D29FF30096647F /* TweenMax.min.js */,
+			);
+			name = web;
+			path = Ressources/web;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1A1A6516795FC70022F65F /* literaryFestival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A1A8D16795FC70022F65F /* Build configuration list for PBXNativeTarget "literaryFestival" */;
+			buildPhases = (
+				DB1A1A6216795FC70022F65F /* Sources */,
+				DB1A1A6316795FC70022F65F /* Frameworks */,
+				DB1A1A6416795FC70022F65F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = literaryFestival;
+			productName = literaryFestival;
+			productReference = DB1A1A6616795FC70022F65F /* literaryFestival.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1A1A5D16795FC70022F65F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daniel Wiedemann";
+			};
+			buildConfigurationList = DB1A1A6016795FC70022F65F /* Build configuration list for PBXProject "literaryFestival" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB1A1A5B16795FC70022F65F;
+			productRefGroup = DB1A1A6716795FC70022F65F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1A1A6516795FC70022F65F /* literaryFestival */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1A1A6416795FC70022F65F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A1A7516795FC70022F65F /* InfoPlist.strings in Resources */,
+				DB1A1A7D16795FC70022F65F /* Default.png in Resources */,
+				DB1A1A7F16795FC70022F65F /* Default@2x.png in Resources */,
+				DB1A1A8116795FC70022F65F /* Default-568h@2x.png in Resources */,
+				DB1A1A8716795FC70022F65F /* ViewController_iPhone.xib in Resources */,
+				DB1A1A8A16795FC70022F65F /* ViewController_iPad.xib in Resources */,
+				DB9D47C016D29FF30096647F /* author.jpg in Resources */,
+				DB9D47C216D29FF30096647F /* cal.jpg in Resources */,
+				DB9D47C616D29FF30096647F /* default.css in Resources */,
+				DB9D47CA16D29FF30096647F /* header.jpg in Resources */,
+				DB9D47CB16D29FF30096647F /* index.html in Resources */,
+				DB9D47CE16D29FF30096647F /* map.png in Resources */,
+				DB9D47D416D29FF30096647F /* sound1.mp3 in Resources */,
+				DB9D47D516D29FF30096647F /* sound2.mp3 in Resources */,
+				DB9D47D616D29FF30096647F /* sound3.mp3 in Resources */,
+				DB9D47D716D29FF30096647F /* testContent.html in Resources */,
+				DB9D47DC16D2A0280096647F /* BezierPlugin.min.js in Resources */,
+				DB9D47DD16D2A0280096647F /* ColorPropsPlugin.min.js in Resources */,
+				DB9D47DE16D2A0280096647F /* CSSPlugin.min.js in Resources */,
+				DB9D47DF16D2A0280096647F /* CSSRulePlugin.min.js in Resources */,
+				DB9D47E016D2A0280096647F /* default.js in Resources */,
+				DB9D47E116D2A0280096647F /* EaselPlugin.min.js in Resources */,
+				DB9D47E216D2A0280096647F /* EasePack.min.js in Resources */,
+				DB9D47E316D2A0280096647F /* jsonfn.js in Resources */,
+				DB9D47E416D2A0280096647F /* localContent.js in Resources */,
+				DB9D47E516D2A0280096647F /* mootools-core-1.4.5-full-compat.js in Resources */,
+				DB9D47E616D2A0280096647F /* mootools-more-1.4.0.1.js in Resources */,
+				DB9D47E716D2A0280096647F /* RaphaelPlugin.min.js in Resources */,
+				DB9D47E816D2A0280096647F /* RoundPropsPlugin.min.js in Resources */,
+				DB9D47E916D2A0280096647F /* ScrollToPlugin.min.js in Resources */,
+				DB9D47EA16D2A0280096647F /* TimelineLite.min.js in Resources */,
+				DB9D47EB16D2A0280096647F /* TimelineMax.min.js in Resources */,
+				DB9D47EC16D2A0280096647F /* TweenLite.min.js in Resources */,
+				DB9D47ED16D2A0280096647F /* TweenMax.min.js in Resources */,
+				DBD694CE16D5674000163BF1 /* deviceLocationPointer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1A1A6216795FC70022F65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A1A7716795FC70022F65F /* main.m in Sources */,
+				DB1A1A7B16795FC70022F65F /* AppDelegate.m in Sources */,
+				DB1A1A8416795FC70022F65F /* ViewController.m in Sources */,
+				DB9D47C116D29FF30096647F /* BezierPlugin.min.js in Sources */,
+				DB9D47C316D29FF30096647F /* ColorPropsPlugin.min.js in Sources */,
+				DB9D47C416D29FF30096647F /* CSSPlugin.min.js in Sources */,
+				DB9D47C516D29FF30096647F /* CSSRulePlugin.min.js in Sources */,
+				DB9D47C716D29FF30096647F /* default.js in Sources */,
+				DB9D47C816D29FF30096647F /* EaselPlugin.min.js in Sources */,
+				DB9D47C916D29FF30096647F /* EasePack.min.js in Sources */,
+				DB9D47CC16D29FF30096647F /* jsonfn.js in Sources */,
+				DB9D47CD16D29FF30096647F /* localContent.js in Sources */,
+				DB9D47CF16D29FF30096647F /* mootools-core-1.4.5-full-compat.js in Sources */,
+				DB9D47D016D29FF30096647F /* mootools-more-1.4.0.1.js in Sources */,
+				DB9D47D116D29FF30096647F /* RaphaelPlugin.min.js in Sources */,
+				DB9D47D216D29FF30096647F /* RoundPropsPlugin.min.js in Sources */,
+				DB9D47D316D29FF30096647F /* ScrollToPlugin.min.js in Sources */,
+				DB9D47D816D29FF30096647F /* TimelineLite.min.js in Sources */,
+				DB9D47D916D29FF30096647F /* TimelineMax.min.js in Sources */,
+				DB9D47DA16D29FF30096647F /* TweenLite.min.js in Sources */,
+				DB9D47DB16D29FF30096647F /* TweenMax.min.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB1A1A7316795FC70022F65F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A1A7416795FC70022F65F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB1A1A8516795FC70022F65F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A1A8616795FC70022F65F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DB1A1A8816795FC70022F65F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A1A8916795FC70022F65F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1A1A8B16795FC70022F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB1A1A8C16795FC70022F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1A1A8E16795FC70022F65F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "literaryFestival/literaryFestival-Prefix.pch";
+				INFOPLIST_FILE = "literaryFestival/literaryFestival-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB1A1A8F16795FC70022F65F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "literaryFestival/literaryFestival-Prefix.pch";
+				INFOPLIST_FILE = "literaryFestival/literaryFestival-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1A1A6016795FC70022F65F /* Build configuration list for PBXProject "literaryFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A1A8B16795FC70022F65F /* Debug */,
+				DB1A1A8C16795FC70022F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A1A8D16795FC70022F65F /* Build configuration list for PBXNativeTarget "literaryFestival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A1A8E16795FC70022F65F /* Debug */,
+				DB1A1A8F16795FC70022F65F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1A1A5D16795FC70022F65F /* Project object */;
+}

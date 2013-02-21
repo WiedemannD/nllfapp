@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Literary Festival</title>
+	
+	<meta name="viewport" content = "width = device-width, initial-scale = 1.0, user-scalable = no" />  
+	
+	<!-- local js libs -->
+    <script type="text/javascript" src="mootools-core-1.4.5-full-compat.js"></script>
+    <script type="text/javascript" src="mootools-more-1.4.0.1.js"></script>
+	<script type="text/javascript" src="TweenMax.min.js"></script>
+	<script type="text/javascript" src="jsonfn.js"></script>
+
+	<!-- local js custom files -->
+	<script type="text/javascript" src="localContent.js"></script>
+	<script type="text/javascript" src="default.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="default.css">
+	
+</head>
+
+<body>
+	<div id="mainContainer">
+		<div id="header">
+			<img src="header.jpg"/>
+		</div>
+		
+		<div id="contentContainer">
+		</div>
+		
+		<!--<div id="test" style="width:300px; height:300px; position:absolute; z-index:1001; top:0px; left:0px;">
+		</div>-->
+			
+		<div id="naviBar">
+			<div class="naviBtn" id="naviBtnLeft" onclick="navigateBack()">Back</div>
+
+			<div class="naviBtn" id="naviBtnLeft" onclick="resetContent()">Reset</div>
+			<div class="naviBtn" id="naviBtnLeft" onclick="loadUpdate()">update</div>
+
+			<div id="naviTitle">Home</div>
+		</div>
+		
+		<div id="alertBox">
+			<div id="alertText"></div>
+			<a class="homeBtn centeredBtn" onclick="toggleAlert()">OK</a>
+		</div>
+	</div>
+	<div id="sounds"></div>
+</body>
+</html>
