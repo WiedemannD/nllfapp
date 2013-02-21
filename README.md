@@ -3,6 +3,9 @@ North London Literature Festival (Mobile App)
 
 Webapp based on HTML/JS/CSS in iOS App wrapper. Android wrapper planned.
 
+**Web files**
+_iOS/literaryFestival/Resources/web_
+
 **Built in features:**
 - Warning when Internet connection isn't available
 - Content and structure updates

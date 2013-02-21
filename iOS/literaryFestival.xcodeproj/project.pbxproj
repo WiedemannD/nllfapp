@@ -19,53 +19,34 @@
 		DB1A1A8416795FC70022F65F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A1A8316795FC70022F65F /* ViewController.m */; };
 		DB1A1A8716795FC70022F65F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8516795FC70022F65F /* ViewController_iPhone.xib */; };
 		DB1A1A8A16795FC70022F65F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8816795FC70022F65F /* ViewController_iPad.xib */; };
-		DB9D47C016D29FF30096647F /* author.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A416D29FF30096647F /* author.jpg */; };
-		DB9D47C116D29FF30096647F /* BezierPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47A516D29FF30096647F /* BezierPlugin.min.js */; };
-		DB9D47C216D29FF30096647F /* cal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A616D29FF30096647F /* cal.jpg */; };
-		DB9D47C316D29FF30096647F /* ColorPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47A716D29FF30096647F /* ColorPropsPlugin.min.js */; };
-		DB9D47C416D29FF30096647F /* CSSPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47A816D29FF30096647F /* CSSPlugin.min.js */; };
-		DB9D47C516D29FF30096647F /* CSSRulePlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47A916D29FF30096647F /* CSSRulePlugin.min.js */; };
-		DB9D47C616D29FF30096647F /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AA16D29FF30096647F /* default.css */; };
-		DB9D47C716D29FF30096647F /* default.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47AB16D29FF30096647F /* default.js */; };
-		DB9D47C816D29FF30096647F /* EaselPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47AC16D29FF30096647F /* EaselPlugin.min.js */; };
-		DB9D47C916D29FF30096647F /* EasePack.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47AD16D29FF30096647F /* EasePack.min.js */; };
-		DB9D47CA16D29FF30096647F /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AE16D29FF30096647F /* header.jpg */; };
-		DB9D47CB16D29FF30096647F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AF16D29FF30096647F /* index.html */; };
-		DB9D47CC16D29FF30096647F /* jsonfn.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B016D29FF30096647F /* jsonfn.js */; };
-		DB9D47CD16D29FF30096647F /* localContent.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B116D29FF30096647F /* localContent.js */; };
-		DB9D47CE16D29FF30096647F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B216D29FF30096647F /* map.png */; };
-		DB9D47CF16D29FF30096647F /* mootools-core-1.4.5-full-compat.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B316D29FF30096647F /* mootools-core-1.4.5-full-compat.js */; };
-		DB9D47D016D29FF30096647F /* mootools-more-1.4.0.1.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B416D29FF30096647F /* mootools-more-1.4.0.1.js */; };
-		DB9D47D116D29FF30096647F /* RaphaelPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B516D29FF30096647F /* RaphaelPlugin.min.js */; };
-		DB9D47D216D29FF30096647F /* RoundPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B616D29FF30096647F /* RoundPropsPlugin.min.js */; };
-		DB9D47D316D29FF30096647F /* ScrollToPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47B716D29FF30096647F /* ScrollToPlugin.min.js */; };
-		DB9D47D416D29FF30096647F /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B816D29FF30096647F /* sound1.mp3 */; };
-		DB9D47D516D29FF30096647F /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B916D29FF30096647F /* sound2.mp3 */; };
-		DB9D47D616D29FF30096647F /* sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BA16D29FF30096647F /* sound3.mp3 */; };
-		DB9D47D716D29FF30096647F /* testContent.html in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BB16D29FF30096647F /* testContent.html */; };
-		DB9D47D816D29FF30096647F /* TimelineLite.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47BC16D29FF30096647F /* TimelineLite.min.js */; };
-		DB9D47D916D29FF30096647F /* TimelineMax.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47BD16D29FF30096647F /* TimelineMax.min.js */; };
-		DB9D47DA16D29FF30096647F /* TweenLite.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47BE16D29FF30096647F /* TweenLite.min.js */; };
-		DB9D47DB16D29FF30096647F /* TweenMax.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DB9D47BF16D29FF30096647F /* TweenMax.min.js */; };
-		DB9D47DC16D2A0280096647F /* BezierPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A516D29FF30096647F /* BezierPlugin.min.js */; };
-		DB9D47DD16D2A0280096647F /* ColorPropsPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A716D29FF30096647F /* ColorPropsPlugin.min.js */; };
-		DB9D47DE16D2A0280096647F /* CSSPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A816D29FF30096647F /* CSSPlugin.min.js */; };
-		DB9D47DF16D2A0280096647F /* CSSRulePlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47A916D29FF30096647F /* CSSRulePlugin.min.js */; };
-		DB9D47E016D2A0280096647F /* default.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AB16D29FF30096647F /* default.js */; };
-		DB9D47E116D2A0280096647F /* EaselPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AC16D29FF30096647F /* EaselPlugin.min.js */; };
-		DB9D47E216D2A0280096647F /* EasePack.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47AD16D29FF30096647F /* EasePack.min.js */; };
-		DB9D47E316D2A0280096647F /* jsonfn.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B016D29FF30096647F /* jsonfn.js */; };
-		DB9D47E416D2A0280096647F /* localContent.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B116D29FF30096647F /* localContent.js */; };
-		DB9D47E516D2A0280096647F /* mootools-core-1.4.5-full-compat.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B316D29FF30096647F /* mootools-core-1.4.5-full-compat.js */; };
-		DB9D47E616D2A0280096647F /* mootools-more-1.4.0.1.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B416D29FF30096647F /* mootools-more-1.4.0.1.js */; };
-		DB9D47E716D2A0280096647F /* RaphaelPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B516D29FF30096647F /* RaphaelPlugin.min.js */; };
-		DB9D47E816D2A0280096647F /* RoundPropsPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B616D29FF30096647F /* RoundPropsPlugin.min.js */; };
-		DB9D47E916D2A0280096647F /* ScrollToPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47B716D29FF30096647F /* ScrollToPlugin.min.js */; };
-		DB9D47EA16D2A0280096647F /* TimelineLite.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BC16D29FF30096647F /* TimelineLite.min.js */; };
-		DB9D47EB16D2A0280096647F /* TimelineMax.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BD16D29FF30096647F /* TimelineMax.min.js */; };
-		DB9D47EC16D2A0280096647F /* TweenLite.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BE16D29FF30096647F /* TweenLite.min.js */; };
-		DB9D47ED16D2A0280096647F /* TweenMax.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB9D47BF16D29FF30096647F /* TweenMax.min.js */; };
-		DBD694CE16D5674000163BF1 /* deviceLocationPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = DBD694CD16D5674000163BF1 /* deviceLocationPointer.png */; };
+		DBED853C16D657C3002A220B /* author.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED851F16D657C3002A220B /* author.jpg */; };
+		DBED853D16D657C3002A220B /* BezierPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852016D657C3002A220B /* BezierPlugin.min.js */; };
+		DBED853E16D657C3002A220B /* cal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED852116D657C3002A220B /* cal.jpg */; };
+		DBED853F16D657C3002A220B /* ColorPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */; };
+		DBED854016D657C3002A220B /* CSSPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852316D657C3002A220B /* CSSPlugin.min.js */; };
+		DBED854116D657C3002A220B /* CSSRulePlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852416D657C3002A220B /* CSSRulePlugin.min.js */; };
+		DBED854216D657C3002A220B /* default.css in Resources */ = {isa = PBXBuildFile; fileRef = DBED852516D657C3002A220B /* default.css */; };
+		DBED854316D657C3002A220B /* default.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852616D657C3002A220B /* default.js */; };
+		DBED854416D657C3002A220B /* deviceLocationPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = DBED852716D657C3002A220B /* deviceLocationPointer.png */; };
+		DBED854616D657C3002A220B /* EaselPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852916D657C3002A220B /* EaselPlugin.min.js */; };
+		DBED854716D657C3002A220B /* EasePack.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852A16D657C3002A220B /* EasePack.min.js */; };
+		DBED854816D657C3002A220B /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED852B16D657C3002A220B /* header.jpg */; };
+		DBED854916D657C3002A220B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DBED852C16D657C3002A220B /* index.html */; };
+		DBED854A16D657C3002A220B /* jsonfn.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852D16D657C3002A220B /* jsonfn.js */; };
+		DBED854B16D657C3002A220B /* localContent.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852E16D657C3002A220B /* localContent.js */; };
+		DBED854C16D657C3002A220B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = DBED852F16D657C3002A220B /* map.png */; };
+		DBED854D16D657C3002A220B /* mootools-core-1.4.5-full-compat.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853016D657C3002A220B /* mootools-core-1.4.5-full-compat.js */; };
+		DBED854E16D657C3002A220B /* mootools-more-1.4.0.1.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853116D657C3002A220B /* mootools-more-1.4.0.1.js */; };
+		DBED854F16D657C3002A220B /* RaphaelPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853216D657C3002A220B /* RaphaelPlugin.min.js */; };
+		DBED855016D657C3002A220B /* RoundPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853316D657C3002A220B /* RoundPropsPlugin.min.js */; };
+		DBED855116D657C3002A220B /* ScrollToPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853416D657C3002A220B /* ScrollToPlugin.min.js */; };
+		DBED855216D657C3002A220B /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBED853516D657C3002A220B /* sound1.mp3 */; };
+		DBED855316D657C3002A220B /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBED853616D657C3002A220B /* sound2.mp3 */; };
+		DBED855416D657C3002A220B /* sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBED853716D657C3002A220B /* sound3.mp3 */; };
+		DBED855516D657C3002A220B /* TimelineLite.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853816D657C3002A220B /* TimelineLite.min.js */; };
+		DBED855616D657C3002A220B /* TimelineMax.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853916D657C3002A220B /* TimelineMax.min.js */; };
+		DBED855716D657C3002A220B /* TweenLite.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853A16D657C3002A220B /* TweenLite.min.js */; };
+		DBED855816D657C3002A220B /* TweenMax.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853B16D657C3002A220B /* TweenMax.min.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,35 +67,34 @@
 		DB1A1A8316795FC70022F65F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB1A1A8616795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		DB1A1A8916795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		DB9D47A416D29FF30096647F /* author.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = author.jpg; sourceTree = "<group>"; };
-		DB9D47A516D29FF30096647F /* BezierPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BezierPlugin.min.js; sourceTree = "<group>"; };
-		DB9D47A616D29FF30096647F /* cal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cal.jpg; sourceTree = "<group>"; };
-		DB9D47A716D29FF30096647F /* ColorPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ColorPropsPlugin.min.js; sourceTree = "<group>"; };
-		DB9D47A816D29FF30096647F /* CSSPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CSSPlugin.min.js; sourceTree = "<group>"; };
-		DB9D47A916D29FF30096647F /* CSSRulePlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = CSSRulePlugin.min.js; sourceTree = "<group>"; };
-		DB9D47AA16D29FF30096647F /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.css; sourceTree = "<group>"; };
-		DB9D47AB16D29FF30096647F /* default.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = default.js; sourceTree = "<group>"; };
-		DB9D47AC16D29FF30096647F /* EaselPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = EaselPlugin.min.js; sourceTree = "<group>"; };
-		DB9D47AD16D29FF30096647F /* EasePack.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = EasePack.min.js; sourceTree = "<group>"; };
-		DB9D47AE16D29FF30096647F /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
-		DB9D47AF16D29FF30096647F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		DB9D47B016D29FF30096647F /* jsonfn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jsonfn.js; sourceTree = "<group>"; };
-		DB9D47B116D29FF30096647F /* localContent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = localContent.js; sourceTree = "<group>"; };
-		DB9D47B216D29FF30096647F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
-		DB9D47B316D29FF30096647F /* mootools-core-1.4.5-full-compat.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mootools-core-1.4.5-full-compat.js"; sourceTree = "<group>"; };
-		DB9D47B416D29FF30096647F /* mootools-more-1.4.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mootools-more-1.4.0.1.js"; sourceTree = "<group>"; };
-		DB9D47B516D29FF30096647F /* RaphaelPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RaphaelPlugin.min.js; sourceTree = "<group>"; };
-		DB9D47B616D29FF30096647F /* RoundPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RoundPropsPlugin.min.js; sourceTree = "<group>"; };
-		DB9D47B716D29FF30096647F /* ScrollToPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ScrollToPlugin.min.js; sourceTree = "<group>"; };
-		DB9D47B816D29FF30096647F /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
-		DB9D47B916D29FF30096647F /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
-		DB9D47BA16D29FF30096647F /* sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound3.mp3; sourceTree = "<group>"; };
-		DB9D47BB16D29FF30096647F /* testContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testContent.html; sourceTree = "<group>"; };
-		DB9D47BC16D29FF30096647F /* TimelineLite.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TimelineLite.min.js; sourceTree = "<group>"; };
-		DB9D47BD16D29FF30096647F /* TimelineMax.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TimelineMax.min.js; sourceTree = "<group>"; };
-		DB9D47BE16D29FF30096647F /* TweenLite.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TweenLite.min.js; sourceTree = "<group>"; };
-		DB9D47BF16D29FF30096647F /* TweenMax.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TweenMax.min.js; sourceTree = "<group>"; };
-		DBD694CD16D5674000163BF1 /* deviceLocationPointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deviceLocationPointer.png; sourceTree = "<group>"; };
+		DBED851F16D657C3002A220B /* author.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = author.jpg; path = literaryFestival/Resources/web/author.jpg; sourceTree = SOURCE_ROOT; };
+		DBED852016D657C3002A220B /* BezierPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = BezierPlugin.min.js; path = literaryFestival/Resources/web/BezierPlugin.min.js; sourceTree = SOURCE_ROOT; };
+		DBED852116D657C3002A220B /* cal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cal.jpg; path = literaryFestival/Resources/web/cal.jpg; sourceTree = SOURCE_ROOT; };
+		DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ColorPropsPlugin.min.js; path = literaryFestival/Resources/web/ColorPropsPlugin.min.js; sourceTree = SOURCE_ROOT; };
+		DBED852316D657C3002A220B /* CSSPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = CSSPlugin.min.js; path = literaryFestival/Resources/web/CSSPlugin.min.js; sourceTree = SOURCE_ROOT; };
+		DBED852416D657C3002A220B /* CSSRulePlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = CSSRulePlugin.min.js; path = literaryFestival/Resources/web/CSSRulePlugin.min.js; sourceTree = SOURCE_ROOT; };
+		DBED852516D657C3002A220B /* default.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = default.css; path = literaryFestival/Resources/web/default.css; sourceTree = SOURCE_ROOT; };
+		DBED852616D657C3002A220B /* default.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = default.js; path = literaryFestival/Resources/web/default.js; sourceTree = SOURCE_ROOT; };
+		DBED852716D657C3002A220B /* deviceLocationPointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deviceLocationPointer.png; path = literaryFestival/Resources/web/deviceLocationPointer.png; sourceTree = SOURCE_ROOT; };
+		DBED852916D657C3002A220B /* EaselPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = EaselPlugin.min.js; path = literaryFestival/Resources/web/EaselPlugin.min.js; sourceTree = SOURCE_ROOT; };
+		DBED852A16D657C3002A220B /* EasePack.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = EasePack.min.js; path = literaryFestival/Resources/web/EasePack.min.js; sourceTree = SOURCE_ROOT; };
+		DBED852B16D657C3002A220B /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = header.jpg; path = literaryFestival/Resources/web/header.jpg; sourceTree = SOURCE_ROOT; };
+		DBED852C16D657C3002A220B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = literaryFestival/Resources/web/index.html; sourceTree = SOURCE_ROOT; };
+		DBED852D16D657C3002A220B /* jsonfn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jsonfn.js; path = literaryFestival/Resources/web/jsonfn.js; sourceTree = SOURCE_ROOT; };
+		DBED852E16D657C3002A220B /* localContent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = localContent.js; path = literaryFestival/Resources/web/localContent.js; sourceTree = SOURCE_ROOT; };
+		DBED852F16D657C3002A220B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = literaryFestival/Resources/web/map.png; sourceTree = SOURCE_ROOT; };
+		DBED853016D657C3002A220B /* mootools-core-1.4.5-full-compat.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "mootools-core-1.4.5-full-compat.js"; path = "literaryFestival/Resources/web/mootools-core-1.4.5-full-compat.js"; sourceTree = SOURCE_ROOT; };
+		DBED853116D657C3002A220B /* mootools-more-1.4.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "mootools-more-1.4.0.1.js"; path = "literaryFestival/Resources/web/mootools-more-1.4.0.1.js"; sourceTree = SOURCE_ROOT; };
+		DBED853216D657C3002A220B /* RaphaelPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = RaphaelPlugin.min.js; path = literaryFestival/Resources/web/RaphaelPlugin.min.js; sourceTree = SOURCE_ROOT; };
+		DBED853316D657C3002A220B /* RoundPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = RoundPropsPlugin.min.js; path = literaryFestival/Resources/web/RoundPropsPlugin.min.js; sourceTree = SOURCE_ROOT; };
+		DBED853416D657C3002A220B /* ScrollToPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ScrollToPlugin.min.js; path = literaryFestival/Resources/web/ScrollToPlugin.min.js; sourceTree = SOURCE_ROOT; };
+		DBED853516D657C3002A220B /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound1.mp3; path = literaryFestival/Resources/web/sound1.mp3; sourceTree = SOURCE_ROOT; };
+		DBED853616D657C3002A220B /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound2.mp3; path = literaryFestival/Resources/web/sound2.mp3; sourceTree = SOURCE_ROOT; };
+		DBED853716D657C3002A220B /* sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound3.mp3; path = literaryFestival/Resources/web/sound3.mp3; sourceTree = SOURCE_ROOT; };
+		DBED853816D657C3002A220B /* TimelineLite.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TimelineLite.min.js; path = literaryFestival/Resources/web/TimelineLite.min.js; sourceTree = SOURCE_ROOT; };
+		DBED853916D657C3002A220B /* TimelineMax.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TimelineMax.min.js; path = literaryFestival/Resources/web/TimelineMax.min.js; sourceTree = SOURCE_ROOT; };
+		DBED853A16D657C3002A220B /* TweenLite.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TweenLite.min.js; path = literaryFestival/Resources/web/TweenLite.min.js; sourceTree = SOURCE_ROOT; };
+		DBED853B16D657C3002A220B /* TweenMax.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TweenMax.min.js; path = literaryFestival/Resources/web/TweenMax.min.js; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				DB1A1A7016795FC70022F65F /* literaryFestival */,
-				DB1A1A90167960640022F65F /* Ressources */,
+				DB1A1A90167960640022F65F /* Resources */,
 				DB1A1A6916795FC70022F65F /* Frameworks */,
 				DB1A1A6716795FC70022F65F /* Products */,
 			);
@@ -187,47 +167,46 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DB1A1A90167960640022F65F /* Ressources */ = {
+		DB1A1A90167960640022F65F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				DB9D47A316D29FF30096647F /* web */,
 			);
-			name = Ressources;
+			name = Resources;
 			path = literaryFestival;
 			sourceTree = "<group>";
 		};
 		DB9D47A316D29FF30096647F /* web */ = {
 			isa = PBXGroup;
 			children = (
-				DBD694CD16D5674000163BF1 /* deviceLocationPointer.png */,
-				DB9D47A416D29FF30096647F /* author.jpg */,
-				DB9D47A516D29FF30096647F /* BezierPlugin.min.js */,
-				DB9D47A616D29FF30096647F /* cal.jpg */,
-				DB9D47A716D29FF30096647F /* ColorPropsPlugin.min.js */,
-				DB9D47A816D29FF30096647F /* CSSPlugin.min.js */,
-				DB9D47A916D29FF30096647F /* CSSRulePlugin.min.js */,
-				DB9D47AA16D29FF30096647F /* default.css */,
-				DB9D47AB16D29FF30096647F /* default.js */,
-				DB9D47AC16D29FF30096647F /* EaselPlugin.min.js */,
-				DB9D47AD16D29FF30096647F /* EasePack.min.js */,
-				DB9D47AE16D29FF30096647F /* header.jpg */,
-				DB9D47AF16D29FF30096647F /* index.html */,
-				DB9D47B016D29FF30096647F /* jsonfn.js */,
-				DB9D47B116D29FF30096647F /* localContent.js */,
-				DB9D47B216D29FF30096647F /* map.png */,
-				DB9D47B316D29FF30096647F /* mootools-core-1.4.5-full-compat.js */,
-				DB9D47B416D29FF30096647F /* mootools-more-1.4.0.1.js */,
-				DB9D47B516D29FF30096647F /* RaphaelPlugin.min.js */,
-				DB9D47B616D29FF30096647F /* RoundPropsPlugin.min.js */,
-				DB9D47B716D29FF30096647F /* ScrollToPlugin.min.js */,
-				DB9D47B816D29FF30096647F /* sound1.mp3 */,
-				DB9D47B916D29FF30096647F /* sound2.mp3 */,
-				DB9D47BA16D29FF30096647F /* sound3.mp3 */,
-				DB9D47BB16D29FF30096647F /* testContent.html */,
-				DB9D47BC16D29FF30096647F /* TimelineLite.min.js */,
-				DB9D47BD16D29FF30096647F /* TimelineMax.min.js */,
-				DB9D47BE16D29FF30096647F /* TweenLite.min.js */,
-				DB9D47BF16D29FF30096647F /* TweenMax.min.js */,
+				DBED851F16D657C3002A220B /* author.jpg */,
+				DBED852016D657C3002A220B /* BezierPlugin.min.js */,
+				DBED852116D657C3002A220B /* cal.jpg */,
+				DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */,
+				DBED852316D657C3002A220B /* CSSPlugin.min.js */,
+				DBED852416D657C3002A220B /* CSSRulePlugin.min.js */,
+				DBED852516D657C3002A220B /* default.css */,
+				DBED852616D657C3002A220B /* default.js */,
+				DBED852716D657C3002A220B /* deviceLocationPointer.png */,
+				DBED852916D657C3002A220B /* EaselPlugin.min.js */,
+				DBED852A16D657C3002A220B /* EasePack.min.js */,
+				DBED852B16D657C3002A220B /* header.jpg */,
+				DBED852C16D657C3002A220B /* index.html */,
+				DBED852D16D657C3002A220B /* jsonfn.js */,
+				DBED852E16D657C3002A220B /* localContent.js */,
+				DBED852F16D657C3002A220B /* map.png */,
+				DBED853016D657C3002A220B /* mootools-core-1.4.5-full-compat.js */,
+				DBED853116D657C3002A220B /* mootools-more-1.4.0.1.js */,
+				DBED853216D657C3002A220B /* RaphaelPlugin.min.js */,
+				DBED853316D657C3002A220B /* RoundPropsPlugin.min.js */,
+				DBED853416D657C3002A220B /* ScrollToPlugin.min.js */,
+				DBED853516D657C3002A220B /* sound1.mp3 */,
+				DBED853616D657C3002A220B /* sound2.mp3 */,
+				DBED853716D657C3002A220B /* sound3.mp3 */,
+				DBED853816D657C3002A220B /* TimelineLite.min.js */,
+				DBED853916D657C3002A220B /* TimelineMax.min.js */,
+				DBED853A16D657C3002A220B /* TweenLite.min.js */,
+				DBED853B16D657C3002A220B /* TweenMax.min.js */,
 			);
 			name = web;
 			path = Ressources/web;
@@ -290,35 +269,16 @@
 				DB1A1A8116795FC70022F65F /* Default-568h@2x.png in Resources */,
 				DB1A1A8716795FC70022F65F /* ViewController_iPhone.xib in Resources */,
 				DB1A1A8A16795FC70022F65F /* ViewController_iPad.xib in Resources */,
-				DB9D47C016D29FF30096647F /* author.jpg in Resources */,
-				DB9D47C216D29FF30096647F /* cal.jpg in Resources */,
-				DB9D47C616D29FF30096647F /* default.css in Resources */,
-				DB9D47CA16D29FF30096647F /* header.jpg in Resources */,
-				DB9D47CB16D29FF30096647F /* index.html in Resources */,
-				DB9D47CE16D29FF30096647F /* map.png in Resources */,
-				DB9D47D416D29FF30096647F /* sound1.mp3 in Resources */,
-				DB9D47D516D29FF30096647F /* sound2.mp3 in Resources */,
-				DB9D47D616D29FF30096647F /* sound3.mp3 in Resources */,
-				DB9D47D716D29FF30096647F /* testContent.html in Resources */,
-				DB9D47DC16D2A0280096647F /* BezierPlugin.min.js in Resources */,
-				DB9D47DD16D2A0280096647F /* ColorPropsPlugin.min.js in Resources */,
-				DB9D47DE16D2A0280096647F /* CSSPlugin.min.js in Resources */,
-				DB9D47DF16D2A0280096647F /* CSSRulePlugin.min.js in Resources */,
-				DB9D47E016D2A0280096647F /* default.js in Resources */,
-				DB9D47E116D2A0280096647F /* EaselPlugin.min.js in Resources */,
-				DB9D47E216D2A0280096647F /* EasePack.min.js in Resources */,
-				DB9D47E316D2A0280096647F /* jsonfn.js in Resources */,
-				DB9D47E416D2A0280096647F /* localContent.js in Resources */,
-				DB9D47E516D2A0280096647F /* mootools-core-1.4.5-full-compat.js in Resources */,
-				DB9D47E616D2A0280096647F /* mootools-more-1.4.0.1.js in Resources */,
-				DB9D47E716D2A0280096647F /* RaphaelPlugin.min.js in Resources */,
-				DB9D47E816D2A0280096647F /* RoundPropsPlugin.min.js in Resources */,
-				DB9D47E916D2A0280096647F /* ScrollToPlugin.min.js in Resources */,
-				DB9D47EA16D2A0280096647F /* TimelineLite.min.js in Resources */,
-				DB9D47EB16D2A0280096647F /* TimelineMax.min.js in Resources */,
-				DB9D47EC16D2A0280096647F /* TweenLite.min.js in Resources */,
-				DB9D47ED16D2A0280096647F /* TweenMax.min.js in Resources */,
-				DBD694CE16D5674000163BF1 /* deviceLocationPointer.png in Resources */,
+				DBED853C16D657C3002A220B /* author.jpg in Resources */,
+				DBED853E16D657C3002A220B /* cal.jpg in Resources */,
+				DBED854216D657C3002A220B /* default.css in Resources */,
+				DBED854416D657C3002A220B /* deviceLocationPointer.png in Resources */,
+				DBED854816D657C3002A220B /* header.jpg in Resources */,
+				DBED854916D657C3002A220B /* index.html in Resources */,
+				DBED854C16D657C3002A220B /* map.png in Resources */,
+				DBED855216D657C3002A220B /* sound1.mp3 in Resources */,
+				DBED855316D657C3002A220B /* sound2.mp3 in Resources */,
+				DBED855416D657C3002A220B /* sound3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,24 +292,24 @@
 				DB1A1A7716795FC70022F65F /* main.m in Sources */,
 				DB1A1A7B16795FC70022F65F /* AppDelegate.m in Sources */,
 				DB1A1A8416795FC70022F65F /* ViewController.m in Sources */,
-				DB9D47C116D29FF30096647F /* BezierPlugin.min.js in Sources */,
-				DB9D47C316D29FF30096647F /* ColorPropsPlugin.min.js in Sources */,
-				DB9D47C416D29FF30096647F /* CSSPlugin.min.js in Sources */,
-				DB9D47C516D29FF30096647F /* CSSRulePlugin.min.js in Sources */,
-				DB9D47C716D29FF30096647F /* default.js in Sources */,
-				DB9D47C816D29FF30096647F /* EaselPlugin.min.js in Sources */,
-				DB9D47C916D29FF30096647F /* EasePack.min.js in Sources */,
-				DB9D47CC16D29FF30096647F /* jsonfn.js in Sources */,
-				DB9D47CD16D29FF30096647F /* localContent.js in Sources */,
-				DB9D47CF16D29FF30096647F /* mootools-core-1.4.5-full-compat.js in Sources */,
-				DB9D47D016D29FF30096647F /* mootools-more-1.4.0.1.js in Sources */,
-				DB9D47D116D29FF30096647F /* RaphaelPlugin.min.js in Sources */,
-				DB9D47D216D29FF30096647F /* RoundPropsPlugin.min.js in Sources */,
-				DB9D47D316D29FF30096647F /* ScrollToPlugin.min.js in Sources */,
-				DB9D47D816D29FF30096647F /* TimelineLite.min.js in Sources */,
-				DB9D47D916D29FF30096647F /* TimelineMax.min.js in Sources */,
-				DB9D47DA16D29FF30096647F /* TweenLite.min.js in Sources */,
-				DB9D47DB16D29FF30096647F /* TweenMax.min.js in Sources */,
+				DBED853D16D657C3002A220B /* BezierPlugin.min.js in Sources */,
+				DBED853F16D657C3002A220B /* ColorPropsPlugin.min.js in Sources */,
+				DBED854016D657C3002A220B /* CSSPlugin.min.js in Sources */,
+				DBED854116D657C3002A220B /* CSSRulePlugin.min.js in Sources */,
+				DBED854316D657C3002A220B /* default.js in Sources */,
+				DBED854616D657C3002A220B /* EaselPlugin.min.js in Sources */,
+				DBED854716D657C3002A220B /* EasePack.min.js in Sources */,
+				DBED854A16D657C3002A220B /* jsonfn.js in Sources */,
+				DBED854B16D657C3002A220B /* localContent.js in Sources */,
+				DBED854D16D657C3002A220B /* mootools-core-1.4.5-full-compat.js in Sources */,
+				DBED854E16D657C3002A220B /* mootools-more-1.4.0.1.js in Sources */,
+				DBED854F16D657C3002A220B /* RaphaelPlugin.min.js in Sources */,
+				DBED855016D657C3002A220B /* RoundPropsPlugin.min.js in Sources */,
+				DBED855116D657C3002A220B /* ScrollToPlugin.min.js in Sources */,
+				DBED855516D657C3002A220B /* TimelineLite.min.js in Sources */,
+				DBED855616D657C3002A220B /* TimelineMax.min.js in Sources */,
+				DBED855716D657C3002A220B /* TweenLite.min.js in Sources */,
+				DBED855816D657C3002A220B /* TweenMax.min.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
