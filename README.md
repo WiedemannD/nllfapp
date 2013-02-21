@@ -6,11 +6,13 @@ Webapp based on HTML/JS/CSS in iOS App wrapper. Android wrapper planned.
 **Built in features:**
 - Warning when Internet connection isn't available
 - Content and structure updates
-- Google maps show specified 
-- Open links with extOpen=true query parameter in default browser
+- Google maps show specified markers and their meta data and also if wanted and supported the devices location as a blue circle
+- Open links with extOpen=true query parameter in default browser (some code in the iOS files were required for that. Don't know if Android needs a similar adaptation)
 
 **Unfinished feaures/platforms:** 
 - RSS aggregation
+- Content for first submission isn't ready and added yet
+- Design isn't ready and applied yet
 - Android optimization of HTML/JS/CSS
 - Android wrapper
 
