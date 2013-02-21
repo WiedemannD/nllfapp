@@ -4,9 +4,9 @@
 
 const screenWidth = "320px";
 const retina = window.devicePixelRatio > 1;
-const baseUrl = "http://192.168.0.102/update/"; //"http://daniel-wiedemann.de/test/update/";
+const baseUrl = "http://192.168.0.102/update/"; // "http://192.168.0.102/update/"; //"http://daniel-wiedemann.de/test/update/";
 const gmapApiKey = "AIzaSyDJeTxDvfwAmjO7GTbxL-USNBB8mmOnHkY"; // google maps API key Courtesy limit: 25,000 requests/day (middlesexunict@gmail.com)
-const updateFreq = 10 * 1000; // 5 * 60 * 1000; // 5 mins // 20 * 1000; // 20 secs
+const updateFreq = 5 * 60 * 1000;// 10 * 1000; // 5 * 60 * 1000; // 5 mins // 20 * 1000; // 20 secs
 const updatePosFreq = 2 * 1000;
 var content = null;
 var pos; // device position var for maps
@@ -78,21 +78,24 @@ naviPath[0] = "home";
 
 function navigateTo(id)
 {
-	naviPath.push(id);
-	
-	var sheet = $(id);
-	checkForMap(sheet);
-		
-	sheet.setStyle("display", "block");
-	TweenMax.to(sheet, 0.8, {css:{left:"-" + screenWidth}, ease:Back.easeOut, onComplete:function(){$(naviPath[naviPath.length - 2]).setStyle("display", "none"); activateMissingFeatures(sheet);}});
-	
-	TweenMax.to($("mainContainer"), 0.3, {scrollTop:0});
-	
-	changeTitle(sheet.attributes["name"].value);
-	
-	if(sheet.inetNeeded && !checkInetConnect())
+	if($(id))
 	{
-		toggleAlert("Please connect to the Internet. Some features might be deactivated.");
+		naviPath.push(id);
+
+		var sheet = $(id);
+		checkForMap(sheet);
+
+		sheet.setStyle("display", "block");
+		TweenMax.to(sheet, 0.8, {css:{left:"-" + screenWidth}, ease:Back.easeOut, onComplete:function(){$(naviPath[naviPath.length - 2]).setStyle("display", "none"); activateMissingFeatures(sheet);}});
+
+		TweenMax.to($("mainContainer"), 0.3, {scrollTop:0});
+
+		changeTitle(sheet.attributes["name"].value);
+
+		if(sheet.inetNeeded && !checkInetConnect())
+		{
+			toggleAlert("Please connect to the Internet. Some features might be deactivated.");
+		}
 	}
 }
 
@@ -549,6 +552,11 @@ function resetContent()
 {
 	$("contentContainer").innerHTML = "";
 	localStorage.clear();
+	changeTitle("Home");
+	
+	naviPath = new Array();
+	naviPath[0] = "home";
+	
 	console.log("Content and localStorage reset.");
 }
 

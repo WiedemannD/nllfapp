@@ -19,9 +19,7 @@
 		DB1A1A8416795FC70022F65F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A1A8316795FC70022F65F /* ViewController.m */; };
 		DB1A1A8716795FC70022F65F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8516795FC70022F65F /* ViewController_iPhone.xib */; };
 		DB1A1A8A16795FC70022F65F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8816795FC70022F65F /* ViewController_iPad.xib */; };
-		DBED853C16D657C3002A220B /* author.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED851F16D657C3002A220B /* author.jpg */; };
 		DBED853D16D657C3002A220B /* BezierPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852016D657C3002A220B /* BezierPlugin.min.js */; };
-		DBED853E16D657C3002A220B /* cal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED852116D657C3002A220B /* cal.jpg */; };
 		DBED853F16D657C3002A220B /* ColorPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */; };
 		DBED854016D657C3002A220B /* CSSPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852316D657C3002A220B /* CSSPlugin.min.js */; };
 		DBED854116D657C3002A220B /* CSSRulePlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852416D657C3002A220B /* CSSRulePlugin.min.js */; };
@@ -34,19 +32,45 @@
 		DBED854916D657C3002A220B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DBED852C16D657C3002A220B /* index.html */; };
 		DBED854A16D657C3002A220B /* jsonfn.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852D16D657C3002A220B /* jsonfn.js */; };
 		DBED854B16D657C3002A220B /* localContent.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852E16D657C3002A220B /* localContent.js */; };
-		DBED854C16D657C3002A220B /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = DBED852F16D657C3002A220B /* map.png */; };
 		DBED854D16D657C3002A220B /* mootools-core-1.4.5-full-compat.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853016D657C3002A220B /* mootools-core-1.4.5-full-compat.js */; };
 		DBED854E16D657C3002A220B /* mootools-more-1.4.0.1.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853116D657C3002A220B /* mootools-more-1.4.0.1.js */; };
 		DBED854F16D657C3002A220B /* RaphaelPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853216D657C3002A220B /* RaphaelPlugin.min.js */; };
 		DBED855016D657C3002A220B /* RoundPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853316D657C3002A220B /* RoundPropsPlugin.min.js */; };
 		DBED855116D657C3002A220B /* ScrollToPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853416D657C3002A220B /* ScrollToPlugin.min.js */; };
-		DBED855216D657C3002A220B /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBED853516D657C3002A220B /* sound1.mp3 */; };
-		DBED855316D657C3002A220B /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBED853616D657C3002A220B /* sound2.mp3 */; };
-		DBED855416D657C3002A220B /* sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DBED853716D657C3002A220B /* sound3.mp3 */; };
 		DBED855516D657C3002A220B /* TimelineLite.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853816D657C3002A220B /* TimelineLite.min.js */; };
 		DBED855616D657C3002A220B /* TimelineMax.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853916D657C3002A220B /* TimelineMax.min.js */; };
 		DBED855716D657C3002A220B /* TweenLite.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853A16D657C3002A220B /* TweenLite.min.js */; };
 		DBED855816D657C3002A220B /* TweenMax.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED853B16D657C3002A220B /* TweenMax.min.js */; };
+		DBED855B16D66E97002A220B /* BezierPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852016D657C3002A220B /* BezierPlugin.min.js */; };
+		DBED855C16D66E97002A220B /* ColorPropsPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */; };
+		DBED855D16D66E97002A220B /* CSSPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852316D657C3002A220B /* CSSPlugin.min.js */; };
+		DBED855E16D66E97002A220B /* CSSRulePlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852416D657C3002A220B /* CSSRulePlugin.min.js */; };
+		DBED855F16D66E97002A220B /* default.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852616D657C3002A220B /* default.js */; };
+		DBED856016D66E97002A220B /* EaselPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852916D657C3002A220B /* EaselPlugin.min.js */; };
+		DBED856116D66E97002A220B /* EasePack.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852A16D657C3002A220B /* EasePack.min.js */; };
+		DBED856216D66E97002A220B /* jsonfn.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852D16D657C3002A220B /* jsonfn.js */; };
+		DBED856316D66E97002A220B /* localContent.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED852E16D657C3002A220B /* localContent.js */; };
+		DBED856416D66E97002A220B /* mootools-core-1.4.5-full-compat.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853016D657C3002A220B /* mootools-core-1.4.5-full-compat.js */; };
+		DBED856516D66E97002A220B /* mootools-more-1.4.0.1.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853116D657C3002A220B /* mootools-more-1.4.0.1.js */; };
+		DBED856616D66E97002A220B /* RaphaelPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853216D657C3002A220B /* RaphaelPlugin.min.js */; };
+		DBED856716D66E97002A220B /* RoundPropsPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853316D657C3002A220B /* RoundPropsPlugin.min.js */; };
+		DBED856816D66E97002A220B /* ScrollToPlugin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853416D657C3002A220B /* ScrollToPlugin.min.js */; };
+		DBED856916D66E97002A220B /* TimelineLite.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853816D657C3002A220B /* TimelineLite.min.js */; };
+		DBED856A16D66E97002A220B /* TimelineMax.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853916D657C3002A220B /* TimelineMax.min.js */; };
+		DBED856B16D66E97002A220B /* TweenLite.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853A16D657C3002A220B /* TweenLite.min.js */; };
+		DBED856C16D66E97002A220B /* TweenMax.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DBED853B16D657C3002A220B /* TweenMax.min.js */; };
+		DBED857816D6BC3F002A220B /* img_abimbolaDare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED856D16D6BC3F002A220B /* img_abimbolaDare.jpg */; };
+		DBED857916D6BC3F002A220B /* img_andrewSimms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED856E16D6BC3F002A220B /* img_andrewSimms.jpg */; };
+		DBED857A16D6BC3F002A220B /* img_chibunduOnuzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED856F16D6BC3F002A220B /* img_chibunduOnuzo.jpg */; };
+		DBED857B16D6BC3F002A220B /* img_elizabethBuchan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED857016D6BC3F002A220B /* img_elizabethBuchan.jpg */; };
+		DBED857C16D6BC3F002A220B /* img_faberAcademy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED857116D6BC3F002A220B /* img_faberAcademy.jpg */; };
+		DBED857D16D6BC3F002A220B /* img_jamesHerbert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED857216D6BC3F002A220B /* img_jamesHerbert.jpg */; };
+		DBED857E16D6BC3F002A220B /* img_lba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED857316D6BC3F002A220B /* img_lba.jpg */; };
+		DBED857F16D6BC3F002A220B /* img_lucyCaldwell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED857416D6BC3F002A220B /* img_lucyCaldwell.jpg */; };
+		DBED858016D6BC3F002A220B /* img_mattHaig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED857516D6BC3F002A220B /* img_mattHaig.jpg */; };
+		DBED858116D6BC3F002A220B /* img_philippaPerry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED857616D6BC3F002A220B /* img_philippaPerry.jpg */; };
+		DBED858216D6BC3F002A220B /* img_rowanColeman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED857716D6BC3F002A220B /* img_rowanColeman.jpg */; };
+		DBED858416D6C220002A220B /* img_directionsMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED858316D6C220002A220B /* img_directionsMap.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,9 +91,7 @@
 		DB1A1A8316795FC70022F65F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB1A1A8616795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		DB1A1A8916795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		DBED851F16D657C3002A220B /* author.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = author.jpg; path = literaryFestival/Resources/web/author.jpg; sourceTree = SOURCE_ROOT; };
 		DBED852016D657C3002A220B /* BezierPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = BezierPlugin.min.js; path = literaryFestival/Resources/web/BezierPlugin.min.js; sourceTree = SOURCE_ROOT; };
-		DBED852116D657C3002A220B /* cal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cal.jpg; path = literaryFestival/Resources/web/cal.jpg; sourceTree = SOURCE_ROOT; };
 		DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ColorPropsPlugin.min.js; path = literaryFestival/Resources/web/ColorPropsPlugin.min.js; sourceTree = SOURCE_ROOT; };
 		DBED852316D657C3002A220B /* CSSPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = CSSPlugin.min.js; path = literaryFestival/Resources/web/CSSPlugin.min.js; sourceTree = SOURCE_ROOT; };
 		DBED852416D657C3002A220B /* CSSRulePlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = CSSRulePlugin.min.js; path = literaryFestival/Resources/web/CSSRulePlugin.min.js; sourceTree = SOURCE_ROOT; };
@@ -82,19 +104,27 @@
 		DBED852C16D657C3002A220B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = literaryFestival/Resources/web/index.html; sourceTree = SOURCE_ROOT; };
 		DBED852D16D657C3002A220B /* jsonfn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jsonfn.js; path = literaryFestival/Resources/web/jsonfn.js; sourceTree = SOURCE_ROOT; };
 		DBED852E16D657C3002A220B /* localContent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = localContent.js; path = literaryFestival/Resources/web/localContent.js; sourceTree = SOURCE_ROOT; };
-		DBED852F16D657C3002A220B /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = literaryFestival/Resources/web/map.png; sourceTree = SOURCE_ROOT; };
 		DBED853016D657C3002A220B /* mootools-core-1.4.5-full-compat.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "mootools-core-1.4.5-full-compat.js"; path = "literaryFestival/Resources/web/mootools-core-1.4.5-full-compat.js"; sourceTree = SOURCE_ROOT; };
 		DBED853116D657C3002A220B /* mootools-more-1.4.0.1.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "mootools-more-1.4.0.1.js"; path = "literaryFestival/Resources/web/mootools-more-1.4.0.1.js"; sourceTree = SOURCE_ROOT; };
 		DBED853216D657C3002A220B /* RaphaelPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = RaphaelPlugin.min.js; path = literaryFestival/Resources/web/RaphaelPlugin.min.js; sourceTree = SOURCE_ROOT; };
 		DBED853316D657C3002A220B /* RoundPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = RoundPropsPlugin.min.js; path = literaryFestival/Resources/web/RoundPropsPlugin.min.js; sourceTree = SOURCE_ROOT; };
 		DBED853416D657C3002A220B /* ScrollToPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ScrollToPlugin.min.js; path = literaryFestival/Resources/web/ScrollToPlugin.min.js; sourceTree = SOURCE_ROOT; };
-		DBED853516D657C3002A220B /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound1.mp3; path = literaryFestival/Resources/web/sound1.mp3; sourceTree = SOURCE_ROOT; };
-		DBED853616D657C3002A220B /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound2.mp3; path = literaryFestival/Resources/web/sound2.mp3; sourceTree = SOURCE_ROOT; };
-		DBED853716D657C3002A220B /* sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound3.mp3; path = literaryFestival/Resources/web/sound3.mp3; sourceTree = SOURCE_ROOT; };
 		DBED853816D657C3002A220B /* TimelineLite.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TimelineLite.min.js; path = literaryFestival/Resources/web/TimelineLite.min.js; sourceTree = SOURCE_ROOT; };
 		DBED853916D657C3002A220B /* TimelineMax.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TimelineMax.min.js; path = literaryFestival/Resources/web/TimelineMax.min.js; sourceTree = SOURCE_ROOT; };
 		DBED853A16D657C3002A220B /* TweenLite.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TweenLite.min.js; path = literaryFestival/Resources/web/TweenLite.min.js; sourceTree = SOURCE_ROOT; };
 		DBED853B16D657C3002A220B /* TweenMax.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = TweenMax.min.js; path = literaryFestival/Resources/web/TweenMax.min.js; sourceTree = SOURCE_ROOT; };
+		DBED856D16D6BC3F002A220B /* img_abimbolaDare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_abimbolaDare.jpg; path = literaryFestival/Resources/web/img_abimbolaDare.jpg; sourceTree = SOURCE_ROOT; };
+		DBED856E16D6BC3F002A220B /* img_andrewSimms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_andrewSimms.jpg; path = literaryFestival/Resources/web/img_andrewSimms.jpg; sourceTree = SOURCE_ROOT; };
+		DBED856F16D6BC3F002A220B /* img_chibunduOnuzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_chibunduOnuzo.jpg; path = literaryFestival/Resources/web/img_chibunduOnuzo.jpg; sourceTree = SOURCE_ROOT; };
+		DBED857016D6BC3F002A220B /* img_elizabethBuchan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_elizabethBuchan.jpg; path = literaryFestival/Resources/web/img_elizabethBuchan.jpg; sourceTree = SOURCE_ROOT; };
+		DBED857116D6BC3F002A220B /* img_faberAcademy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_faberAcademy.jpg; path = literaryFestival/Resources/web/img_faberAcademy.jpg; sourceTree = SOURCE_ROOT; };
+		DBED857216D6BC3F002A220B /* img_jamesHerbert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_jamesHerbert.jpg; path = literaryFestival/Resources/web/img_jamesHerbert.jpg; sourceTree = SOURCE_ROOT; };
+		DBED857316D6BC3F002A220B /* img_lba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lba.jpg; path = literaryFestival/Resources/web/img_lba.jpg; sourceTree = SOURCE_ROOT; };
+		DBED857416D6BC3F002A220B /* img_lucyCaldwell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lucyCaldwell.jpg; path = literaryFestival/Resources/web/img_lucyCaldwell.jpg; sourceTree = SOURCE_ROOT; };
+		DBED857516D6BC3F002A220B /* img_mattHaig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_mattHaig.jpg; path = literaryFestival/Resources/web/img_mattHaig.jpg; sourceTree = SOURCE_ROOT; };
+		DBED857616D6BC3F002A220B /* img_philippaPerry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_philippaPerry.jpg; path = literaryFestival/Resources/web/img_philippaPerry.jpg; sourceTree = SOURCE_ROOT; };
+		DBED857716D6BC3F002A220B /* img_rowanColeman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_rowanColeman.jpg; path = literaryFestival/Resources/web/img_rowanColeman.jpg; sourceTree = SOURCE_ROOT; };
+		DBED858316D6C220002A220B /* img_directionsMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_directionsMap.jpg; path = literaryFestival/Resources/web/img_directionsMap.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,9 +209,7 @@
 		DB9D47A316D29FF30096647F /* web */ = {
 			isa = PBXGroup;
 			children = (
-				DBED851F16D657C3002A220B /* author.jpg */,
 				DBED852016D657C3002A220B /* BezierPlugin.min.js */,
-				DBED852116D657C3002A220B /* cal.jpg */,
 				DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */,
 				DBED852316D657C3002A220B /* CSSPlugin.min.js */,
 				DBED852416D657C3002A220B /* CSSRulePlugin.min.js */,
@@ -194,19 +222,27 @@
 				DBED852C16D657C3002A220B /* index.html */,
 				DBED852D16D657C3002A220B /* jsonfn.js */,
 				DBED852E16D657C3002A220B /* localContent.js */,
-				DBED852F16D657C3002A220B /* map.png */,
 				DBED853016D657C3002A220B /* mootools-core-1.4.5-full-compat.js */,
 				DBED853116D657C3002A220B /* mootools-more-1.4.0.1.js */,
 				DBED853216D657C3002A220B /* RaphaelPlugin.min.js */,
 				DBED853316D657C3002A220B /* RoundPropsPlugin.min.js */,
 				DBED853416D657C3002A220B /* ScrollToPlugin.min.js */,
-				DBED853516D657C3002A220B /* sound1.mp3 */,
-				DBED853616D657C3002A220B /* sound2.mp3 */,
-				DBED853716D657C3002A220B /* sound3.mp3 */,
 				DBED853816D657C3002A220B /* TimelineLite.min.js */,
 				DBED853916D657C3002A220B /* TimelineMax.min.js */,
 				DBED853A16D657C3002A220B /* TweenLite.min.js */,
 				DBED853B16D657C3002A220B /* TweenMax.min.js */,
+				DBED856D16D6BC3F002A220B /* img_abimbolaDare.jpg */,
+				DBED856E16D6BC3F002A220B /* img_andrewSimms.jpg */,
+				DBED856F16D6BC3F002A220B /* img_chibunduOnuzo.jpg */,
+				DBED858316D6C220002A220B /* img_directionsMap.jpg */,
+				DBED857016D6BC3F002A220B /* img_elizabethBuchan.jpg */,
+				DBED857116D6BC3F002A220B /* img_faberAcademy.jpg */,
+				DBED857216D6BC3F002A220B /* img_jamesHerbert.jpg */,
+				DBED857316D6BC3F002A220B /* img_lba.jpg */,
+				DBED857416D6BC3F002A220B /* img_lucyCaldwell.jpg */,
+				DBED857516D6BC3F002A220B /* img_mattHaig.jpg */,
+				DBED857616D6BC3F002A220B /* img_philippaPerry.jpg */,
+				DBED857716D6BC3F002A220B /* img_rowanColeman.jpg */,
 			);
 			name = web;
 			path = Ressources/web;
@@ -269,16 +305,40 @@
 				DB1A1A8116795FC70022F65F /* Default-568h@2x.png in Resources */,
 				DB1A1A8716795FC70022F65F /* ViewController_iPhone.xib in Resources */,
 				DB1A1A8A16795FC70022F65F /* ViewController_iPad.xib in Resources */,
-				DBED853C16D657C3002A220B /* author.jpg in Resources */,
-				DBED853E16D657C3002A220B /* cal.jpg in Resources */,
+				DBED855B16D66E97002A220B /* BezierPlugin.min.js in Resources */,
+				DBED855C16D66E97002A220B /* ColorPropsPlugin.min.js in Resources */,
+				DBED855D16D66E97002A220B /* CSSPlugin.min.js in Resources */,
+				DBED855E16D66E97002A220B /* CSSRulePlugin.min.js in Resources */,
 				DBED854216D657C3002A220B /* default.css in Resources */,
+				DBED855F16D66E97002A220B /* default.js in Resources */,
 				DBED854416D657C3002A220B /* deviceLocationPointer.png in Resources */,
+				DBED856016D66E97002A220B /* EaselPlugin.min.js in Resources */,
+				DBED856116D66E97002A220B /* EasePack.min.js in Resources */,
 				DBED854816D657C3002A220B /* header.jpg in Resources */,
 				DBED854916D657C3002A220B /* index.html in Resources */,
-				DBED854C16D657C3002A220B /* map.png in Resources */,
-				DBED855216D657C3002A220B /* sound1.mp3 in Resources */,
-				DBED855316D657C3002A220B /* sound2.mp3 in Resources */,
-				DBED855416D657C3002A220B /* sound3.mp3 in Resources */,
+				DBED856216D66E97002A220B /* jsonfn.js in Resources */,
+				DBED856316D66E97002A220B /* localContent.js in Resources */,
+				DBED856416D66E97002A220B /* mootools-core-1.4.5-full-compat.js in Resources */,
+				DBED856516D66E97002A220B /* mootools-more-1.4.0.1.js in Resources */,
+				DBED856616D66E97002A220B /* RaphaelPlugin.min.js in Resources */,
+				DBED856716D66E97002A220B /* RoundPropsPlugin.min.js in Resources */,
+				DBED856816D66E97002A220B /* ScrollToPlugin.min.js in Resources */,
+				DBED856916D66E97002A220B /* TimelineLite.min.js in Resources */,
+				DBED856A16D66E97002A220B /* TimelineMax.min.js in Resources */,
+				DBED856B16D66E97002A220B /* TweenLite.min.js in Resources */,
+				DBED856C16D66E97002A220B /* TweenMax.min.js in Resources */,
+				DBED857816D6BC3F002A220B /* img_abimbolaDare.jpg in Resources */,
+				DBED857916D6BC3F002A220B /* img_andrewSimms.jpg in Resources */,
+				DBED857A16D6BC3F002A220B /* img_chibunduOnuzo.jpg in Resources */,
+				DBED857B16D6BC3F002A220B /* img_elizabethBuchan.jpg in Resources */,
+				DBED857C16D6BC3F002A220B /* img_faberAcademy.jpg in Resources */,
+				DBED857D16D6BC3F002A220B /* img_jamesHerbert.jpg in Resources */,
+				DBED857E16D6BC3F002A220B /* img_lba.jpg in Resources */,
+				DBED857F16D6BC3F002A220B /* img_lucyCaldwell.jpg in Resources */,
+				DBED858016D6BC3F002A220B /* img_mattHaig.jpg in Resources */,
+				DBED858116D6BC3F002A220B /* img_philippaPerry.jpg in Resources */,
+				DBED858216D6BC3F002A220B /* img_rowanColeman.jpg in Resources */,
+				DBED858416D6C220002A220B /* img_directionsMap.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

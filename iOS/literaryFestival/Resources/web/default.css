@@ -87,13 +87,14 @@ body
 	text-align:center;
 	border:1px #00AA33 solid;
 	padding:6px 2px 6px 2px;
-	margin:8px 8px 8px 8px;
+	margin:8px 36px 8px 36px;
 	color:#00AA33;
-	font-size:16px;
+	font-size:12px;
 	font-weight:bold;
 	text-transform:uppercase;
 	width:80px;
 	float:left;
+	text-decoration:none;
 }
 
 .tableBtn
@@ -105,6 +106,7 @@ body
 	font-size:14px;
 	width:100%;
 	display:block;
+	text-decoration:none;
 }
 
 .soundBtn
@@ -117,6 +119,7 @@ body
 	font-size:12px;
 	font-weight:bold;
 	text-transform:uppercase;
+	text-decoration:none;
 }
 
 .linkBtn
@@ -163,6 +166,8 @@ body
 {
 	display:block;
 	margin-bottom:4px;
+	Mmargin-left:auto;
+	Mmargin-right:auto;
 }
 
 .sheetCopy
@@ -185,6 +190,7 @@ body
 	font-weight:bold;
 	text-transform:uppercase;
 	width:90%;
+	overflow:hidden;
 }
 
 #alertBox
