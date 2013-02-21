@@ -13,6 +13,7 @@ Webapp based on HTML/JS/CSS in iOS App wrapper. Android wrapper planned.
 - RSS aggregation
 - Content for first submission isn't ready and added yet
 - Design isn't ready and applied yet
+- iOS app icons and launch images aren't included yet
 - Android optimization of HTML/JS/CSS
 - Android wrapper
 
