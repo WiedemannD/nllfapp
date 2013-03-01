@@ -96,6 +96,8 @@ function navigateTo(id)
 		{
 			toggleAlert("Please connect to the Internet. Some features might be deactivated.");
 		}
+		
+		$("naviBtnLeft").fade('in');
 	}
 }
 
@@ -115,6 +117,11 @@ function navigateBack()
 		naviPath.pop();
 		
 		changeTitle(lastSheet.attributes["name"].value);
+		
+		if(naviPath.length == 1)
+		{
+			$("naviBtnLeft").fade('out');
+		}
 	}
 }
 

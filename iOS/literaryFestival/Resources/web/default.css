@@ -57,22 +57,26 @@ body
 #naviBtnLeft
 {
 	float:left;
-	
+	opacity:0;
+	visibility:hidden;
 }
 
 #naviTitle
 {
-	text-align:center;
+	Ttext-align:center;
+	width:225px;
+	height:27px;
 	float:left;
-	margin-left:30px;
+	margin-left:10px;
 	Xmargin-left:auto;
 	Xmargin-right:auto;
 	Xwidth:92%;
-	padding-top:10px;
+	padding-top:13px;
 	color:#FFFFFF;
-	font-size:26px;
+	font-size:20px;
 	font-weight:100;
 	text-transform:uppercase;
+	overflow-y:hidden;
 }
 
 #naviBtnRight
@@ -143,8 +147,7 @@ body
 	text-align:center;
 	line-height:22px;
 	display:inline-block;
-	margin-top:3px;
-	margin-bottom:3px;
+	margin:3px 4px 3px auto;
 	padding:2px 8px 2px 9px;
 	background-color:#E60B22;
 	color:#FFFFFF;
@@ -162,8 +165,7 @@ body
 	text-align:center;
 	line-height:22px;
 	display:inline-block;
-	margin-top:3px;
-	margin-bottom:3px;
+	margin:3px 4px 3px auto;
 	padding:2px 8px 2px 9px;
 	background-color:#E60B22;
 	color:#FFFFFF;
@@ -180,8 +182,7 @@ body
 {
 	width:320px;
 	height:100%;
-	Ppadding:4px;
-	Ppadding:4px 4px 100px 4px;
+	Ppadding-bottom:450px;
 	position:absolute;
 	left:0px;
 	background-color:#FFFFFF;
@@ -191,12 +192,27 @@ body
 .contentSheetList
 {
 	background-color:#E60B22;
+	padding-top:20px;
+}
+
+.contentSheetDetail
+{
+	
+}
+
+.sheetHeader
+{
+	background-color:#E60B22;
+	color:#FFF;
+	padding:20px 12px 0px 12px;
 }
 
 .sheetHL
 {
 	font-weight:bold;
 	text-transform:uppercase;
+	margin-bottom:8px;
+	Ffont-weight:100;
 }
 
 .sheetImg
@@ -209,7 +225,10 @@ body
 
 .sheetCopy
 {
-	font-size:12px;
+	font-size:13px;
+	line-height:22px;
+	padding:12px;
+	font-weight:normal;
 }
 
 .sheetMap
@@ -249,6 +268,8 @@ body
 	padding:200px 20px 20px 20px;
 	color:#141414;
 	text-align:center;
+	font-size:13px;
+	line-height:22px;
 }
 
 
