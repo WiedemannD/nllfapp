@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB014E6416E11FDF006444AB /* aliquam-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = DB014E5C16E11FDF006444AB /* aliquam-webfont.eot */; };
+		DB014E6516E11FDF006444AB /* aliquam-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = DB014E5D16E11FDF006444AB /* aliquam-webfont.svg */; };
+		DB014E6616E11FDF006444AB /* aliquam-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB014E5E16E11FDF006444AB /* aliquam-webfont.ttf */; };
+		DB014E6716E11FDF006444AB /* aliquam-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = DB014E5F16E11FDF006444AB /* aliquam-webfont.woff */; };
+		DB014E6816E11FDF006444AB /* aliquamreg-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = DB014E6016E11FDF006444AB /* aliquamreg-webfont.eot */; };
+		DB014E6916E11FDF006444AB /* aliquamreg-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = DB014E6116E11FDF006444AB /* aliquamreg-webfont.svg */; };
+		DB014E6A16E11FDF006444AB /* aliquamreg-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB014E6216E11FDF006444AB /* aliquamreg-webfont.ttf */; };
+		DB014E6B16E11FDF006444AB /* aliquamreg-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = DB014E6316E11FDF006444AB /* aliquamreg-webfont.woff */; };
+		DB014E6D16E11FEE006444AB /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = DB014E6C16E11FEE006444AB /* backBtn.png */; };
+		DB014E6F16E12020006444AB /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = DB014E6E16E12020006444AB /* header.png */; };
+		DB014E7116E12117006444AB /* fonts.css in Resources */ = {isa = PBXBuildFile; fileRef = DB014E7016E12117006444AB /* fonts.css */; };
 		DB1A1A6B16795FC70022F65F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6A16795FC70022F65F /* UIKit.framework */; };
 		DB1A1A6D16795FC70022F65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6C16795FC70022F65F /* Foundation.framework */; };
 		DB1A1A6F16795FC70022F65F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6E16795FC70022F65F /* CoreGraphics.framework */; };
@@ -28,7 +39,6 @@
 		DBED854416D657C3002A220B /* deviceLocationPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = DBED852716D657C3002A220B /* deviceLocationPointer.png */; };
 		DBED854616D657C3002A220B /* EaselPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852916D657C3002A220B /* EaselPlugin.min.js */; };
 		DBED854716D657C3002A220B /* EasePack.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852A16D657C3002A220B /* EasePack.min.js */; };
-		DBED854816D657C3002A220B /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBED852B16D657C3002A220B /* header.jpg */; };
 		DBED854916D657C3002A220B /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = DBED852C16D657C3002A220B /* index.html */; };
 		DBED854A16D657C3002A220B /* jsonfn.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852D16D657C3002A220B /* jsonfn.js */; };
 		DBED854B16D657C3002A220B /* localContent.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852E16D657C3002A220B /* localContent.js */; };
@@ -74,6 +84,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB014E5C16E11FDF006444AB /* aliquam-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "aliquam-webfont.eot"; path = "literaryFestival/Resources/web/aliquam-webfont.eot"; sourceTree = SOURCE_ROOT; };
+		DB014E5D16E11FDF006444AB /* aliquam-webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "aliquam-webfont.svg"; path = "literaryFestival/Resources/web/aliquam-webfont.svg"; sourceTree = SOURCE_ROOT; };
+		DB014E5E16E11FDF006444AB /* aliquam-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "aliquam-webfont.ttf"; path = "literaryFestival/Resources/web/aliquam-webfont.ttf"; sourceTree = SOURCE_ROOT; };
+		DB014E5F16E11FDF006444AB /* aliquam-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "aliquam-webfont.woff"; path = "literaryFestival/Resources/web/aliquam-webfont.woff"; sourceTree = SOURCE_ROOT; };
+		DB014E6016E11FDF006444AB /* aliquamreg-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "aliquamreg-webfont.eot"; path = "literaryFestival/Resources/web/aliquamreg-webfont.eot"; sourceTree = SOURCE_ROOT; };
+		DB014E6116E11FDF006444AB /* aliquamreg-webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "aliquamreg-webfont.svg"; path = "literaryFestival/Resources/web/aliquamreg-webfont.svg"; sourceTree = SOURCE_ROOT; };
+		DB014E6216E11FDF006444AB /* aliquamreg-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "aliquamreg-webfont.ttf"; path = "literaryFestival/Resources/web/aliquamreg-webfont.ttf"; sourceTree = SOURCE_ROOT; };
+		DB014E6316E11FDF006444AB /* aliquamreg-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "aliquamreg-webfont.woff"; path = "literaryFestival/Resources/web/aliquamreg-webfont.woff"; sourceTree = SOURCE_ROOT; };
+		DB014E6C16E11FEE006444AB /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backBtn.png; path = literaryFestival/Resources/web/backBtn.png; sourceTree = SOURCE_ROOT; };
+		DB014E6E16E12020006444AB /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = header.png; path = literaryFestival/Resources/web/header.png; sourceTree = SOURCE_ROOT; };
+		DB014E7016E12117006444AB /* fonts.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = fonts.css; path = literaryFestival/Resources/web/fonts.css; sourceTree = SOURCE_ROOT; };
 		DB1A1A6616795FC70022F65F /* literaryFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = literaryFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1A1A6A16795FC70022F65F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB1A1A6C16795FC70022F65F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,7 +121,6 @@
 		DBED852716D657C3002A220B /* deviceLocationPointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deviceLocationPointer.png; path = literaryFestival/Resources/web/deviceLocationPointer.png; sourceTree = SOURCE_ROOT; };
 		DBED852916D657C3002A220B /* EaselPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = EaselPlugin.min.js; path = literaryFestival/Resources/web/EaselPlugin.min.js; sourceTree = SOURCE_ROOT; };
 		DBED852A16D657C3002A220B /* EasePack.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = EasePack.min.js; path = literaryFestival/Resources/web/EasePack.min.js; sourceTree = SOURCE_ROOT; };
-		DBED852B16D657C3002A220B /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = header.jpg; path = literaryFestival/Resources/web/header.jpg; sourceTree = SOURCE_ROOT; };
 		DBED852C16D657C3002A220B /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = literaryFestival/Resources/web/index.html; sourceTree = SOURCE_ROOT; };
 		DBED852D16D657C3002A220B /* jsonfn.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jsonfn.js; path = literaryFestival/Resources/web/jsonfn.js; sourceTree = SOURCE_ROOT; };
 		DBED852E16D657C3002A220B /* localContent.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = localContent.js; path = literaryFestival/Resources/web/localContent.js; sourceTree = SOURCE_ROOT; };
@@ -209,16 +229,24 @@
 		DB9D47A316D29FF30096647F /* web */ = {
 			isa = PBXGroup;
 			children = (
+				DB014E5C16E11FDF006444AB /* aliquam-webfont.eot */,
+				DB014E5D16E11FDF006444AB /* aliquam-webfont.svg */,
+				DB014E5E16E11FDF006444AB /* aliquam-webfont.ttf */,
+				DB014E5F16E11FDF006444AB /* aliquam-webfont.woff */,
+				DB014E6016E11FDF006444AB /* aliquamreg-webfont.eot */,
+				DB014E6116E11FDF006444AB /* aliquamreg-webfont.svg */,
+				DB014E6216E11FDF006444AB /* aliquamreg-webfont.ttf */,
+				DB014E6316E11FDF006444AB /* aliquamreg-webfont.woff */,
 				DBED852016D657C3002A220B /* BezierPlugin.min.js */,
 				DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */,
 				DBED852316D657C3002A220B /* CSSPlugin.min.js */,
 				DBED852416D657C3002A220B /* CSSRulePlugin.min.js */,
+				DB014E7016E12117006444AB /* fonts.css */,
 				DBED852516D657C3002A220B /* default.css */,
 				DBED852616D657C3002A220B /* default.js */,
 				DBED852716D657C3002A220B /* deviceLocationPointer.png */,
 				DBED852916D657C3002A220B /* EaselPlugin.min.js */,
 				DBED852A16D657C3002A220B /* EasePack.min.js */,
-				DBED852B16D657C3002A220B /* header.jpg */,
 				DBED852C16D657C3002A220B /* index.html */,
 				DBED852D16D657C3002A220B /* jsonfn.js */,
 				DBED852E16D657C3002A220B /* localContent.js */,
@@ -231,6 +259,8 @@
 				DBED853916D657C3002A220B /* TimelineMax.min.js */,
 				DBED853A16D657C3002A220B /* TweenLite.min.js */,
 				DBED853B16D657C3002A220B /* TweenMax.min.js */,
+				DB014E6E16E12020006444AB /* header.png */,
+				DB014E6C16E11FEE006444AB /* backBtn.png */,
 				DBED856D16D6BC3F002A220B /* img_abimbolaDare.jpg */,
 				DBED856E16D6BC3F002A220B /* img_andrewSimms.jpg */,
 				DBED856F16D6BC3F002A220B /* img_chibunduOnuzo.jpg */,
@@ -314,7 +344,6 @@
 				DBED854416D657C3002A220B /* deviceLocationPointer.png in Resources */,
 				DBED856016D66E97002A220B /* EaselPlugin.min.js in Resources */,
 				DBED856116D66E97002A220B /* EasePack.min.js in Resources */,
-				DBED854816D657C3002A220B /* header.jpg in Resources */,
 				DBED854916D657C3002A220B /* index.html in Resources */,
 				DBED856216D66E97002A220B /* jsonfn.js in Resources */,
 				DBED856316D66E97002A220B /* localContent.js in Resources */,
@@ -339,6 +368,17 @@
 				DBED858116D6BC3F002A220B /* img_philippaPerry.jpg in Resources */,
 				DBED858216D6BC3F002A220B /* img_rowanColeman.jpg in Resources */,
 				DBED858416D6C220002A220B /* img_directionsMap.jpg in Resources */,
+				DB014E6416E11FDF006444AB /* aliquam-webfont.eot in Resources */,
+				DB014E6516E11FDF006444AB /* aliquam-webfont.svg in Resources */,
+				DB014E6616E11FDF006444AB /* aliquam-webfont.ttf in Resources */,
+				DB014E6716E11FDF006444AB /* aliquam-webfont.woff in Resources */,
+				DB014E6816E11FDF006444AB /* aliquamreg-webfont.eot in Resources */,
+				DB014E6916E11FDF006444AB /* aliquamreg-webfont.svg in Resources */,
+				DB014E6A16E11FDF006444AB /* aliquamreg-webfont.ttf in Resources */,
+				DB014E6B16E11FDF006444AB /* aliquamreg-webfont.woff in Resources */,
+				DB014E6D16E11FEE006444AB /* backBtn.png in Resources */,
+				DB014E6F16E12020006444AB /* header.png in Resources */,
+				DB014E7116E12117006444AB /* fonts.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

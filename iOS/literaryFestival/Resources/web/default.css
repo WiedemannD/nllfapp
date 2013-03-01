@@ -2,7 +2,8 @@ body
 {
 	padding: 0px;
 	margin: 0px;
-	font-family:Helvetica, Verdana, sans-serif;
+	font-family:aliquam, sans-serif;
+	letter-spacing:1px;
 	width:100%;
 	height:100%;
 	overflow:hidden;
@@ -27,6 +28,7 @@ body
 {
 	display:block;
 	left:-320px;
+	padding-top:56px;
 }
 
 #contentContainer
@@ -34,7 +36,7 @@ body
 	position:relative;
 	z-index:1;
 	left:320px;
-	top:90px;
+	top:47px;
 	width:320px;
 	height:520px;
 	Ooverflow-y:hidden;
@@ -42,17 +44,20 @@ body
 
 #naviBar
 {
-	background-color:#00AA33;
+	background-color:#1C1A1A;
 	width:100%;
-	height:30px;
+	height:50px;
 	position:fixed;
 	z-index:2;
 	bottom:0px;
+	-webkit-box-shadow: 0px -3px 5px rgba(10, 10, 10, 0.6);
+	box-shadow: 0px -3px 5px rgba(10, 10, 10, 0.6);
 }
 
 #naviBtnLeft
 {
 	float:left;
+	
 }
 
 #naviTitle
@@ -63,8 +68,11 @@ body
 	Xmargin-left:auto;
 	Xmargin-right:auto;
 	Xwidth:92%;
+	padding-top:10px;
 	color:#FFFFFF;
-	font-size:18px;
+	font-size:26px;
+	font-weight:100;
+	text-transform:uppercase;
 }
 
 #naviBtnRight
@@ -74,86 +82,115 @@ body
 
 .naviBtn
 {
-	border:1px #FFFFFF solid;
-	padding:3px 10px 3px 10px;
-	margin:0px 4px 0px 4px;
+	border:0px;
+	display:inline-block;
+	margin:10px 4px auto 4px;
 	color:#FFFFFF;
 	font-size:14px;
-	font-weight:bold;
+	font-weight:normal;
+}
+
+.homeBtnContainer
+{
+	display:block;
+	float:left;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+	Bborder:1px solid #0000FF;
+	width:50%;
+	margin-bottom:26px;
 }
 
 .homeBtn
 {
-	text-align:center;
-	border:1px #00AA33 solid;
-	padding:6px 2px 6px 2px;
-	margin:8px 36px 8px 36px;
-	color:#00AA33;
-	font-size:12px;
-	font-weight:bold;
-	text-transform:uppercase;
-	width:80px;
-	float:left;
-	text-decoration:none;
+	margin: 0px auto 6px auto;
+	padding-top:2px;
+	background-color:#E60B22;
+	color:#FFFFFF;
+	font-size:40px;
+	font-weight:100;
+	width:90px;
+	height:48px;
+	-webkit-box-shadow: 0px 2px 3px rgba(10, 10, 10, 0.5);
+	box-shadow: 0px 2px 3px rgba(10, 10, 10, 0.5);
+}
+
+.homeBtnLabel
+{
+	color:#141414;
 }
 
 .tableBtn
 {
-	border-bottom:1px #00AA33 solid;
-	padding:6px 2px 6px 2px;
-	margin:8px 8px 8px 8px;
-	color:#00AA33;
+	background-color:#E60B22;
+	padding:6px 2px 6px 12px;
+	color:#FFF;
 	font-size:14px;
-	width:100%;
+	width:306px;
 	display:block;
 	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.tableBtnAlt
+{
+	background-color:#ef3f4e;
 }
 
 .soundBtn
 {
 	text-align:center;
-	border:1px #00AA33 solid;
 	line-height:22px;
-	padding:2px;
-	color:#00AA33;
-	font-size:12px;
-	font-weight:bold;
+	display:inline-block;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding:2px 8px 2px 9px;
+	background-color:#E60B22;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:normal;
+	letter-spacing:1px;
 	text-transform:uppercase;
 	text-decoration:none;
+	-webkit-box-shadow: 0px 1px 3px rgba(10, 10, 10, 0.5);
+	box-shadow: 0px 1px 3px rgba(10, 10, 10, 0.5);
 }
 
 .linkBtn
 {
 	text-align:center;
-	border:1px #00AA33 solid;
 	line-height:22px;
-	padding:2px;
-	margin:2px;
-	color:#00AA33;
-	font-size:12px;
-	font-weight:bold;
+	display:inline-block;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding:2px 8px 2px 9px;
+	background-color:#E60B22;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:normal;
+	letter-spacing:1px;
 	text-transform:uppercase;
 	text-decoration:none;
-}
-
-.centeredBtn
-{
-	margin-left:115px;
+	-webkit-box-shadow: 0px 1px 3px rgba(10, 10, 10, 0.5);
+	box-shadow: 0px 1px 3px rgba(10, 10, 10, 0.5);
 }
 
 .contentSheet
 {
 	width:320px;
 	height:100%;
-	padding:4px;
+	Ppadding:4px;
 	Ppadding:4px 4px 100px 4px;
 	position:absolute;
 	left:0px;
 	background-color:#FFFFFF;
-	Bborder:0px solid #AAAAAA;
-	border-left:1px solid #AAAAAA;
-	border-right:1px solid #AAAAAA;
 	display:none;
+}
+
+.contentSheetList
+{
+	background-color:#E60B22;
 }
 
 .sheetHL
@@ -182,10 +219,10 @@ body
 .sheetMissingFeature
 {
 	text-align:center;
-	border:1px #00AA33 solid;
+	border:1px #E60B22 solid;
 	padding:6px 2px 6px 2px;
 	margin:8px 8px 8px 8px;
-	color:#00AA33;
+	color:#E60B22;
 	font-size:12px;
 	font-weight:bold;
 	text-transform:uppercase;
@@ -201,8 +238,7 @@ body
 	position:absolute;
 	top:0px;
 	left:0px;
-	Bborder:2px solid #00AA33;
-	background-color: rgba(0, 122, 40, 50);
+	background-color: rgba(255, 255, 255, 0.95);
 	
 	opacity:0;
 	visibility:hidden;
@@ -211,7 +247,7 @@ body
 #alertText
 {
 	padding:200px 20px 20px 20px;
-	color:#FFFFFF;
+	color:#141414;
 	text-align:center;
 }
 

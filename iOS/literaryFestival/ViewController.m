@@ -36,6 +36,7 @@
     
     NSRange isExt = [request.URL.query rangeOfString:@"extOpen=true"];
     
+    
     // check if link should be opened externally
     if(request.URL.query != nil && isExt.location != NSNotFound)
     {

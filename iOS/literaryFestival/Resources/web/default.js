@@ -4,7 +4,7 @@
 
 const screenWidth = "320px";
 const retina = window.devicePixelRatio > 1;
-const baseUrl = "http://192.168.0.102/update/"; // "http://192.168.0.102/update/"; //"http://daniel-wiedemann.de/test/update/";
+const baseUrl = "http://192.168.0.102/update/";//"file:///Users/WiedemannD/Documents/XCode/_Projects/nllfapp/update/"; //"http://192.168.0.102/update/"; // "http://192.168.0.102/update/"; //"http://daniel-wiedemann.de/test/update/";
 const gmapApiKey = "AIzaSyDJeTxDvfwAmjO7GTbxL-USNBB8mmOnHkY"; // google maps API key Courtesy limit: 25,000 requests/day (middlesexunict@gmail.com)
 const updateFreq = 5 * 60 * 1000;// 10 * 1000; // 5 * 60 * 1000; // 5 mins // 20 * 1000; // 20 secs
 const updatePosFreq = 2 * 1000;

@@ -20,6 +20,7 @@
 	<script type="text/javascript" src="default.js"></script>
 
 
+	<link rel="stylesheet" type="text/css" href="fonts.css">
 	<link rel="stylesheet" type="text/css" href="default.css">
 	
 </head>
@@ -27,27 +28,34 @@
 <body>
 	<div id="mainContainer">
 		<div id="header">
-			<img src="header.jpg"/>
+			<img src="header.png"/>
 		</div>
+		
+		<!--<div id="test" style="margin-top:100px; margin-bottom:100px; border:1px solid #00FF00">
+			
+			<a href="http://test.de" class="soundBtn">Sound</a>
+			<a href="http://test.de" class="linkBtn">Link</a>
+			
+			<a href="http://test.de" class="tableBtn">Sound sdfsdfh jhs dfhjh f</a>
+			<a href="http://test.de" class="tableBtn tableBtnAlt">Link sdfh sdfh sdfh dsdfh fdhj</a>
+		
+		</div>-->
 		
 		<div id="contentContainer">
 		</div>
-		
-		<!--<div id="test" style="width:300px; height:300px; position:absolute; z-index:1001; top:0px; left:0px;">
-		</div>-->
 			
 		<div id="naviBar">
-			<div class="naviBtn" id="naviBtnLeft" onclick="navigateBack()">Back</div>
-
-			<div class="naviBtn" id="naviBtnLeft" onclick="resetContent()">Reset</div>
-			<div class="naviBtn" id="naviBtnLeft" onclick="loadUpdate()">update</div>
+			<a class="naviBtn" id="naviBtnLeft" onclick="navigateBack()"><img src="backBtn.png"/></a>
+			<!--<div class="naviBtn" id="naviBtnLeft" onclick="loadUpdate()">update</div>-->
 
 			<div id="naviTitle">Home</div>
+			
+			<div class="naviBtn" id="naviBtnRight" onclick="resetContent()">Reset</div>
 		</div>
 		
 		<div id="alertBox">
 			<div id="alertText"></div>
-			<a class="homeBtn centeredBtn" onclick="toggleAlert()">OK</a>
+			<a class="linkBtn" style="margin-left:140px" onclick="toggleAlert()">OK</a>
 		</div>
 	</div>
 	<div id="sounds"></div>

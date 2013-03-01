@@ -1347,8 +1347,8 @@ localContent =
 		{
 			case "homeBtn":
 				el = document.createElement("a");
-				el.set({"rel":cSEl.rel, "class":"homeBtn", "onclick":"navigateTo(this.rel)"});
-				el.innerHTML = cSEl.label;
+				el.set({"rel":cSEl.rel, "class":"homeBtnContainer", "onclick":"navigateTo(this.rel)"});
+				el.innerHTML = '<div class="homeBtn">' + cSEl.sublabel + '</div><div class="homeBtnLabel">' + cSEl.label + '</div>';
 				
 				if(cSEl.url)
 				{
