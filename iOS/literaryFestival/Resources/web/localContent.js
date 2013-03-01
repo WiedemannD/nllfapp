@@ -11,7 +11,7 @@ localContent =
 	{
 		year:"2013",	// e.g. 2013
 		month:"02",		// e.g. 02
-		day:"20",		// e.g. 04
+		day:"21",		// e.g. 04
 		hour:"21",		// e.g. 03
 		minute:"22"		// e.g. 05
 	},
@@ -30,32 +30,38 @@ localContent =
 				{
 					type:"homeBtn",
 					rel:"programme",
-					label:"Programme"
+					label:"Programme",
+					sublabel:"P"
 				},
 				{
 					type:"homeBtn",
 					rel:"authors",
-					label:"Authors"
+					label:"Authors",
+					sublabel:"A"
 				},
 				{
 					type:"homeBtn",
 					rel:"workshops",
-					label:"Workshops"
+					label:"Workshops",
+					sublabel:"W"
 				},
 				{
 					type:"homeBtn",
 					rel:"latestUpdates",
 					label:"Latest updates",
+					sublabel:"U"
 				},
 				{
 					type:"homeBtn",
 					rel:"directions",
-					label:"Directions"
+					label:"Directions",
+					sublabel:"D"
 				},
 				{
 					type:"homeBtn",
 					rel:"northLondon",
-					label:"North London"
+					label:"North London",
+					sublabel:"N"
 				}
 			]
 		},
@@ -150,7 +156,7 @@ localContent =
 					},
 					{
 						type:"sheetImg",
-						src:"img_lba.jpg"
+						src:"img_lba.png"
 					},
 					{
 						type:"sheetCopy",
@@ -476,7 +482,11 @@ localContent =
 					},
 					{
 						type:"sheetImg",
-						src:"img_elizabethBuchan.jpg"
+						src:"img_elizabethBuchan.jpg",
+						styles:
+						{
+							marginTop:"30px"
+						}
 					},
 					{
 						type:"sheetCopy",
@@ -1085,7 +1095,7 @@ localContent =
 					},
 					{
 						type:"sheetImg",
-						src:"img_lba.jpg"
+						src:"img_lba.png"
 					},
 					{
 						type:"sheetCopy",
@@ -1307,8 +1317,7 @@ localContent =
 			var inetNeeded = false;
 			var cS = this.contentSheets[i];
 
-			var div = document.createElement("div");
-			div.set({"id":cS.id, "name":cS.name, "class":"contentSheet"});//, "ontouchmove":"noTouchMove()"});
+			var div = new Element("div", {"id":cS.id, "name":cS.name, "class":"contentSheet"});
 			
 			if($("contentContainer"))
 			{
@@ -1332,6 +1341,56 @@ localContent =
 				}
 				
 				div.appendChild(el);
+			}
+			
+			
+			// perform contentsheet type specific tasks AFTER creating elements
+			switch(cS.type)
+			{
+				case "list":
+					// add class tableBtnAlt to every second list element
+					var tableBtns = div.getChildren(".tableBtn");
+					
+					for(k = 0; k < tableBtns.length; k++)
+					{
+						if(k % 2 > 0)
+						{
+							tableBtns[k].addClass("tableBtnAlt");
+						}
+					}
+					
+					// set background-color
+					div.addClass("contentSheetList");
+					break;
+				
+				case "detail":
+					var hls = div.getChildren(".sheetHL");
+					var imgs = div.getChildren(".sheetImg");
+					
+					if(hls.length > 0 || imgs.length > 0)
+					{
+						var sheetHeader = new Element("div", {"class":"sheetHeader"});
+						
+						sheetHeader.inject(div, 'top');
+						
+						if(hls.length > 0)
+						{
+							hls[0].inject(sheetHeader);
+						}
+						
+						if(imgs.length > 0)
+						{
+							imgs[0].inject(sheetHeader);
+						}
+					}
+					
+					div.getChildren()[div.getChildren().length - 1].set("styles", {"margin-bottom":"50px"});
+					
+					div.addClass("contentSheetDetail");
+					break;
+				
+				default:
+					break;
 			}
 		}
 	},

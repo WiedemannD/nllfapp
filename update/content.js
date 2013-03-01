@@ -158,7 +158,7 @@ processContentUpdate
 					},
 					{
 						type:"sheetImg",
-						src:"img_lba.jpg"
+						src:"img_lba.png"
 					},
 					{
 						type:"sheetCopy",
@@ -484,7 +484,11 @@ processContentUpdate
 					},
 					{
 						type:"sheetImg",
-						src:"img_elizabethBuchan.jpg"
+						src:"img_elizabethBuchan.jpg",
+						styles:
+						{
+							marginTop:"30px"
+						}
 					},
 					{
 						type:"sheetCopy",
@@ -1093,7 +1097,7 @@ processContentUpdate
 					},
 					{
 						type:"sheetImg",
-						src:"img_lba.jpg"
+						src:"img_lba.png"
 					},
 					{
 						type:"sheetCopy",
@@ -1315,8 +1319,7 @@ processContentUpdate
 			var inetNeeded = false;
 			var cS = this.contentSheets[i];
 
-			var div = document.createElement("div");
-			div.set({"id":cS.id, "name":cS.name, "class":"contentSheet"});//, "ontouchmove":"noTouchMove()"});
+			var div = new Element("div", {"id":cS.id, "name":cS.name, "class":"contentSheet"});
 			
 			if($("contentContainer"))
 			{
@@ -1343,7 +1346,7 @@ processContentUpdate
 			}
 			
 			
-			// perform contentsheet type specific tasks
+			// perform contentsheet type specific tasks AFTER creating elements
 			switch(cS.type)
 			{
 				case "list":
@@ -1352,11 +1355,6 @@ processContentUpdate
 					
 					for(k = 0; k < tableBtns.length; k++)
 					{
-						if(k == 0)
-						{
-							tableBtns[k].set("styles", {marginTop:"20px"});
-						}
-						
 						if(k % 2 > 0)
 						{
 							tableBtns[k].addClass("tableBtnAlt");
@@ -1365,6 +1363,32 @@ processContentUpdate
 					
 					// set background-color
 					div.addClass("contentSheetList");
+					break;
+				
+				case "detail":
+					var hls = div.getChildren(".sheetHL");
+					var imgs = div.getChildren(".sheetImg");
+					
+					if(hls.length > 0 || imgs.length > 0)
+					{
+						var sheetHeader = new Element("div", {"class":"sheetHeader"});
+						
+						sheetHeader.inject(div, 'top');
+						
+						if(hls.length > 0)
+						{
+							hls[0].inject(sheetHeader);
+						}
+						
+						if(imgs.length > 0)
+						{
+							imgs[0].inject(sheetHeader);
+						}
+					}
+					
+					div.getChildren()[div.getChildren().length - 1].set("styles", {"margin-bottom":"50px"});
+					
+					div.addClass("contentSheetDetail");
 					break;
 				
 				default:
