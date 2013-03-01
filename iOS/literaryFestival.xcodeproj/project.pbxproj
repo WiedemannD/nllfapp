@@ -21,6 +21,8 @@
 		DB014E7316E14E79006444AB /* img_lba.png in Resources */ = {isa = PBXBuildFile; fileRef = DB014E7216E14E79006444AB /* img_lba.png */; };
 		DB014E7B16E15659006444AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB014E7A16E15659006444AB /* Icon.png */; };
 		DB014E7D16E15663006444AB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB014E7C16E15663006444AB /* Icon@2x.png */; };
+		DB014E7F16E15A04006444AB /* backBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB014E7E16E15A04006444AB /* backBtn@2x.png */; };
+		DB014E8116E15FC0006444AB /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB014E8016E15FC0006444AB /* header@2x.png */; };
 		DB1A1A6B16795FC70022F65F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6A16795FC70022F65F /* UIKit.framework */; };
 		DB1A1A6D16795FC70022F65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6C16795FC70022F65F /* Foundation.framework */; };
 		DB1A1A6F16795FC70022F65F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1A1A6E16795FC70022F65F /* CoreGraphics.framework */; };
@@ -101,6 +103,8 @@
 		DB014E7216E14E79006444AB /* img_lba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_lba.png; path = literaryFestival/Resources/web/img_lba.png; sourceTree = SOURCE_ROOT; };
 		DB014E7A16E15659006444AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		DB014E7C16E15663006444AB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		DB014E7E16E15A04006444AB /* backBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backBtn@2x.png"; path = "literaryFestival/Resources/web/backBtn@2x.png"; sourceTree = SOURCE_ROOT; };
+		DB014E8016E15FC0006444AB /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "header@2x.png"; path = "literaryFestival/Resources/web/header@2x.png"; sourceTree = SOURCE_ROOT; };
 		DB1A1A6616795FC70022F65F /* literaryFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = literaryFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1A1A6A16795FC70022F65F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DB1A1A6C16795FC70022F65F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -276,7 +280,9 @@
 				DBED853A16D657C3002A220B /* TweenLite.min.js */,
 				DBED853B16D657C3002A220B /* TweenMax.min.js */,
 				DB014E6E16E12020006444AB /* header.png */,
+				DB014E8016E15FC0006444AB /* header@2x.png */,
 				DB014E6C16E11FEE006444AB /* backBtn.png */,
+				DB014E7E16E15A04006444AB /* backBtn@2x.png */,
 				DBED856D16D6BC3F002A220B /* img_abimbolaDare.jpg */,
 				DBED856E16D6BC3F002A220B /* img_andrewSimms.jpg */,
 				DBED856F16D6BC3F002A220B /* img_chibunduOnuzo.jpg */,
@@ -399,6 +405,8 @@
 				DB014E7316E14E79006444AB /* img_lba.png in Resources */,
 				DB014E7B16E15659006444AB /* Icon.png in Resources */,
 				DB014E7D16E15663006444AB /* Icon@2x.png in Resources */,
+				DB014E7F16E15A04006444AB /* backBtn@2x.png in Resources */,
+				DB014E8116E15FC0006444AB /* header@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

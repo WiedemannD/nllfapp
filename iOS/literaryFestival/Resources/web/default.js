@@ -23,11 +23,24 @@ var visibleSheetMapSheet = null;
 
 window.addEvent("domready", function()
 {	
+	if(retina)
+	{
+		setRetinaImages();
+	}
 	setMainContainerHeight();
 	parseContent();
 	checkForUpdates();
 	//checkInetConnectCycle();
 });
+
+// if needed set retina images
+function setRetinaImages()
+{
+	$("backBtnImg").src = "backBtn@2x.png";
+	$("headerImg").src = "header@2x.png";
+
+	console.log("Retina images set.");
+}
 
 // ugly function to set the correct height of mainContainer to avoid scrolling issues with different screensizes of iPhone4/s and iPhone5
 function setMainContainerHeight()
