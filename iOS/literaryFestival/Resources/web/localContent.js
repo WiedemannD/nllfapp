@@ -11,7 +11,7 @@ localContent =
 	{
 		year:"2013",	// e.g. 2013
 		month:"02",		// e.g. 02
-		day:"21",		// e.g. 04
+		day:"22",		// e.g. 04
 		hour:"21",		// e.g. 03
 		minute:"22"		// e.g. 05
 	},
@@ -130,12 +130,12 @@ localContent =
 				{
 					type:"tableBtn",
 					rel:"day1_7",
-					label:"Flash Fiction"
+					label:"4:45pm: Flash Fiction"
 				},
 				{
 					type:"tableBtn",
 					rel:"day1_8",
-					label:"5.15pm: Michele Roberts"
+					label:"5:15pm: Michele Roberts"
 				},
 				{
 					type:"tableBtn",
@@ -160,11 +160,17 @@ localContent =
 					},
 					{
 						type:"sheetCopy",
-						text:"The literary Agency LBA was established by Luigi Bonomi and Amanda Preston in March 2005 and it has one of the most high profile client lists in the business.  They represent a large number of very successful authors and indeed celebrities including Richard Hammond, James May, Dr Alice Roberts, Richard Madeley and Judy Finnigan to name a few. They also represent a large number of Sunday Times bestselling fiction authors including Simon Kernick, Josephine Cox, Karen Swan, Alan Titchmarsh, Sam Christer, Amanda Brooke and Fern Britton."
+						text:"How to get two minutes face to face with a top literary agent.<br/><br/>The event begins with a workshop from the Luigi Bonomiagents, giving guidance on presentation, what works, what doesn’t and the areas you might be able to take your idea in. There will also be a chance to ask general questions about the role of an agent and the industry in general.<br/><br/>Any specific questions about your piece will be addressed in the face to face.<br/><br/>What you will need:<br/>- One sheet of A4 with an extract from your piece, roughly 200 – 300 words<br/>- One sheet outlining the idea – again 200 – 300 words<br/>- Something to edit your piece on, a laptop, tablet or mobile BUT the agent will only read paper. A printer will be available.<br/>- Several copies of your contact details, business cards are good, but a printed piece of paper is acceptable.<br/>- Bring your manners with you. Getting this to run smoothly will require you to be polite if you are rejected, and to leave the table when the bell rings.<br/><br/>For full details of how to book your place on the workshop and speed pitch, contact Richard on the North London Literary Festival student team on 07830 378071 or via email, rw443@live.mdx.ac.uk.<br/>To read about the agents you will be pitching to, click on Speed-pitch website."
 					},
 					{
 						type:"linkBtn",
-						label:"More ...",
+						label:"rw443@live.mdx.ac.uk",
+						extOpen:true,
+						url:"mailto:rw443@live.mdx.ac.uk"
+					},
+					{
+						type:"linkBtn",
+						label:"Speed-pitch website",
 						extOpen:true,
 						url:"http://northlondonlitfest.com/2013/02/18/speed-pitching-with-lba/"
 					}
@@ -298,11 +304,37 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Flash Fiction"
+						text:"4:45pm: Flash Fiction"
+					},
+					{
+						type:"sheetImg",
+						src:"img_flashFiction.jpg"
 					},
 					{
 						type:"sheetCopy",
-						text:"Flash Fiction"
+						text:"Flash Fiction is an exciting event taking place on the 26th March 2013; all students and the public are invited to join us at 4:45pm in the afternoon for an array of short fiction. Held in the Rickett Quadrangle in the College Building at Middlesex University’s Hendon Campus you can listen to inspired writers taking the plunge and reading some of their best fiction.<br/><br/>There are only 10-12 places available with each reading lasting between 5-7 minutes. We are looking for a maximum of 300 words so keep it short but have fun with it; if you have an interest in writing and want to release your creative flare then get in touch and take your opportunity. The event will be compered by Helen Bagnall from Salon and The Literary Platform.<br/>You never know what you can find; there could be everything from romance to horror or you could even hear something completely new."
+					},
+					{
+						type:"linkBtn",
+						label:"Salon",
+						extOpen:true,
+						url:"http://www.salon-london.com"
+					},
+					{
+						type:"linkBtn",
+						label:"The Literary Platform",
+						extOpen:true,
+						url:"http://www.theliteraryplatform.com"
+					},
+					{
+						type:"sheetCopy",
+						text:"So come along because you may even stumble upon the next famous fiction writer or it even might be you!<br/><br/>For full details of how to book your place on the Flash Fiction stage contact Lucy on the North London Literary Festival student team by ld454@live.mdx.ac.uk."
+					},
+					{
+						type:"linkBtn",
+						label:"ld454@live.mdx.ac.uk",
+						extOpen:true,
+						url:"mailto:ld454@live.mdx.ac.uk"
 					}
 				]
 			},
@@ -329,21 +361,206 @@ localContent =
 				]
 			},
 			{
-				type:"detail",
+				type:"list",
 				id:"day1_9",
 				name:"Gala",
 				elements:
 				[
 					{
-						type:"sheetHL",
-						text:"6pm: Gala"
+						type:"tableBtn",
+						rel:"gala_0",
+						label:"Gala"
 					},
 					{
-						type:"sheetCopy",
-						text:"Turning Facts into Narratives: A Gala evening showcasing faculty members’ recent publications: featuring a screening and a panel discussion, embracing fiction, drama and non-fiction, and with subjects ranging from sex, friendship,the Second World War and Noël Coward to Nagasaki and Rebecca West, this event focuses on how facts, dates, figures can be turned into flowing narratives.  The Gala authors are: Feona Attwood, Josie Barnard, Maggie Butt, James Martin Charlton, Lorna Gibb and David Rain."
-					}
+						type:"tableBtn",
+						rel:"gala_1",
+						label:"Feona Attwood"
+					},
+					{
+						type:"tableBtn",
+						rel:"gala_2",
+						label:"Josie Barnard"
+					},
+					{
+						type:"tableBtn",
+						rel:"gala_3",
+						label:"Maggie Butt"
+					},
+					{
+						type:"tableBtn",
+						rel:"gala_4",
+						label:"James Charlton"
+					},
+					{
+						type:"tableBtn",
+						rel:"gala_5",
+						label:"Lorna Gibb"
+					},
+					{
+						type:"tableBtn",
+						rel:"gala_6",
+						label:"David Rain"
+					},
 				]
 			},
+				// gala
+				{
+					type:"detail",
+					id:"gala_0",
+					name:"Gala",
+					elements:
+					[
+						{
+							type:"sheetHL",
+							text:"6pm: Gala"
+						},
+						{
+							type:"sheetImg",
+							src:"img_gala.jpg"
+						},
+						{
+							type:"sheetCopy",
+							text:"Turning Facts into Narratives: A Gala evening showcasing faculty members’ recent publications: featuring a screening and a panel discussion, embracing fiction, drama and non-fiction, and with subjects ranging from sex, friendship,the Second World War and Noël Coward to Nagasaki and Rebecca West, this event focuses on how facts, dates, figures can be turned into flowing narratives.  The Gala authors are: Feona Attwood, Josie Barnard, Maggie Butt, James Martin Charlton, Lorna Gibb and David Rain."
+						}
+					]
+				},
+				{
+					type:"detail",
+					id:"gala_1",
+					name:"Attwood",
+					elements:
+					[
+						{
+							type:"sheetHL",
+							text:"Feona Attwood"
+						},
+						{
+							type:"sheetImg",
+							src:"img_feonaAttwood.jpg"
+						},
+						{
+							type:"sheetCopy",
+							text:"Feona Attwood is a Professor in the Media Department at Middlesex University, UK.<br/><br/>Her research is in the area of sex in contemporary culture; and in particular, in onscenity; sexualization; sexual cultures; new technologies, identity and the body; and controversial media.<br/><br/>She is the editor of ‘Mainstreaming Sex: The Sexualization of Western Culture’ (2009), ‘porn.com: Making Sense of Online Pornography’ (2010) and (with Vincent Campbell, I.Q. Hunter and Sharon Lockyer) ’Controversial Images’ (2012) and the co-editor of journal special issues on Controversial Images (with Sharon Lockyer, ‘Popular Communication’, 2009), Researching and Teaching Sexually Explicit Media (with I.Q. Hunter, ‘Sexualities’, 2009), and Investigating Young People’s Sexual Cultures (with Clarissa Smith, ‘Sex Education’, 2011).<br/><br/>Her recent publications have focused on online culture, aesthetics, sex and the media, and public engagement.<br/><br/>She is leading an international research network on onscenity, funded by the AHRC and is at the start of an AHRC Fellowship project. Her current book project is ‘Sex, Media Technology’."
+						}
+					]
+				},
+				{
+					type:"detail",
+					id:"gala_2",
+					name:"Barnard",
+					elements:
+					[
+						{
+							type:"sheetHL",
+							text:"Josie Barnard"
+						},
+						{
+							type:"sheetImg",
+							src:"img_josieBarnard.jpg"
+						},
+						{
+							type:"sheetCopy",
+							text:"Josie Barnard is the author of five books, ranging from her recent creative non-fiction ‘The Book of Friendship’ (‘fascinating’, Guardian; ‘discerning’, Observer) to the novels ‘Poker Face’, which won the Betty Trask Award and was made into a Film Four short, and ‘The Pleasure Dome’, which was described by Gavin Turk in Tatler as, ‘A sexy new novel’.  She has produced/presented radio strands, features and programmes for the BBC (including co-presenting a GLR strand with Mariella Frostrup). Barnard has worked as an editor and journalist, writing features and reviews for newspapers and magazines including the Guardian, the Telegraph and the TLS.  Now Senior Lecturer in Creative Writing with Journalism here at Middlesex University, she has spoken at festivals including Cheltenham and Dartington. You can follow Josie on Twitter: @josiebarnard<br/><br/>Copyright for Josie’s Photo: Heather McDonough"
+						},
+						{
+							type:"linkBtn",
+							label:"@josiebarnard",
+							extOpen:true,
+							url:"https://twitter.com/josiebarnard"
+						}
+					]
+				},
+				{
+					type:"detail",
+					id:"gala_3",
+					name:"Butt",
+					elements:
+					[
+						{
+							type:"sheetHL",
+							text:"Maggie Butt"
+						},
+						{
+							type:"sheetImg",
+							src:"img_maggieButt.jpg"
+						},
+						{
+							type:"sheetCopy",
+							text:"Maggie Butt’s publications include four poetry collections.  Her latest book ‘Sancti Clandestini – Undercover Saints’, is sumptuously illustrated by staff and students of Middlesex University’s BA Illustration programme. An exhibition to accompany the book was held at The Poetry Cafe in Covent Garden.<br/>Maggie’s poetry is widely published in international magazines and has escaped the page onto the internet, choreography, BBC Radio 4, readings, festivals, and schools.<br/><br/>Her first full collection, ‘Lipstick‘, was published in 2007,  a collection of short poems, ‘petite’, in 2010 and ‘Ally Pally Prison Camp’, the story of 3,000 civilians imprisoned at Alexandra Palace during the First World War, in 2011.  Her edited collection of essays: ‘Story The Heart of the Matter’ was published in 2007."
+						},
+						{
+							type:"linkBtn",
+							label:"Lipstick",
+							extOpen:true,
+							url:"http://www.maggiebutt.co.uk/lipstick/"
+						},
+						{
+							type:"sheetCopy",
+							text:"Maggie returned to poetry after a career spanning many other forms of writing. After an English degree she became a newspaper reporter, moving to BBC TV as a documentary writer/producer/director.<br/><br/>She is a Deputy Dean at Middlesex University, London, England, where she taught on the Creative and Media Writing degree. She has been Chair of the Subject Association for Creative Writing and recently written the new Creative Writing A Level.<br/><br/>Maggie has a PhD in creative writing from Cardiff University and is a University Teaching Fellow and University Orator."
+						}
+					]
+				},
+				{
+					type:"detail",
+					id:"gala_4",
+					name:"Charlton",
+					elements:
+					[
+						{
+							type:"sheetHL",
+							text:"James Charlton"
+						},
+						{
+							type:"sheetImg",
+							src:"img_jamesMartinCharlton.jpg"
+						},
+						{
+							type:"sheetCopy",
+							text:"James Martin Charlton has written for stage, television and screen. His plays include Fat Souls [winner of International Playwriting Festival, nominated Writers Guild Best Fringe Play], ‘Coming Up’ (Warehouse Theatre, Croydon); an adaptation of ‘The Pilgrim’s Progress’ for the RSC; ‘ecstasy + GRACE’ (Finborough Theatre), ‘The World and his Wife, I Really Must be Getting Off’ (White Bear), Battis Boy (Paines Plough at Trafalgar Studios), ‘Fellow Creature’ (Miniaturists at Arcola) and ‘Coward’ (Just Some Theatre); ‘Coward’ will be released as an audio drama in early 2013.<br/><br/>He wrote & directed the short films ‘Apeth’ (2007) & Academic (2011). He lectures on Scriptwriting at Middlesex University (both BA and Postgraduate levels) and Birkbeck College."
+						}
+					]
+				},
+				{
+					type:"detail",
+					id:"gala_5",
+					name:"Gibb",
+					elements:
+					[
+						{
+							type:"sheetHL",
+							text:"Lorna Gibb"
+						},
+						{
+							type:"sheetImg",
+							src:"img_lornaGibb.jpg"
+						},
+						{
+							type:"sheetCopy",
+							text:"Lorna was born in Bellshill, Scotland and worked as a dancer in Italy and the UK before going to University in London. She took her PhD at Edinburgh and has subsequently lectured in various countries including Finland, the former USSR, the Netherlands, Austria and the Middle East. Her first book Lady Hester was published in 2005. Lorna loves the opera, good food, movies, a wide variety of music from Tori Amos to Puccini and Jan Garbarek and is a member of the Royal Overseas League. She has watched the soap operaNeighbours since she was a student with frequent gaps for travelling. She now lives in London with her Dutch-Kiwi husband, a Spanish car and several cats, from Qatar, Italy and the UK."
+						}
+					]
+				},
+				{
+					type:"detail",
+					id:"gala_6",
+					name:"Rain",
+					elements:
+					[
+						{
+							type:"sheetHL",
+							text:"David Rain"
+						},
+						{
+							type:"sheetImg",
+							src:"img_davidRain.jpg"
+						},
+						{
+							type:"sheetCopy",
+							text:"With Sophie Tucker belting from his hand-crank phonograph and a circle of boarding-school admirers laughing uproariously around him, we first meet Ben “Trouble” Pinkerton through the amazed eyes of his orphaned schoolmate Woodley Sharpless – and ever after, though their paths at times diverge, their lives continue to intersect.<br/><br/>Trouble, the son of Lieutenant Benjamin Pinkerton and the geisha Madame Butterfly, is being raised in the United States, by (now) Senator Pinkerton and his upper-class wife, Kate. From early on, Trouble’s privileged upbringing and rebellious charisma combine to involve him in many important events of the twentieth century: from Greenwich Village in the roaring twenties, through WPA work during the Great Depression; from secret government work outside Los Alamos, to a revelation on a Nagasaki hillside by the sea. Woodley Sharpless witnesses these events, too – along with plenty of Pinkerton family drama.<br/><br/>David Rain’s first novel is a high-wire act of sustained invention – as playful as it is ambitious, as moving as it is theatrical, and as historically resonant as it is evocative of the powerful bonds of friendship and of love."
+						}
+					]
+				},
+				
 		{
 			type:"list",
 			id:"day2",
@@ -403,15 +620,13 @@ localContent =
 						text:"Laura Hird"
 					},
 					{
-						type:"sheetCopy",
-						text:"Laura Hird"
-					}/*,
+						type:"sheetImg",
+						src:"img_lauraHird.jpg"
+					},
 					{
-						type:"linkBtn",
-						label:"More ...",
-						extOpen:true,
-						url:"http://northlondonlitfest.com/2013/02/19/michele-roberts/"
-					}*/
+						type:"sheetCopy",
+						text:"Laura Hird is the award-winning author of the collections, Nail and Other Stories(Canongate, 1997) and Hope and Other Urban Tales (Canongate, 2006) and novel,Born Free (Canongate 2007) which was nominated for the Whitbread and Orange Prizes. Her short stories have been published in numerous magazines and anthologies internationally and her work translated into a number of European languages. A book based around her mother's letters, Dear Laura was published by Canongate in March 2007. A regular tutor for the Arvon Foundation and the Scottish Book Trust , she also teaches creative writing in secondary schools and colleges throughout the UK."
+					}
 				]
 			},
 			{
@@ -512,7 +727,19 @@ localContent =
 					},
 					{
 						type:"sheetImg",
-						src:"img_mattHaig.jpg"
+						src:"img_johnLucas.jpg"
+					},
+					{
+						type:"sheetCopy",
+						text:"John Lucas was born in Whitechapel, east London, in 1978. He was brought up nearby in the borough of Hackney, and continues to live in the area. The youngest of six boys, he comes from a large family of writers and artists, although he did not immediately follow the same path. He took a degree in Creative Writing at Middlesex University, graduating in 2007and two years ago left his job to try and concentrate on his writing, supporting himself by working in an independent Hackney book shop.<br/><br/>In Turf, John drew upon his own experiences of growing up in Hackney, and on the numerous stories of young gang violence in the press. He is currently working on his second novel."
+					},
+					{
+						type:"sheetImg",
+						src:"img_mattHaig.jpg",
+						styles:
+						{
+							marginTop:"30px"
+						}
 					},
 					{
 						type:"sheetCopy",
@@ -537,8 +764,12 @@ localContent =
 						text:"Poetry Slam"
 					},
 					{
+						type:"sheetImg",
+						src:"img_poetrySlam.jpg"
+					},
+					{
 						type:"sheetCopy",
-						text:"Poetry Slam"
+						text:"‘Do not be afraid of your own words!’<br/><br/>(Slammer is the one who transforms himself on the stage into his own words.)<br/><br/><br/>Poetry slam is a verbal battle between poets, all trying to outdo each other. It is open to anyone who thinks that has something to say and finds the courage to perform their own texts in front of an audience. The rules are simple: the contestants have three minutes to present their prepared (or completely improvised) pieces, and thus compete for the favour of the judges, that are chosen from the audience present. The competition puts emphasis on good imagery and original presentation.<br/><br/>The contestants must not use any props, costumes or musical instruments. Victory depends on each contestant to take their courage and words in both hands and come up with the original topic, content and form. Spontaneous, enthusiastic and critical reactions of an audience are the best feedback, and often even inconspicuous influence of the judges.<br/><br/>Unusual verses, unconventional recitations and contact with the audience defeats all the other boring literary parties. Love or social poetry, bittersweet personal confessions, or comic pieces – our poetry slam offers you all this and more! It is one of the things that makes our North London Literary festival special."
 					}
 				]
 			},
@@ -879,15 +1110,13 @@ localContent =
 						text:"Laura Hird"
 					},
 					{
-						type:"sheetCopy",
-						text:"Laura Hird"
-					}/*,
+						type:"sheetImg",
+						src:"img_lauraHird.jpg"
+					},
 					{
-						type:"linkBtn",
-						label:"More ...",
-						extOpen:true,
-						url:"http://northlondonlitfest.com/2013/02/19/michele-roberts/"
-					}*/
+						type:"sheetCopy",
+						text:"Laura Hird is the award-winning author of the collections, Nail and Other Stories(Canongate, 1997) and Hope and Other Urban Tales (Canongate, 2006) and novel,Born Free (Canongate 2007) which was nominated for the Whitbread and Orange Prizes. Her short stories have been published in numerous magazines and anthologies internationally and her work translated into a number of European languages. A book based around her mother's letters, Dear Laura was published by Canongate in March 2007. A regular tutor for the Arvon Foundation and the Scottish Book Trust , she also teaches creative writing in secondary schools and colleges throughout the UK."
+					}
 				]
 			},
 			{
@@ -899,21 +1128,15 @@ localContent =
 					{
 						type:"sheetHL",
 						text:"John Lucas"
-					}/*,
+					},
 					{
 						type:"sheetImg",
-						src:"img_mattHaig.jpg"
+						src:"img_johnLucas.jpg"
 					},
 					{
 						type:"sheetCopy",
-						text:"Matt Haig was born in Sheffield in 1975. He is the author of novels for both adults and children. His adult novels include the bestsellers ‘The Last Family in England’, the film rights of which were sold to Brad Pitt, and ‘The Radleys’, which was a TV Book Club ‘Best Read’. His novels for children include ‘Shadow Forestwhich’ was a Blue Peter Book of the Year, won a Nestle Gold Medal, and picked up eight regional book awards. His latest children’s novel ‘To Be A Cat’, is about a boy who wakes up one morning in feline form. His works have been translated into over 20 languages. He is currently working on the screenplay for his next adult novel, ‘The Humans’. That novel has received glowing praise from Jeanette Winterson, Joanne Harris, Patrick Ness and SJ Watson, among others. The Guardian summed up his writing as ‘delightfully weird’ and the New York Times called him ‘a writer of great talent’. In 2011 he was named Yorkshire’s Young Achiever in the Arts. He lives in a house in York and a boat in London with his wife and children."
-					},
-					{
-						type:"linkBtn",
-						label:"More ...",
-						extOpen:true,
-						url:"http://northlondonlitfest.com/2013/02/18/matt-haig/"
-					}*/
+						text:"John Lucas was born in Whitechapel, east London, in 1978. He was brought up nearby in the borough of Hackney, and continues to live in the area. The youngest of six boys, he comes from a large family of writers and artists, although he did not immediately follow the same path. He took a degree in Creative Writing at Middlesex University, graduating in 2007and two years ago left his job to try and concentrate on his writing, supporting himself by working in an independent Hackney book shop.<br/><br/>In Turf, John drew upon his own experiences of growing up in Hackney, and on the numerous stories of young gang violence in the press. He is currently working on his second novel."
+					}
 				]
 			},
 			{
@@ -1052,7 +1275,7 @@ localContent =
 				},
 				{
 					type:"tableBtn",
-					rel:"workshop6",
+					rel:"day1_9",
 					label:"Gala"
 				}
 			]
@@ -1099,11 +1322,17 @@ localContent =
 					},
 					{
 						type:"sheetCopy",
-						text:"The literary Agency LBA was established by Luigi Bonomi and Amanda Preston in March 2005 and it has one of the most high profile client lists in the business.  They represent a large number of very successful authors and indeed celebrities including Richard Hammond, James May, Dr Alice Roberts, Richard Madeley and Judy Finnigan to name a few. They also represent a large number of Sunday Times bestselling fiction authors including Simon Kernick, Josephine Cox, Karen Swan, Alan Titchmarsh, Sam Christer, Amanda Brooke and Fern Britton."
+						text:"How to get two minutes face to face with a top literary agent.<br/><br/>The event begins with a workshop from the Luigi Bonomiagents, giving guidance on presentation, what works, what doesn’t and the areas you might be able to take your idea in. There will also be a chance to ask general questions about the role of an agent and the industry in general.<br/><br/>Any specific questions about your piece will be addressed in the face to face.<br/><br/>What you will need:<br/>- One sheet of A4 with an extract from your piece, roughly 200 – 300 words<br/>- One sheet outlining the idea – again 200 – 300 words<br/>- Something to edit your piece on, a laptop, tablet or mobile BUT the agent will only read paper. A printer will be available.<br/>- Several copies of your contact details, business cards are good, but a printed piece of paper is acceptable.<br/>- Bring your manners with you. Getting this to run smoothly will require you to be polite if you are rejected, and to leave the table when the bell rings.<br/><br/>For full details of how to book your place on the workshop and speed pitch, contact Richard on the North London Literary Festival student team on 07830 378071 or via email, rw443@live.mdx.ac.uk.<br/>To read about the agents you will be pitching to, click on Speed-pitch website."
 					},
 					{
 						type:"linkBtn",
-						label:"More ...",
+						label:"rw443@live.mdx.ac.uk",
+						extOpen:true,
+						url:"mailto:rw443@live.mdx.ac.uk"
+					},
+					{
+						type:"linkBtn",
+						label:"Speed-pitch website",
 						extOpen:true,
 						url:"http://northlondonlitfest.com/2013/02/18/speed-pitching-with-lba/"
 					}
@@ -1136,8 +1365,12 @@ localContent =
 						text:"Poetry Slam"
 					},
 					{
+						type:"sheetImg",
+						src:"img_poetrySlam.jpg"
+					},
+					{
 						type:"sheetCopy",
-						text:"Poetry Slam"
+						text:"‘Do not be afraid of your own words!’<br/><br/>(Slammer is the one who transforms himself on the stage into his own words.)<br/><br/><br/>Poetry slam is a verbal battle between poets, all trying to outdo each other. It is open to anyone who thinks that has something to say and finds the courage to perform their own texts in front of an audience. The rules are simple: the contestants have three minutes to present their prepared (or completely improvised) pieces, and thus compete for the favour of the judges, that are chosen from the audience present. The competition puts emphasis on good imagery and original presentation.<br/><br/>The contestants must not use any props, costumes or musical instruments. Victory depends on each contestant to take their courage and words in both hands and come up with the original topic, content and form. Spontaneous, enthusiastic and critical reactions of an audience are the best feedback, and often even inconspicuous influence of the judges.<br/><br/>Unusual verses, unconventional recitations and contact with the audience defeats all the other boring literary parties. Love or social poetry, bittersweet personal confessions, or comic pieces – our poetry slam offers you all this and more! It is one of the things that makes our North London Literary festival special."
 					}
 				]
 			},
@@ -1152,24 +1385,34 @@ localContent =
 						text:"Flash Fiction"
 					},
 					{
-						type:"sheetCopy",
-						text:"Flash Fiction"
-					}
-				]
-			},
-			{
-				type:"detail",
-				id:"workshop6",
-				name:"Gala",
-				elements:
-				[
-					{
-						type:"sheetHL",
-						text:"Gala"
+						type:"sheetImg",
+						src:"img_flashFiction.jpg"
 					},
 					{
 						type:"sheetCopy",
-						text:"Turning Facts into Narratives: A Gala evening showcasing faculty members’ recent publications: featuring a screening and a panel discussion, embracing fiction, drama and non-fiction, and with subjects ranging from sex, friendship,the Second World War and Noël Coward to Nagasaki and Rebecca West, this event focuses on how facts, dates, figures can be turned into flowing narratives.  The Gala authors are: Feona Attwood, Josie Barnard, Maggie Butt, James Martin Charlton, Lorna Gibb and David Rain."
+						text:"Flash Fiction is an exciting event taking place on the 26th March 2013; all students and the public are invited to join us at 4:45pm in the afternoon for an array of short fiction. Held in the Rickett Quadrangle in the College Building at Middlesex University’s Hendon Campus you can listen to inspired writers taking the plunge and reading some of their best fiction.<br/><br/>There are only 10-12 places available with each reading lasting between 5-7 minutes. We are looking for a maximum of 300 words so keep it short but have fun with it; if you have an interest in writing and want to release your creative flare then get in touch and take your opportunity. The event will be compered by Helen Bagnall from Salon and The Literary Platform.<br/>You never know what you can find; there could be everything from romance to horror or you could even hear something completely new."
+					},
+					{
+						type:"linkBtn",
+						label:"Salon",
+						extOpen:true,
+						url:"http://www.salon-london.com"
+					},
+					{
+						type:"linkBtn",
+						label:"The Literary Platform",
+						extOpen:true,
+						url:"http://www.theliteraryplatform.com"
+					},
+					{
+						type:"sheetCopy",
+						text:"So come along because you may even stumble upon the next famous fiction writer or it even might be you!<br/><br/>For full details of how to book your place on the Flash Fiction stage contact Lucy on the North London Literary Festival student team by ld454@live.mdx.ac.uk."
+					},
+					{
+						type:"linkBtn",
+						label:"ld454@live.mdx.ac.uk",
+						extOpen:true,
+						url:"mailto:ld454@live.mdx.ac.uk"
 					}
 				]
 			},
@@ -1610,7 +1853,6 @@ localContent =
 		return el;
 	}
 }
-
 
 
 

@@ -225,6 +225,7 @@ body
 
 .sheetCopy
 {
+	display:inline-block;
 	font-size:13px;
 	line-height:22px;
 	padding:12px;

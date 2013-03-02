@@ -98,7 +98,7 @@ function navigateTo(id)
 		var sheet = $(id);
 		checkForMap(sheet);
 
-		sheet.setStyle("display", "block");
+		sheet.set({styles: {"display":"block", "z-index":naviPath.length + 1}});
 		TweenMax.to(sheet, 0.8, {css:{left:"-" + screenWidth}, ease:Back.easeOut, onComplete:function(){$(naviPath[naviPath.length - 2]).setStyle("display", "none"); activateMissingFeatures(sheet);}});
 
 		TweenMax.to($("mainContainer"), 0.3, {scrollTop:0});
