@@ -132,7 +132,7 @@ body
 	color:#FFF;
 	font-size:14px;
 	width:306px;
-	display:block;
+	display:inline-block;
 	text-decoration:none;
 	text-transform:uppercase;
 }
@@ -248,6 +248,11 @@ body
 	text-transform:uppercase;
 	width:90%;
 	overflow:hidden;
+}
+
+.sheetSpace
+{
+	height:50px;
 }
 
 #alertBox

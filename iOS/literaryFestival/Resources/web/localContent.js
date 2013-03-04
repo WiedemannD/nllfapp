@@ -11,7 +11,7 @@ localContent =
 	{
 		year:"2013",	// e.g. 2013
 		month:"02",		// e.g. 02
-		day:"24",		// e.g. 04
+		day:"25",		// e.g. 04
 		hour:"21",		// e.g. 03
 		minute:"22"		// e.g. 05
 	},
@@ -42,8 +42,8 @@ localContent =
 				{
 					type:"homeBtn",
 					rel:"workshops",
-					label:"Workshops",
-					sublabel:"W"
+					label:"Special Events",
+					sublabel:"E"
 				},
 				{
 					type:"homeBtn",
@@ -586,18 +586,18 @@ localContent =
 				{
 					type:"tableBtn",
 					rel:"day2_1",
-					label:"Laura Hird"
+					label:"12pm: Laura Hird"
 				},
 				{
 					type:"tableBtn",
 					rel:"day2_2",
 					label:"1pm: Abimbola Dare"
 				},
-				{
+				/*{
 					type:"tableBtn",
 					rel:"day2_3",
 					label:"Small Publishing Forum"
-				},
+				},*/
 				{
 					type:"tableBtn",
 					rel:"day2_4",
@@ -611,7 +611,7 @@ localContent =
 				{
 					type:"tableBtn",
 					rel:"day2_6",
-					label:"Poetry Slam"
+					label:"4:30pm: Poetry Slam"
 				},
 				{
 					type:"tableBtn",
@@ -633,7 +633,7 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Laura Hird"
+						text:"12pm: Laura Hird"
 					},
 					{
 						type:"sheetImg",
@@ -781,7 +781,7 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Poetry Slam"
+						text:"4:30pm: Poetry Slam"
 					},
 					{
 						type:"sheetImg",
@@ -855,6 +855,10 @@ localContent =
 				{
 					type:"sheetHL",
 					text:"Twiction"
+				},
+				{
+					type:"sheetImg",
+					src:"img_twiction.jpg"
 				},
 				{
 					type:"sheetCopy",
@@ -1289,14 +1293,9 @@ localContent =
 		{
 			type:"list",
 			id:"workshops",
-			name:"Workshops",
+			name:"Special Events",
 			elements:
 			[
-				{
-					type:"tableBtn",
-					rel:"workshop1",
-					label:"Faber Academy"
-				},
 				{
 					type:"tableBtn",
 					rel:"workshop2",
@@ -1309,11 +1308,6 @@ localContent =
 				},
 				{
 					type:"tableBtn",
-					rel:"workshop4",
-					label:"Poetry Slam"
-				},
-				{
-					type:"tableBtn",
 					rel:"workshop5",
 					label:"Flash Fiction"
 				},
@@ -1321,7 +1315,22 @@ localContent =
 					type:"tableBtn",
 					rel:"day1_9",
 					label:"Gala"
-				}
+				},
+				{
+					type:"tableBtn",
+					rel:"workshop4",
+					label:"Poetry Slam"
+				},
+				{
+					type:"tableBtn",
+					rel:"workshop1",
+					label:"Faber Academy"
+				},
+				{
+					type:"tableBtn",
+					rel:"twiction",
+					label:"Twiction"
+				}			
 			]
 		},	
 			{
@@ -1464,7 +1473,8 @@ localContent =
 					}
 				]
 			},
-		
+			
+			
 		
 		// latest updates
 		{
@@ -1479,19 +1489,19 @@ localContent =
 				},
 				{
 					type:"sheetCopy",
-					text:"Latest updates"
-				},
-				{
-					type:"linkBtn",
-					label:"Website",
-					extOpen:true,
-					url:"http://northlondonlitfest.com/"
+					text:"For  the latest updates and information, please follow us on Twitter or visit our website."
 				},
 				{
 					type:"linkBtn",
 					label:"Twitter #nllf13",
 					extOpen:true,
 					url:"https://twitter.com/search?q=%23nllf13&src=typd"
+				},
+				{
+					type:"linkBtn",
+					label:"Website",
+					extOpen:true,
+					url:"http://northlondonlitfest.com/"
 				}
 			]
 		},
@@ -1704,6 +1714,8 @@ localContent =
 							tableBtns[k].addClass("tableBtnAlt");
 						}
 					}
+					
+					div.appendChild(new Element("div", {"class":"sheetSpace", "styles":{"background-color":"#E60B22"}}));
 					
 					// set background-color
 					div.addClass("contentSheetList");
@@ -1956,8 +1968,6 @@ localContent =
 		return el;
 	}
 }
-
-
 
 
 
