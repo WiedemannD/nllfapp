@@ -11,7 +11,7 @@ localContent =
 	{
 		year:"2013",	// e.g. 2013
 		month:"02",		// e.g. 02
-		day:"22",		// e.g. 04
+		day:"23",		// e.g. 04
 		hour:"21",		// e.g. 03
 		minute:"22"		// e.g. 05
 	},
@@ -199,6 +199,18 @@ localContent =
 						label:"More ...",
 						extOpen:true,
 						url:"http://northlondonlitfest.com/2013/02/18/andrew-simms/"
+					},
+					{
+						type:"sheetImg",
+						src:"img_jamesHeartfield.jpg",
+						styles:
+						{
+							marginTop:"30px"
+						}
+					},
+					{
+						type:"sheetCopy",
+						text:"James Heartfield writes about the things that make him cross, and that make him laugh.<br/><br/>In 2005 he wrote Let's Build! Why we need five million new homes - a warning about the burgeoning housing crisis that sadly was ignored. He also exposed the hype around 'creative Britain'. In 2010 he wrote Green Capitalism - about the snake-oil salesmen that scare us into giving them money.<br/><br/>More recently James has been working on historical research, and published The Aborigines' Protection Society 1836-1909 with Hurst in 2011, and an Unpatriotic History of the Second World War with Zer0 Press last year.<br/><br/>His European Union and the End of Politics is published by Zer0 this May, and he is working on a history of the British and Foreign Anti-Slavery Society for Hurst.<br/><br/>James teaches at Arcadia University, and also at Queen Mary's University of London"
 					}
 				]
 			},
@@ -400,7 +412,7 @@ localContent =
 						type:"tableBtn",
 						rel:"gala_6",
 						label:"David Rain"
-					},
+					}
 				]
 			},
 				// gala
@@ -663,11 +675,15 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Small Publishing Forum"
+						text:"Small Publishing Forum – Books and Beyond"
+					},
+					{
+						type:"sheetImg",
+						src:"img_smallPubForum.jpg"
 					},
 					{
 						type:"sheetCopy",
-						text:"Small Publishing Forum"
+						text:"The publishing industry is in a blender as newspapers and books go online, and writers swerve traditional routes to print to go their own way. How does the traditional paper-printed word stay in the mix? How do you find your place in the fast changing world of the printed word?<br/><br/>The Small Publisher Platform will look at the way people from across the industry are responding to the challenge; the problems they encounter, the success they have and how you can be part of the process.<br/><br/>Lucy Bagnall is a leading light in the industry, both successfully published and influential in the Literary Salon scene. She specializes in supporting ‘cross platform’ literature with her colleagues at the Literary Platform.<br/><br/>Kit Caless and Gary Budden from Influx Press and Adele Ward from Ward & Woodward Publishers have met with success in the industry while keeping things small and the Big Green Book Company – Woodgreen’s best independent bookshop; are looking to extend their shelving into cyberspace, while filling them with content from authors they encourage. The discussion will be chaired by Middlesex’s very own Josie Barnard who will keep things to the point; and make a few points herself."
 					}
 				]
 			},
@@ -852,13 +868,33 @@ localContent =
 			[
 				{
 					type:"tableBtn",
+					rel:"gala_1",
+					label:"Feona Attwood"
+				},
+				{
+					type:"tableBtn",
+					rel:"gala_2",
+					label:"Josie Barnard"
+				},
+				{
+					type:"tableBtn",
 					rel:"author1",
 					label:"Elizabeth Buchan"
 				},
 				{
 					type:"tableBtn",
+					rel:"gala_3",
+					label:"Maggie Butt"
+				},
+				{
+					type:"tableBtn",
 					rel:"author2",
 					label:"Lucy Caldwell"
+				},
+				{
+					type:"tableBtn",
+					rel:"gala_4",
+					label:"James Charlton"
 				},
 				{
 					type:"tableBtn",
@@ -869,6 +905,11 @@ localContent =
 					type:"tableBtn",
 					rel:"author4",
 					label:"Abimbola Dare"
+				},
+				{
+					type:"tableBtn",
+					rel:"gala_5",
+					label:"Lorna Gibb"
 				},
 				{
 					type:"tableBtn",
@@ -904,6 +945,11 @@ localContent =
 					type:"tableBtn",
 					rel:"author11",
 					label:"Philippa Perry"
+				},
+				{
+					type:"tableBtn",
+					rel:"gala_6",
+					label:"David Rain"
 				},
 				{
 					type:"tableBtn",
@@ -1055,22 +1101,16 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Heartfield"
-					}/*,
+						text:"James Heartfield"
+					},
 					{
 						type:"sheetImg",
-						src:"img_andrewSimms.jpg"
+						src:"img_jamesHeartfield.jpg"
 					},
 					{
 						type:"sheetCopy",
-						text:"Andrew Simms is the author of several books including the bestselling ‘Tescopoly’. He is a Fellow of nef (the new economics foundation) where he was policy director for many years, trained at the London School of Economics and was described by New Scientist magazine as, ‘a master at joined-up progressive thinking.’ He is also one of the UK’s leading campaigners who coined the term ‘Clone Towns,’ co-authored the groundbreaking ‘Green New Deal’, was one of the original organisers of the campaign to cancel poor country debt, and devised how to mark the day in the year when the world enters ‘ecological debt.’ Andrew lives, runs and rides his bicycle in London where he plans to practice another of his ideas, ‘National Gardening Leave.’ He has witnessed first-hand for more than twenty years failed international efforts to solve critical economic and environmental problems, from extreme poverty to climate change. His new book is the result of his search for something better."
-					},
-					{
-						type:"linkBtn",
-						label:"More ...",
-						extOpen:true,
-						url:"http://northlondonlitfest.com/2013/02/18/andrew-simms/"
-					}*/
+						text:"James Heartfield writes about the things that make him cross, and that make him laugh.<br/><br/>In 2005 he wrote Let's Build! Why we need five million new homes - a warning about the burgeoning housing crisis that sadly was ignored. He also exposed the hype around 'creative Britain'. In 2010 he wrote Green Capitalism - about the snake-oil salesmen that scare us into giving them money.<br/><br/>More recently James has been working on historical research, and published The Aborigines' Protection Society 1836-1909 with Hurst in 2011, and an Unpatriotic History of the Second World War with Zer0 Press last year.<br/><br/>His European Union and the End of Politics is published by Zer0 this May, and he is working on a history of the British and Foreign Anti-Slavery Society for Hurst.<br/><br/>James teaches at Arcadia University, and also at Queen Mary's University of London"
+					}
 				]
 			},
 			{
@@ -1346,11 +1386,15 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Small Publishing Forum"
+						text:"Small Publishing Forum – Books and Beyond"
+					},
+					{
+						type:"sheetImg",
+						src:"img_smallPubForum.jpg"
 					},
 					{
 						type:"sheetCopy",
-						text:"Small Publishing Forum"
+						text:"The publishing industry is in a blender as newspapers and books go online, and writers swerve traditional routes to print to go their own way. How does the traditional paper-printed word stay in the mix? How do you find your place in the fast changing world of the printed word?<br/><br/>The Small Publisher Platform will look at the way people from across the industry are responding to the challenge; the problems they encounter, the success they have and how you can be part of the process.<br/><br/>Lucy Bagnall is a leading light in the industry, both successfully published and influential in the Literary Salon scene. She specializes in supporting ‘cross platform’ literature with her colleagues at the Literary Platform.<br/><br/>Kit Caless and Gary Budden from Influx Press and Adele Ward from Ward & Woodward Publishers have met with success in the industry while keeping things small and the Big Green Book Company – Woodgreen’s best independent bookshop; are looking to extend their shelving into cyberspace, while filling them with content from authors they encourage. The discussion will be chaired by Middlesex’s very own Josie Barnard who will keep things to the point; and make a few points herself."
 					}
 				]
 			},
@@ -1486,48 +1530,103 @@ localContent =
 			
 		// north london
 		{
-			type:"detail",
+			type:"list",
 			id:"northLondon",
 			name:"North London",
 			elements:
 			[
 				{
-					type:"sheetHL",
-					text:"North London",
+					type:"tableBtn",
+					rel:"nl_1",
+					label:"North London Map"
 				},
 				{
-					type:"sheetMap",
-					zoom:"15", // 0-18
-					showDevicePosition:true,
-					styles:
-					{
-						width:"280px",
-						height:"300px",
-					},
-					markers:
-					[
-						{
-							title:"Middlesex University",
-							lat:"51.589949",
-							lon:"-0.228975",
-							desc:"This is a little test description for the marker MDX UNI"
-						},
-						{
-							title:"Kaifeng",
-							lat:"51.589896",
-							lon:"-0.224158",
-							desc:"This is a little test description for the marker Kaifeng"
-						},
-						{
-							title:"The Claddagh Ring",
-							lat:"51.590183",
-							lon:"-0.226078",
-							desc:"This is a little test description for the marker Claddagh Ring"
-						}
-					]
+					type:"tableBtn",
+					rel:"nl_2",
+					label:"Looking back while writing the future"
+				},
+				{
+					type:"tableBtn",
+					rel:"nl_3",
+					label:"Tube Trails"
 				}
 			]
-		}
+		},
+			{
+				type:"detail",
+				id:"nl_1",
+				name:"North London Map",
+				elements:
+				[
+					{
+						type:"sheetHL",
+						text:"North London Map",
+					},
+					{
+						type:"sheetMap",
+						zoom:"15", // 0-18
+						showDevicePosition:true,
+						styles:
+						{
+							width:"280px",
+							height:"300px",
+						},
+						markers:
+						[
+							{
+								title:"Middlesex University",
+								lat:"51.589949",
+								lon:"-0.228975",
+								desc:"This is a little test description for the marker MDX UNI"
+							},
+							{
+								title:"Kaifeng",
+								lat:"51.589896",
+								lon:"-0.224158",
+								desc:"This is a little test description for the marker Kaifeng"
+							},
+							{
+								title:"The Claddagh Ring",
+								lat:"51.590183",
+								lon:"-0.226078",
+								desc:"This is a little test description for the marker Claddagh Ring"
+							}
+						]
+					}
+				]
+			},
+			{
+				type:"detail",
+				id:"nl_2",
+				name:"Looking back while writing the future",
+				elements:
+				[
+					{
+						type:"sheetHL",
+						text:"Looking back while writing the future: a history of Middlesex University",
+					},
+					{
+						type:"sheetCopy",
+						text:"While we get ready to launch the North London Literary Festival with an eye on the future of publishing, we are experiencing a sense of nostalgia fuelled by an awareness of the rich local history, and Middlesex University’s role as the cultural centre in the locality.<br/><br/>By Maitrayee Basu & Anne Hansen<br/><br/>1878 is the year we can trace back the beginning of the institutions that would eventually become Middlesex University. It was the year St. Katherine’s College opened, and shortly followed by Hornsey College of Art in 1882 and Ponders End Technical Institute in 1901. Hendon Technical Institute opened in 1939 and after the war in 1947 Trent Park College of education opened. So it has been a significant while that Middlesex University, or rather the institutions that constitute the university in its modern form, has been a major seat of learning and innovative thought in North London.<br/><br/>In 1973 all of these and more educational institutes dotted around North London (or Middlesex according to the Saxons) joined together to form Middlesex Polytechnic. A number of more educational institutes joined in 1992 when the polytechnic by Royal Assent became Middlesex University. Thus Middlesex University in its current form is an amalgamation or union of the various seats of learning in North London. We are extremely proud to carry forth this legacy of forward thinking sitting on the cutting edge of culture propelled forth by the socio-technological landscape of our times.<br/><br/>Join us for the North London Literary Festival 2013 and you will get a chance to enjoy the wonderful ambiance of the University’s flagship building in the College Building (originally built in 1938) with its now covered courtyard, where all of our exciting events will be held."
+					}
+				]
+			},
+			{
+				type:"detail",
+				id:"nl_3",
+				name:"Tube Trails",
+				elements:
+				[
+					{
+						type:"sheetHL",
+						text:"Tube Trails",
+					},
+					{
+						type:"sheetCopy",
+						text:"By James Huntingdon<br/><br/>The Tube! The most efficient travel system in London?  Most Londoners will have encountered at it some point in their life.<br/><br/>Isn’t it funny how when you ride the tube everything washes over you especially when you’re with a companion? Every time I travel, I cannot help but notice the journey changes. Not the journey itself (for the tube will always go the same route and I always get off at the station), but my perception changes with every ride I take. For every journey I take the mood in the carriage is different; each time I am travelling with different people.<br/><br/>A group of loud teenagers rush past giggling in hordes and oinking at childish things, dominating the carriage. Yet you somehow do not realise it because you’re in a group yourself or you’re looking safely at the person next to you and salute the other passenger who shares the annoyance.<br/><br/>Isn’t it funny how people ignore people that can be bothering them yet the old dearie now sitting opposite is the same one that told me my iPod was too loud not five minutes ago on the platform.<br/><br/>Isn’t it funny how people ignore loud groups of people causing a fuss, or the homeless person begging on the carriage for one stop, yet somehow they can look and notice a gay couple. The stares follow you through each stop and you try to avoid holding hands too much.<br/><br/>Isn’t it funny when your alone the tube seems louder and the dark tunnels echo more through the carriage; that people can bother you more or you can just bury yourself in your book or iPod.<br/><br/>You tackle the crowds either lost, or with conviction. You are a Londoner so you feel you know the tube and the system for London. If you have to change lines it is not too confusing yet the moment something changes you become lost in the crowd following a maze of signs trying to get out the underground faster than your usual pace. It becomes an angry frenzy with some woman causing a scene with the staff who are trying to help - the same person you want to ask help from because you cannot find the correct route home.<br/><br/>Isn’t it funny how suddenly the delusion you knew London has become totally destroyed in a small error. It feels like a strange joke somehow. When the train stops in a tunnel a small shock runs through your body temporarily ‘how long will I be stuck here’. The pause is magnified with discomfort and fear.<br/><br/>Isn’t it funny that the tube draws us in somehow? We become accustomed to the noise, the inconvenience. Even the smelly men that always seem to board the carriage when it is compacted with too many people (like a tin of sardines). Tube travel is like a cigarette it doesn’t taste good at first, but eventually it becomes embedded in your life."
+					}
+				]
+			}
 	],
 	
 	
