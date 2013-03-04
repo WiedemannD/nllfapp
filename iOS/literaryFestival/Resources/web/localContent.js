@@ -11,7 +11,7 @@ localContent =
 	{
 		year:"2013",	// e.g. 2013
 		month:"02",		// e.g. 02
-		day:"23",		// e.g. 04
+		day:"24",		// e.g. 04
 		hour:"21",		// e.g. 03
 		minute:"22"		// e.g. 05
 	},
@@ -248,11 +248,15 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Small Publishing Forum"
+						text:"Small Publishing Forum – Books and Beyond"
+					},
+					{
+						type:"sheetImg",
+						src:"img_smallPubForum.jpg"
 					},
 					{
 						type:"sheetCopy",
-						text:"Small Publishing Forum"
+						text:"The publishing industry is in a blender as newspapers and books go online, and writers swerve traditional routes to print to go their own way. How does the traditional paper-printed word stay in the mix? How do you find your place in the fast changing world of the printed word?<br/><br/>The Small Publisher Platform will look at the way people from across the industry are responding to the challenge; the problems they encounter, the success they have and how you can be part of the process.<br/><br/>Lucy Bagnall is a leading light in the industry, both successfully published and influential in the Literary Salon scene. She specializes in supporting ‘cross platform’ literature with her colleagues at the Literary Platform.<br/><br/>Kit Caless and Gary Budden from Influx Press and Adele Ward from Ward & Woodward Publishers have met with success in the industry while keeping things small and the Big Green Book Company – Woodgreen’s best independent bookshop; are looking to extend their shelving into cyberspace, while filling them with content from authors they encourage. The discussion will be chaired by Middlesex’s very own Josie Barnard who will keep things to the point; and make a few points herself."
 					}
 				]
 			},
@@ -1952,7 +1956,6 @@ localContent =
 		return el;
 	}
 }
-
 
 
 
