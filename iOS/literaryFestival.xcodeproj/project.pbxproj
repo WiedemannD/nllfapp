@@ -34,33 +34,35 @@
 		DB1A1A8416795FC70022F65F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A1A8316795FC70022F65F /* ViewController.m */; };
 		DB1A1A8716795FC70022F65F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8516795FC70022F65F /* ViewController_iPhone.xib */; };
 		DB1A1A8A16795FC70022F65F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A1A8816795FC70022F65F /* ViewController_iPad.xib */; };
-		DBE13C9816E5228F00C9D973 /* img_abimbolaDare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C7D16E5228F00C9D973 /* img_abimbolaDare.jpg */; };
-		DBE13C9916E5228F00C9D973 /* img_andrewSimms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C7E16E5228F00C9D973 /* img_andrewSimms.jpg */; };
-		DBE13C9A16E5228F00C9D973 /* img_chibunduOnuzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C7F16E5228F00C9D973 /* img_chibunduOnuzo.jpg */; };
-		DBE13C9B16E5228F00C9D973 /* img_davidRain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8016E5228F00C9D973 /* img_davidRain.jpg */; };
-		DBE13C9C16E5228F00C9D973 /* img_directionsMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8116E5228F00C9D973 /* img_directionsMap.jpg */; };
-		DBE13C9D16E5228F00C9D973 /* img_elizabethBuchan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8216E5228F00C9D973 /* img_elizabethBuchan.jpg */; };
-		DBE13C9E16E5228F00C9D973 /* img_faberAcademy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8316E5228F00C9D973 /* img_faberAcademy.jpg */; };
-		DBE13C9F16E5228F00C9D973 /* img_feonaAttwood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8416E5228F00C9D973 /* img_feonaAttwood.jpg */; };
-		DBE13CA016E5228F00C9D973 /* img_flashFiction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8516E5228F00C9D973 /* img_flashFiction.jpg */; };
-		DBE13CA116E5228F00C9D973 /* img_gala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8616E5228F00C9D973 /* img_gala.jpg */; };
-		DBE13CA216E5228F00C9D973 /* img_jamesHeartfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8716E5228F00C9D973 /* img_jamesHeartfield.jpg */; };
-		DBE13CA316E5228F00C9D973 /* img_jamesHerbert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8816E5228F00C9D973 /* img_jamesHerbert.jpg */; };
-		DBE13CA416E5228F00C9D973 /* img_jamesMartinCharlton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8916E5228F00C9D973 /* img_jamesMartinCharlton.jpg */; };
-		DBE13CA516E5228F00C9D973 /* img_johnLucas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8A16E5228F00C9D973 /* img_johnLucas.jpg */; };
-		DBE13CA616E5228F00C9D973 /* img_josieBarnard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8B16E5228F00C9D973 /* img_josieBarnard.jpg */; };
-		DBE13CA716E5228F00C9D973 /* img_lauraHird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8C16E5228F00C9D973 /* img_lauraHird.jpg */; };
-		DBE13CA816E5228F00C9D973 /* img_lba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8D16E5228F00C9D973 /* img_lba.jpg */; };
-		DBE13CA916E5228F00C9D973 /* img_lba.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8E16E5228F00C9D973 /* img_lba.png */; };
-		DBE13CAA16E5228F00C9D973 /* img_lornaGibb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C8F16E5228F00C9D973 /* img_lornaGibb.jpg */; };
-		DBE13CAB16E5228F00C9D973 /* img_lucyCaldwell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C9016E5228F00C9D973 /* img_lucyCaldwell.jpg */; };
-		DBE13CAC16E5228F00C9D973 /* img_maggieButt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C9116E5228F00C9D973 /* img_maggieButt.jpg */; };
-		DBE13CAD16E5228F00C9D973 /* img_mattHaig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C9216E5228F00C9D973 /* img_mattHaig.jpg */; };
-		DBE13CAE16E5228F00C9D973 /* img_philippaPerry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C9316E5228F00C9D973 /* img_philippaPerry.jpg */; };
-		DBE13CAF16E5228F00C9D973 /* img_poetrySlam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C9416E5228F00C9D973 /* img_poetrySlam.jpg */; };
-		DBE13CB016E5228F00C9D973 /* img_rowanColeman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C9516E5228F00C9D973 /* img_rowanColeman.jpg */; };
-		DBE13CB116E5228F00C9D973 /* img_smallPubForum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C9616E5228F00C9D973 /* img_smallPubForum.jpg */; };
-		DBE13CB216E5228F00C9D973 /* img_twiction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE13C9716E5228F00C9D973 /* img_twiction.jpg */; };
+		DB68669F16E7BAF10065E73F /* img_abimbolaDare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668216E7BAF10065E73F /* img_abimbolaDare.jpg */; };
+		DB6866A016E7BAF10065E73F /* img_andrewSimms.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668316E7BAF10065E73F /* img_andrewSimms.jpg */; };
+		DB6866A116E7BAF10065E73F /* img_chibunduOnuzo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668416E7BAF10065E73F /* img_chibunduOnuzo.jpg */; };
+		DB6866A216E7BAF10065E73F /* img_davidRain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668516E7BAF10065E73F /* img_davidRain.jpg */; };
+		DB6866A316E7BAF10065E73F /* img_directionsMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668616E7BAF10065E73F /* img_directionsMap.jpg */; };
+		DB6866A416E7BAF10065E73F /* img_elizabethBuchan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668716E7BAF10065E73F /* img_elizabethBuchan.jpg */; };
+		DB6866A516E7BAF10065E73F /* img_faberAcademy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668816E7BAF10065E73F /* img_faberAcademy.jpg */; };
+		DB6866A616E7BAF10065E73F /* img_feonaAttwood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668916E7BAF10065E73F /* img_feonaAttwood.jpg */; };
+		DB6866A716E7BAF10065E73F /* img_flashFiction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668A16E7BAF10065E73F /* img_flashFiction.jpg */; };
+		DB6866A816E7BAF10065E73F /* img_gala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668B16E7BAF10065E73F /* img_gala.jpg */; };
+		DB6866A916E7BAF10065E73F /* img_jamesHeartfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668C16E7BAF10065E73F /* img_jamesHeartfield.jpg */; };
+		DB6866AA16E7BAF10065E73F /* img_jamesHerbert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668D16E7BAF10065E73F /* img_jamesHerbert.jpg */; };
+		DB6866AB16E7BAF10065E73F /* img_jamesMartinCharlton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668E16E7BAF10065E73F /* img_jamesMartinCharlton.jpg */; };
+		DB6866AC16E7BAF10065E73F /* img_johnLucas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68668F16E7BAF10065E73F /* img_johnLucas.jpg */; };
+		DB6866AD16E7BAF10065E73F /* img_josieBarnard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669016E7BAF10065E73F /* img_josieBarnard.jpg */; };
+		DB6866AE16E7BAF10065E73F /* img_lauraHird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669116E7BAF10065E73F /* img_lauraHird.jpg */; };
+		DB6866AF16E7BAF10065E73F /* img_lba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669216E7BAF10065E73F /* img_lba.jpg */; };
+		DB6866B016E7BAF10065E73F /* img_lba.png in Resources */ = {isa = PBXBuildFile; fileRef = DB68669316E7BAF10065E73F /* img_lba.png */; };
+		DB6866B116E7BAF10065E73F /* img_lornaGibb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669416E7BAF10065E73F /* img_lornaGibb.jpg */; };
+		DB6866B216E7BAF10065E73F /* img_lucyCaldwell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669516E7BAF10065E73F /* img_lucyCaldwell.jpg */; };
+		DB6866B316E7BAF10065E73F /* img_maggieButt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669616E7BAF10065E73F /* img_maggieButt.jpg */; };
+		DB6866B416E7BAF10065E73F /* img_mattHaig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669716E7BAF10065E73F /* img_mattHaig.jpg */; };
+		DB6866B516E7BAF10065E73F /* img_mdxLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669816E7BAF10065E73F /* img_mdxLogo.jpg */; };
+		DB6866B616E7BAF10065E73F /* img_micheleRoberts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669916E7BAF10065E73F /* img_micheleRoberts.jpg */; };
+		DB6866B716E7BAF10065E73F /* img_philippaPerry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669A16E7BAF10065E73F /* img_philippaPerry.jpg */; };
+		DB6866B816E7BAF10065E73F /* img_poetrySlam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669B16E7BAF10065E73F /* img_poetrySlam.jpg */; };
+		DB6866B916E7BAF10065E73F /* img_rowanColeman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669C16E7BAF10065E73F /* img_rowanColeman.jpg */; };
+		DB6866BA16E7BAF10065E73F /* img_smallPubForum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669D16E7BAF10065E73F /* img_smallPubForum.jpg */; };
+		DB6866BB16E7BAF10065E73F /* img_twiction.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB68669E16E7BAF10065E73F /* img_twiction.jpg */; };
 		DBED853D16D657C3002A220B /* BezierPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852016D657C3002A220B /* BezierPlugin.min.js */; };
 		DBED853F16D657C3002A220B /* ColorPropsPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */; };
 		DBED854016D657C3002A220B /* CSSPlugin.min.js in Sources */ = {isa = PBXBuildFile; fileRef = DBED852316D657C3002A220B /* CSSPlugin.min.js */; };
@@ -135,33 +137,35 @@
 		DB1A1A8316795FC70022F65F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB1A1A8616795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		DB1A1A8916795FC70022F65F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		DBE13C7D16E5228F00C9D973 /* img_abimbolaDare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_abimbolaDare.jpg; path = literaryFestival/Resources/web/img_abimbolaDare.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C7E16E5228F00C9D973 /* img_andrewSimms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_andrewSimms.jpg; path = literaryFestival/Resources/web/img_andrewSimms.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C7F16E5228F00C9D973 /* img_chibunduOnuzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_chibunduOnuzo.jpg; path = literaryFestival/Resources/web/img_chibunduOnuzo.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8016E5228F00C9D973 /* img_davidRain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_davidRain.jpg; path = literaryFestival/Resources/web/img_davidRain.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8116E5228F00C9D973 /* img_directionsMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_directionsMap.jpg; path = literaryFestival/Resources/web/img_directionsMap.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8216E5228F00C9D973 /* img_elizabethBuchan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_elizabethBuchan.jpg; path = literaryFestival/Resources/web/img_elizabethBuchan.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8316E5228F00C9D973 /* img_faberAcademy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_faberAcademy.jpg; path = literaryFestival/Resources/web/img_faberAcademy.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8416E5228F00C9D973 /* img_feonaAttwood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_feonaAttwood.jpg; path = literaryFestival/Resources/web/img_feonaAttwood.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8516E5228F00C9D973 /* img_flashFiction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_flashFiction.jpg; path = literaryFestival/Resources/web/img_flashFiction.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8616E5228F00C9D973 /* img_gala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_gala.jpg; path = literaryFestival/Resources/web/img_gala.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8716E5228F00C9D973 /* img_jamesHeartfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_jamesHeartfield.jpg; path = literaryFestival/Resources/web/img_jamesHeartfield.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8816E5228F00C9D973 /* img_jamesHerbert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_jamesHerbert.jpg; path = literaryFestival/Resources/web/img_jamesHerbert.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8916E5228F00C9D973 /* img_jamesMartinCharlton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_jamesMartinCharlton.jpg; path = literaryFestival/Resources/web/img_jamesMartinCharlton.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8A16E5228F00C9D973 /* img_johnLucas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_johnLucas.jpg; path = literaryFestival/Resources/web/img_johnLucas.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8B16E5228F00C9D973 /* img_josieBarnard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_josieBarnard.jpg; path = literaryFestival/Resources/web/img_josieBarnard.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8C16E5228F00C9D973 /* img_lauraHird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lauraHird.jpg; path = literaryFestival/Resources/web/img_lauraHird.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8D16E5228F00C9D973 /* img_lba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lba.jpg; path = literaryFestival/Resources/web/img_lba.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C8E16E5228F00C9D973 /* img_lba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_lba.png; path = literaryFestival/Resources/web/img_lba.png; sourceTree = SOURCE_ROOT; };
-		DBE13C8F16E5228F00C9D973 /* img_lornaGibb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lornaGibb.jpg; path = literaryFestival/Resources/web/img_lornaGibb.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C9016E5228F00C9D973 /* img_lucyCaldwell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lucyCaldwell.jpg; path = literaryFestival/Resources/web/img_lucyCaldwell.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C9116E5228F00C9D973 /* img_maggieButt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_maggieButt.jpg; path = literaryFestival/Resources/web/img_maggieButt.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C9216E5228F00C9D973 /* img_mattHaig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_mattHaig.jpg; path = literaryFestival/Resources/web/img_mattHaig.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C9316E5228F00C9D973 /* img_philippaPerry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_philippaPerry.jpg; path = literaryFestival/Resources/web/img_philippaPerry.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C9416E5228F00C9D973 /* img_poetrySlam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_poetrySlam.jpg; path = literaryFestival/Resources/web/img_poetrySlam.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C9516E5228F00C9D973 /* img_rowanColeman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_rowanColeman.jpg; path = literaryFestival/Resources/web/img_rowanColeman.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C9616E5228F00C9D973 /* img_smallPubForum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_smallPubForum.jpg; path = literaryFestival/Resources/web/img_smallPubForum.jpg; sourceTree = SOURCE_ROOT; };
-		DBE13C9716E5228F00C9D973 /* img_twiction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_twiction.jpg; path = literaryFestival/Resources/web/img_twiction.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668216E7BAF10065E73F /* img_abimbolaDare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_abimbolaDare.jpg; path = literaryFestival/Resources/web/img_abimbolaDare.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668316E7BAF10065E73F /* img_andrewSimms.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_andrewSimms.jpg; path = literaryFestival/Resources/web/img_andrewSimms.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668416E7BAF10065E73F /* img_chibunduOnuzo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_chibunduOnuzo.jpg; path = literaryFestival/Resources/web/img_chibunduOnuzo.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668516E7BAF10065E73F /* img_davidRain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_davidRain.jpg; path = literaryFestival/Resources/web/img_davidRain.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668616E7BAF10065E73F /* img_directionsMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_directionsMap.jpg; path = literaryFestival/Resources/web/img_directionsMap.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668716E7BAF10065E73F /* img_elizabethBuchan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_elizabethBuchan.jpg; path = literaryFestival/Resources/web/img_elizabethBuchan.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668816E7BAF10065E73F /* img_faberAcademy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_faberAcademy.jpg; path = literaryFestival/Resources/web/img_faberAcademy.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668916E7BAF10065E73F /* img_feonaAttwood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_feonaAttwood.jpg; path = literaryFestival/Resources/web/img_feonaAttwood.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668A16E7BAF10065E73F /* img_flashFiction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_flashFiction.jpg; path = literaryFestival/Resources/web/img_flashFiction.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668B16E7BAF10065E73F /* img_gala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_gala.jpg; path = literaryFestival/Resources/web/img_gala.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668C16E7BAF10065E73F /* img_jamesHeartfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_jamesHeartfield.jpg; path = literaryFestival/Resources/web/img_jamesHeartfield.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668D16E7BAF10065E73F /* img_jamesHerbert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_jamesHerbert.jpg; path = literaryFestival/Resources/web/img_jamesHerbert.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668E16E7BAF10065E73F /* img_jamesMartinCharlton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_jamesMartinCharlton.jpg; path = literaryFestival/Resources/web/img_jamesMartinCharlton.jpg; sourceTree = SOURCE_ROOT; };
+		DB68668F16E7BAF10065E73F /* img_johnLucas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_johnLucas.jpg; path = literaryFestival/Resources/web/img_johnLucas.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669016E7BAF10065E73F /* img_josieBarnard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_josieBarnard.jpg; path = literaryFestival/Resources/web/img_josieBarnard.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669116E7BAF10065E73F /* img_lauraHird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lauraHird.jpg; path = literaryFestival/Resources/web/img_lauraHird.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669216E7BAF10065E73F /* img_lba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lba.jpg; path = literaryFestival/Resources/web/img_lba.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669316E7BAF10065E73F /* img_lba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_lba.png; path = literaryFestival/Resources/web/img_lba.png; sourceTree = SOURCE_ROOT; };
+		DB68669416E7BAF10065E73F /* img_lornaGibb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lornaGibb.jpg; path = literaryFestival/Resources/web/img_lornaGibb.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669516E7BAF10065E73F /* img_lucyCaldwell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_lucyCaldwell.jpg; path = literaryFestival/Resources/web/img_lucyCaldwell.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669616E7BAF10065E73F /* img_maggieButt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_maggieButt.jpg; path = literaryFestival/Resources/web/img_maggieButt.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669716E7BAF10065E73F /* img_mattHaig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_mattHaig.jpg; path = literaryFestival/Resources/web/img_mattHaig.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669816E7BAF10065E73F /* img_mdxLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_mdxLogo.jpg; path = literaryFestival/Resources/web/img_mdxLogo.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669916E7BAF10065E73F /* img_micheleRoberts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_micheleRoberts.jpg; path = literaryFestival/Resources/web/img_micheleRoberts.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669A16E7BAF10065E73F /* img_philippaPerry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_philippaPerry.jpg; path = literaryFestival/Resources/web/img_philippaPerry.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669B16E7BAF10065E73F /* img_poetrySlam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_poetrySlam.jpg; path = literaryFestival/Resources/web/img_poetrySlam.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669C16E7BAF10065E73F /* img_rowanColeman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_rowanColeman.jpg; path = literaryFestival/Resources/web/img_rowanColeman.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669D16E7BAF10065E73F /* img_smallPubForum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_smallPubForum.jpg; path = literaryFestival/Resources/web/img_smallPubForum.jpg; sourceTree = SOURCE_ROOT; };
+		DB68669E16E7BAF10065E73F /* img_twiction.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_twiction.jpg; path = literaryFestival/Resources/web/img_twiction.jpg; sourceTree = SOURCE_ROOT; };
 		DBED852016D657C3002A220B /* BezierPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = BezierPlugin.min.js; path = literaryFestival/Resources/web/BezierPlugin.min.js; sourceTree = SOURCE_ROOT; };
 		DBED852216D657C3002A220B /* ColorPropsPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = ColorPropsPlugin.min.js; path = literaryFestival/Resources/web/ColorPropsPlugin.min.js; sourceTree = SOURCE_ROOT; };
 		DBED852316D657C3002A220B /* CSSPlugin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = CSSPlugin.min.js; path = literaryFestival/Resources/web/CSSPlugin.min.js; sourceTree = SOURCE_ROOT; };
@@ -311,33 +315,35 @@
 				DB014E8016E15FC0006444AB /* header@2x.png */,
 				DB014E6C16E11FEE006444AB /* backBtn.png */,
 				DB014E7E16E15A04006444AB /* backBtn@2x.png */,
-				DBE13C7D16E5228F00C9D973 /* img_abimbolaDare.jpg */,
-				DBE13C7E16E5228F00C9D973 /* img_andrewSimms.jpg */,
-				DBE13C7F16E5228F00C9D973 /* img_chibunduOnuzo.jpg */,
-				DBE13C8016E5228F00C9D973 /* img_davidRain.jpg */,
-				DBE13C8116E5228F00C9D973 /* img_directionsMap.jpg */,
-				DBE13C8216E5228F00C9D973 /* img_elizabethBuchan.jpg */,
-				DBE13C8316E5228F00C9D973 /* img_faberAcademy.jpg */,
-				DBE13C8416E5228F00C9D973 /* img_feonaAttwood.jpg */,
-				DBE13C8516E5228F00C9D973 /* img_flashFiction.jpg */,
-				DBE13C8616E5228F00C9D973 /* img_gala.jpg */,
-				DBE13C8716E5228F00C9D973 /* img_jamesHeartfield.jpg */,
-				DBE13C8816E5228F00C9D973 /* img_jamesHerbert.jpg */,
-				DBE13C8916E5228F00C9D973 /* img_jamesMartinCharlton.jpg */,
-				DBE13C8A16E5228F00C9D973 /* img_johnLucas.jpg */,
-				DBE13C8B16E5228F00C9D973 /* img_josieBarnard.jpg */,
-				DBE13C8C16E5228F00C9D973 /* img_lauraHird.jpg */,
-				DBE13C8D16E5228F00C9D973 /* img_lba.jpg */,
-				DBE13C8E16E5228F00C9D973 /* img_lba.png */,
-				DBE13C8F16E5228F00C9D973 /* img_lornaGibb.jpg */,
-				DBE13C9016E5228F00C9D973 /* img_lucyCaldwell.jpg */,
-				DBE13C9116E5228F00C9D973 /* img_maggieButt.jpg */,
-				DBE13C9216E5228F00C9D973 /* img_mattHaig.jpg */,
-				DBE13C9316E5228F00C9D973 /* img_philippaPerry.jpg */,
-				DBE13C9416E5228F00C9D973 /* img_poetrySlam.jpg */,
-				DBE13C9516E5228F00C9D973 /* img_rowanColeman.jpg */,
-				DBE13C9616E5228F00C9D973 /* img_smallPubForum.jpg */,
-				DBE13C9716E5228F00C9D973 /* img_twiction.jpg */,
+				DB68668216E7BAF10065E73F /* img_abimbolaDare.jpg */,
+				DB68668316E7BAF10065E73F /* img_andrewSimms.jpg */,
+				DB68668416E7BAF10065E73F /* img_chibunduOnuzo.jpg */,
+				DB68668516E7BAF10065E73F /* img_davidRain.jpg */,
+				DB68668616E7BAF10065E73F /* img_directionsMap.jpg */,
+				DB68668716E7BAF10065E73F /* img_elizabethBuchan.jpg */,
+				DB68668816E7BAF10065E73F /* img_faberAcademy.jpg */,
+				DB68668916E7BAF10065E73F /* img_feonaAttwood.jpg */,
+				DB68668A16E7BAF10065E73F /* img_flashFiction.jpg */,
+				DB68668B16E7BAF10065E73F /* img_gala.jpg */,
+				DB68668C16E7BAF10065E73F /* img_jamesHeartfield.jpg */,
+				DB68668D16E7BAF10065E73F /* img_jamesHerbert.jpg */,
+				DB68668E16E7BAF10065E73F /* img_jamesMartinCharlton.jpg */,
+				DB68668F16E7BAF10065E73F /* img_johnLucas.jpg */,
+				DB68669016E7BAF10065E73F /* img_josieBarnard.jpg */,
+				DB68669116E7BAF10065E73F /* img_lauraHird.jpg */,
+				DB68669216E7BAF10065E73F /* img_lba.jpg */,
+				DB68669316E7BAF10065E73F /* img_lba.png */,
+				DB68669416E7BAF10065E73F /* img_lornaGibb.jpg */,
+				DB68669516E7BAF10065E73F /* img_lucyCaldwell.jpg */,
+				DB68669616E7BAF10065E73F /* img_maggieButt.jpg */,
+				DB68669716E7BAF10065E73F /* img_mattHaig.jpg */,
+				DB68669816E7BAF10065E73F /* img_mdxLogo.jpg */,
+				DB68669916E7BAF10065E73F /* img_micheleRoberts.jpg */,
+				DB68669A16E7BAF10065E73F /* img_philippaPerry.jpg */,
+				DB68669B16E7BAF10065E73F /* img_poetrySlam.jpg */,
+				DB68669C16E7BAF10065E73F /* img_rowanColeman.jpg */,
+				DB68669D16E7BAF10065E73F /* img_smallPubForum.jpg */,
+				DB68669E16E7BAF10065E73F /* img_twiction.jpg */,
 			);
 			name = web;
 			path = Ressources/web;
@@ -436,33 +442,35 @@
 				DB014E7D16E15663006444AB /* Icon@2x.png in Resources */,
 				DB014E7F16E15A04006444AB /* backBtn@2x.png in Resources */,
 				DB014E8116E15FC0006444AB /* header@2x.png in Resources */,
-				DBE13C9816E5228F00C9D973 /* img_abimbolaDare.jpg in Resources */,
-				DBE13C9916E5228F00C9D973 /* img_andrewSimms.jpg in Resources */,
-				DBE13C9A16E5228F00C9D973 /* img_chibunduOnuzo.jpg in Resources */,
-				DBE13C9B16E5228F00C9D973 /* img_davidRain.jpg in Resources */,
-				DBE13C9C16E5228F00C9D973 /* img_directionsMap.jpg in Resources */,
-				DBE13C9D16E5228F00C9D973 /* img_elizabethBuchan.jpg in Resources */,
-				DBE13C9E16E5228F00C9D973 /* img_faberAcademy.jpg in Resources */,
-				DBE13C9F16E5228F00C9D973 /* img_feonaAttwood.jpg in Resources */,
-				DBE13CA016E5228F00C9D973 /* img_flashFiction.jpg in Resources */,
-				DBE13CA116E5228F00C9D973 /* img_gala.jpg in Resources */,
-				DBE13CA216E5228F00C9D973 /* img_jamesHeartfield.jpg in Resources */,
-				DBE13CA316E5228F00C9D973 /* img_jamesHerbert.jpg in Resources */,
-				DBE13CA416E5228F00C9D973 /* img_jamesMartinCharlton.jpg in Resources */,
-				DBE13CA516E5228F00C9D973 /* img_johnLucas.jpg in Resources */,
-				DBE13CA616E5228F00C9D973 /* img_josieBarnard.jpg in Resources */,
-				DBE13CA716E5228F00C9D973 /* img_lauraHird.jpg in Resources */,
-				DBE13CA816E5228F00C9D973 /* img_lba.jpg in Resources */,
-				DBE13CA916E5228F00C9D973 /* img_lba.png in Resources */,
-				DBE13CAA16E5228F00C9D973 /* img_lornaGibb.jpg in Resources */,
-				DBE13CAB16E5228F00C9D973 /* img_lucyCaldwell.jpg in Resources */,
-				DBE13CAC16E5228F00C9D973 /* img_maggieButt.jpg in Resources */,
-				DBE13CAD16E5228F00C9D973 /* img_mattHaig.jpg in Resources */,
-				DBE13CAE16E5228F00C9D973 /* img_philippaPerry.jpg in Resources */,
-				DBE13CAF16E5228F00C9D973 /* img_poetrySlam.jpg in Resources */,
-				DBE13CB016E5228F00C9D973 /* img_rowanColeman.jpg in Resources */,
-				DBE13CB116E5228F00C9D973 /* img_smallPubForum.jpg in Resources */,
-				DBE13CB216E5228F00C9D973 /* img_twiction.jpg in Resources */,
+				DB68669F16E7BAF10065E73F /* img_abimbolaDare.jpg in Resources */,
+				DB6866A016E7BAF10065E73F /* img_andrewSimms.jpg in Resources */,
+				DB6866A116E7BAF10065E73F /* img_chibunduOnuzo.jpg in Resources */,
+				DB6866A216E7BAF10065E73F /* img_davidRain.jpg in Resources */,
+				DB6866A316E7BAF10065E73F /* img_directionsMap.jpg in Resources */,
+				DB6866A416E7BAF10065E73F /* img_elizabethBuchan.jpg in Resources */,
+				DB6866A516E7BAF10065E73F /* img_faberAcademy.jpg in Resources */,
+				DB6866A616E7BAF10065E73F /* img_feonaAttwood.jpg in Resources */,
+				DB6866A716E7BAF10065E73F /* img_flashFiction.jpg in Resources */,
+				DB6866A816E7BAF10065E73F /* img_gala.jpg in Resources */,
+				DB6866A916E7BAF10065E73F /* img_jamesHeartfield.jpg in Resources */,
+				DB6866AA16E7BAF10065E73F /* img_jamesHerbert.jpg in Resources */,
+				DB6866AB16E7BAF10065E73F /* img_jamesMartinCharlton.jpg in Resources */,
+				DB6866AC16E7BAF10065E73F /* img_johnLucas.jpg in Resources */,
+				DB6866AD16E7BAF10065E73F /* img_josieBarnard.jpg in Resources */,
+				DB6866AE16E7BAF10065E73F /* img_lauraHird.jpg in Resources */,
+				DB6866AF16E7BAF10065E73F /* img_lba.jpg in Resources */,
+				DB6866B016E7BAF10065E73F /* img_lba.png in Resources */,
+				DB6866B116E7BAF10065E73F /* img_lornaGibb.jpg in Resources */,
+				DB6866B216E7BAF10065E73F /* img_lucyCaldwell.jpg in Resources */,
+				DB6866B316E7BAF10065E73F /* img_maggieButt.jpg in Resources */,
+				DB6866B416E7BAF10065E73F /* img_mattHaig.jpg in Resources */,
+				DB6866B516E7BAF10065E73F /* img_mdxLogo.jpg in Resources */,
+				DB6866B616E7BAF10065E73F /* img_micheleRoberts.jpg in Resources */,
+				DB6866B716E7BAF10065E73F /* img_philippaPerry.jpg in Resources */,
+				DB6866B816E7BAF10065E73F /* img_poetrySlam.jpg in Resources */,
+				DB6866B916E7BAF10065E73F /* img_rowanColeman.jpg in Resources */,
+				DB6866BA16E7BAF10065E73F /* img_smallPubForum.jpg in Resources */,
+				DB6866BB16E7BAF10065E73F /* img_twiction.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

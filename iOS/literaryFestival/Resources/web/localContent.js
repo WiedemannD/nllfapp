@@ -115,7 +115,7 @@ localContent =
 				{
 					type:"tableBtn",
 					rel:"day1_4",
-					label:"Small Publishing Forum"
+					label:"2pm: Small Publishing Forum"
 				},
 				{
 					type:"tableBtn",
@@ -135,7 +135,7 @@ localContent =
 				{
 					type:"tableBtn",
 					rel:"day1_8",
-					label:"5:15pm: Michele Roberts"
+					label:"5:15pm: Michèle Roberts"
 				},
 				{
 					type:"tableBtn",
@@ -211,6 +211,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"James Heartfield writes about the things that make him cross, and that make him laugh.<br/><br/>In 2005 he wrote Let's Build! Why we need five million new homes - a warning about the burgeoning housing crisis that sadly was ignored. He also exposed the hype around 'creative Britain'. In 2010 he wrote Green Capitalism - about the snake-oil salesmen that scare us into giving them money.<br/><br/>More recently James has been working on historical research, and published The Aborigines' Protection Society 1836-1909 with Hurst in 2011, and an Unpatriotic History of the Second World War with Zer0 Press last year.<br/><br/>His European Union and the End of Politics is published by Zer0 this May, and he is working on a history of the British and Foreign Anti-Slavery Society for Hurst.<br/><br/>James teaches at Arcadia University, and also at Queen Mary's University of London"
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/03/04/544/"
 					}
 				]
 			},
@@ -248,7 +254,7 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Small Publishing Forum – Books and Beyond"
+						text:"2pm: Small Publishing Forum – Books and Beyond"
 					},
 					{
 						type:"sheetImg",
@@ -257,6 +263,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"The publishing industry is in a blender as newspapers and books go online, and writers swerve traditional routes to print to go their own way. How does the traditional paper-printed word stay in the mix? How do you find your place in the fast changing world of the printed word?<br/><br/>The Small Publisher Platform will look at the way people from across the industry are responding to the challenge; the problems they encounter, the success they have and how you can be part of the process.<br/><br/>Lucy Bagnall is a leading light in the industry, both successfully published and influential in the Literary Salon scene. She specializes in supporting ‘cross platform’ literature with her colleagues at the Literary Platform.<br/><br/>Kit Caless and Gary Budden from Influx Press and Adele Ward from Ward & Woodward Publishers have met with success in the industry while keeping things small and the Big Green Book Company – Woodgreen’s best independent bookshop; are looking to extend their shelving into cyberspace, while filling them with content from authors they encourage. The discussion will be chaired by Middlesex’s very own Josie Barnard who will keep things to the point; and make a few points herself."
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/03/04/26th-of-march-2pm-small-publishing-forum-books-and-beyond/"
 					}
 				]
 			},
@@ -351,6 +363,16 @@ localContent =
 						label:"ld454@live.mdx.ac.uk",
 						extOpen:true,
 						url:"mailto:ld454@live.mdx.ac.uk"
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/02/26/26th-of-march-4-45pm-flash-fiction/",
+						styles:
+						{
+							marginTop:"30px"
+						}
 					}
 				]
 			},
@@ -362,7 +384,11 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"5.15pm: Michele Roberts"
+						text:"5.15pm: Michèle Roberts"
+					},
+					{
+						type:"sheetImg",
+						src:"img_micheleRoberts.jpg"
 					},
 					{
 						type:"sheetCopy",
@@ -437,6 +463,12 @@ localContent =
 						{
 							type:"sheetCopy",
 							text:"Turning Facts into Narratives: A Gala evening showcasing faculty members’ recent publications: featuring a screening and a panel discussion, embracing fiction, drama and non-fiction, and with subjects ranging from sex, friendship,the Second World War and Noël Coward to Nagasaki and Rebecca West, this event focuses on how facts, dates, figures can be turned into flowing narratives.  The Gala authors are: Feona Attwood, Josie Barnard, Maggie Butt, James Martin Charlton, Lorna Gibb and David Rain."
+						},
+						{
+							type:"linkBtn",
+							label:"More ...",
+							extOpen:true,
+							url:"http://northlondonlitfest.com/2013/03/01/26th-of-march-6pm-gala/"
 						}
 					]
 				},
@@ -457,6 +489,12 @@ localContent =
 						{
 							type:"sheetCopy",
 							text:"Feona Attwood is a Professor in the Media Department at Middlesex University, UK.<br/><br/>Her research is in the area of sex in contemporary culture; and in particular, in onscenity; sexualization; sexual cultures; new technologies, identity and the body; and controversial media.<br/><br/>She is the editor of ‘Mainstreaming Sex: The Sexualization of Western Culture’ (2009), ‘porn.com: Making Sense of Online Pornography’ (2010) and (with Vincent Campbell, I.Q. Hunter and Sharon Lockyer) ’Controversial Images’ (2012) and the co-editor of journal special issues on Controversial Images (with Sharon Lockyer, ‘Popular Communication’, 2009), Researching and Teaching Sexually Explicit Media (with I.Q. Hunter, ‘Sexualities’, 2009), and Investigating Young People’s Sexual Cultures (with Clarissa Smith, ‘Sex Education’, 2011).<br/><br/>Her recent publications have focused on online culture, aesthetics, sex and the media, and public engagement.<br/><br/>She is leading an international research network on onscenity, funded by the AHRC and is at the start of an AHRC Fellowship project. Her current book project is ‘Sex, Media Technology’."
+						},
+						{
+							type:"linkBtn",
+							label:"More ...",
+							extOpen:true,
+							url:"http://northlondonlitfest.com/2013/02/27/26th-of-march-6pm-gala-feona-attwood/"
 						}
 					]
 				},
@@ -513,6 +551,12 @@ localContent =
 						{
 							type:"sheetCopy",
 							text:"Maggie returned to poetry after a career spanning many other forms of writing. After an English degree she became a newspaper reporter, moving to BBC TV as a documentary writer/producer/director.<br/><br/>She is a Deputy Dean at Middlesex University, London, England, where she taught on the Creative and Media Writing degree. She has been Chair of the Subject Association for Creative Writing and recently written the new Creative Writing A Level.<br/><br/>Maggie has a PhD in creative writing from Cardiff University and is a University Teaching Fellow and University Orator."
+						},
+						{
+							type:"linkBtn",
+							label:"More ...",
+							extOpen:true,
+							url:"http://northlondonlitfest.com/2013/02/27/26th-of-march-6pm-gala-maggie-butt/"
 						}
 					]
 				},
@@ -573,6 +617,12 @@ localContent =
 						{
 							type:"sheetCopy",
 							text:"With Sophie Tucker belting from his hand-crank phonograph and a circle of boarding-school admirers laughing uproariously around him, we first meet Ben “Trouble” Pinkerton through the amazed eyes of his orphaned schoolmate Woodley Sharpless – and ever after, though their paths at times diverge, their lives continue to intersect.<br/><br/>Trouble, the son of Lieutenant Benjamin Pinkerton and the geisha Madame Butterfly, is being raised in the United States, by (now) Senator Pinkerton and his upper-class wife, Kate. From early on, Trouble’s privileged upbringing and rebellious charisma combine to involve him in many important events of the twentieth century: from Greenwich Village in the roaring twenties, through WPA work during the Great Depression; from secret government work outside Los Alamos, to a revelation on a Nagasaki hillside by the sea. Woodley Sharpless witnesses these events, too – along with plenty of Pinkerton family drama.<br/><br/>David Rain’s first novel is a high-wire act of sustained invention – as playful as it is ambitious, as moving as it is theatrical, and as historically resonant as it is evocative of the powerful bonds of friendship and of love."
+						},
+						{
+							type:"linkBtn",
+							label:"More ...",
+							extOpen:true,
+							url:"http://northlondonlitfest.com/2013/02/27/26th-of-march-6pm-gala-david-rain/"
 						}
 					]
 				},
@@ -642,6 +692,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"Laura Hird is the award-winning author of the collections, Nail and Other Stories(Canongate, 1997) and Hope and Other Urban Tales (Canongate, 2006) and novel,Born Free (Canongate 2007) which was nominated for the Whitbread and Orange Prizes. Her short stories have been published in numerous magazines and anthologies internationally and her work translated into a number of European languages. A book based around her mother's letters, Dear Laura was published by Canongate in March 2007. A regular tutor for the Arvon Foundation and the Scottish Book Trust , she also teaches creative writing in secondary schools and colleges throughout the UK."
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/03/04/27th-of-march-12pm-laura-hird/"
 					}
 				]
 			},
@@ -671,7 +727,7 @@ localContent =
 					}
 				]
 			},
-			{
+			/*{
 				type:"detail",
 				id:"day2_3",
 				name:"Publishing Forum",
@@ -690,7 +746,7 @@ localContent =
 						text:"The publishing industry is in a blender as newspapers and books go online, and writers swerve traditional routes to print to go their own way. How does the traditional paper-printed word stay in the mix? How do you find your place in the fast changing world of the printed word?<br/><br/>The Small Publisher Platform will look at the way people from across the industry are responding to the challenge; the problems they encounter, the success they have and how you can be part of the process.<br/><br/>Lucy Bagnall is a leading light in the industry, both successfully published and influential in the Literary Salon scene. She specializes in supporting ‘cross platform’ literature with her colleagues at the Literary Platform.<br/><br/>Kit Caless and Gary Budden from Influx Press and Adele Ward from Ward & Woodward Publishers have met with success in the industry while keeping things small and the Big Green Book Company – Woodgreen’s best independent bookshop; are looking to extend their shelving into cyberspace, while filling them with content from authors they encourage. The discussion will be chaired by Middlesex’s very own Josie Barnard who will keep things to the point; and make a few points herself."
 					}
 				]
-			},
+			},*/
 			{
 				type:"detail",
 				id:"day2_4",
@@ -754,6 +810,12 @@ localContent =
 						text:"John Lucas was born in Whitechapel, east London, in 1978. He was brought up nearby in the borough of Hackney, and continues to live in the area. The youngest of six boys, he comes from a large family of writers and artists, although he did not immediately follow the same path. He took a degree in Creative Writing at Middlesex University, graduating in 2007and two years ago left his job to try and concentrate on his writing, supporting himself by working in an independent Hackney book shop.<br/><br/>In Turf, John drew upon his own experiences of growing up in Hackney, and on the numerous stories of young gang violence in the press. He is currently working on his second novel."
 					},
 					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/03/04/27th-of-march-3pm-john-lucas/"
+					},
+					{
 						type:"sheetImg",
 						src:"img_mattHaig.jpg",
 						styles:
@@ -790,6 +852,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"‘Do not be afraid of your own words!’<br/><br/>(Slammer is the one who transforms himself on the stage into his own words.)<br/><br/><br/>Poetry slam is a verbal battle between poets, all trying to outdo each other. It is open to anyone who thinks that has something to say and finds the courage to perform their own texts in front of an audience. The rules are simple: the contestants have three minutes to present their prepared (or completely improvised) pieces, and thus compete for the favour of the judges, that are chosen from the audience present. The competition puts emphasis on good imagery and original presentation.<br/><br/>The contestants must not use any props, costumes or musical instruments. Victory depends on each contestant to take their courage and words in both hands and come up with the original topic, content and form. Spontaneous, enthusiastic and critical reactions of an audience are the best feedback, and often even inconspicuous influence of the judges.<br/><br/>Unusual verses, unconventional recitations and contact with the audience defeats all the other boring literary parties. Love or social poetry, bittersweet personal confessions, or comic pieces – our poetry slam offers you all this and more! It is one of the things that makes our North London Literary festival special."
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/02/22/27th-of-march-4-30pm-poetry-slam/"
 					}
 				]
 			},
@@ -859,11 +927,11 @@ localContent =
 				{
 					type:"sheetImg",
 					src:"img_twiction.jpg"
-				},
+				}/*,
 				{
 					type:"sheetCopy",
 					text:"Twiction"
-				}
+				}*/
 			]
 		},
 		
@@ -962,7 +1030,7 @@ localContent =
 				{
 					type:"tableBtn",
 					rel:"author12",
-					label:"Michele Roberts"
+					label:"Michèle Roberts"
 				},
 				{
 					type:"tableBtn",
@@ -1118,6 +1186,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"James Heartfield writes about the things that make him cross, and that make him laugh.<br/><br/>In 2005 he wrote Let's Build! Why we need five million new homes - a warning about the burgeoning housing crisis that sadly was ignored. He also exposed the hype around 'creative Britain'. In 2010 he wrote Green Capitalism - about the snake-oil salesmen that scare us into giving them money.<br/><br/>More recently James has been working on historical research, and published The Aborigines' Protection Society 1836-1909 with Hurst in 2011, and an Unpatriotic History of the Second World War with Zer0 Press last year.<br/><br/>His European Union and the End of Politics is published by Zer0 this May, and he is working on a history of the British and Foreign Anti-Slavery Society for Hurst.<br/><br/>James teaches at Arcadia University, and also at Queen Mary's University of London"
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/03/04/544/"
 					}
 				]
 			},
@@ -1164,6 +1238,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"Laura Hird is the award-winning author of the collections, Nail and Other Stories(Canongate, 1997) and Hope and Other Urban Tales (Canongate, 2006) and novel,Born Free (Canongate 2007) which was nominated for the Whitbread and Orange Prizes. Her short stories have been published in numerous magazines and anthologies internationally and her work translated into a number of European languages. A book based around her mother's letters, Dear Laura was published by Canongate in March 2007. A regular tutor for the Arvon Foundation and the Scottish Book Trust , she also teaches creative writing in secondary schools and colleges throughout the UK."
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/03/04/27th-of-march-12pm-laura-hird/"
 					}
 				]
 			},
@@ -1184,6 +1264,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"John Lucas was born in Whitechapel, east London, in 1978. He was brought up nearby in the borough of Hackney, and continues to live in the area. The youngest of six boys, he comes from a large family of writers and artists, although he did not immediately follow the same path. He took a degree in Creative Writing at Middlesex University, graduating in 2007and two years ago left his job to try and concentrate on his writing, supporting himself by working in an independent Hackney book shop.<br/><br/>In Turf, John drew upon his own experiences of growing up in Hackney, and on the numerous stories of young gang violence in the press. He is currently working on his second novel."
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/03/04/27th-of-march-3pm-john-lucas/"
 					}
 				]
 			},
@@ -1247,7 +1333,11 @@ localContent =
 				[
 					{
 						type:"sheetHL",
-						text:"Michele Roberts"
+						text:"Michèle Roberts"
+					},
+					{
+						type:"sheetImg",
+						src:"img_micheleRoberts.jpg"
 					},
 					{
 						type:"sheetCopy",
@@ -1408,6 +1498,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"The publishing industry is in a blender as newspapers and books go online, and writers swerve traditional routes to print to go their own way. How does the traditional paper-printed word stay in the mix? How do you find your place in the fast changing world of the printed word?<br/><br/>The Small Publisher Platform will look at the way people from across the industry are responding to the challenge; the problems they encounter, the success they have and how you can be part of the process.<br/><br/>Lucy Bagnall is a leading light in the industry, both successfully published and influential in the Literary Salon scene. She specializes in supporting ‘cross platform’ literature with her colleagues at the Literary Platform.<br/><br/>Kit Caless and Gary Budden from Influx Press and Adele Ward from Ward & Woodward Publishers have met with success in the industry while keeping things small and the Big Green Book Company – Woodgreen’s best independent bookshop; are looking to extend their shelving into cyberspace, while filling them with content from authors they encourage. The discussion will be chaired by Middlesex’s very own Josie Barnard who will keep things to the point; and make a few points herself."
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/03/04/26th-of-march-2pm-small-publishing-forum-books-and-beyond/"
 					}
 				]
 			},
@@ -1428,6 +1524,12 @@ localContent =
 					{
 						type:"sheetCopy",
 						text:"‘Do not be afraid of your own words!’<br/><br/>(Slammer is the one who transforms himself on the stage into his own words.)<br/><br/><br/>Poetry slam is a verbal battle between poets, all trying to outdo each other. It is open to anyone who thinks that has something to say and finds the courage to perform their own texts in front of an audience. The rules are simple: the contestants have three minutes to present their prepared (or completely improvised) pieces, and thus compete for the favour of the judges, that are chosen from the audience present. The competition puts emphasis on good imagery and original presentation.<br/><br/>The contestants must not use any props, costumes or musical instruments. Victory depends on each contestant to take their courage and words in both hands and come up with the original topic, content and form. Spontaneous, enthusiastic and critical reactions of an audience are the best feedback, and often even inconspicuous influence of the judges.<br/><br/>Unusual verses, unconventional recitations and contact with the audience defeats all the other boring literary parties. Love or social poetry, bittersweet personal confessions, or comic pieces – our poetry slam offers you all this and more! It is one of the things that makes our North London Literary festival special."
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/02/22/27th-of-march-4-30pm-poetry-slam/"
 					}
 				]
 			},
@@ -1470,6 +1572,16 @@ localContent =
 						label:"ld454@live.mdx.ac.uk",
 						extOpen:true,
 						url:"mailto:ld454@live.mdx.ac.uk"
+					},
+					{
+						type:"linkBtn",
+						label:"More ...",
+						extOpen:true,
+						url:"http://northlondonlitfest.com/2013/02/26/26th-of-march-4-45pm-flash-fiction/",
+						styles:
+						{
+							marginTop:"30px"
+						}
 					}
 				]
 			},
@@ -1519,14 +1631,22 @@ localContent =
 					text:"Directions",
 				},
 				{
+					type:"sheetImg",
+					src:"img_mdxLogo.jpg"
+				},
+				{
+					type:"sheetCopy",
+					text:"All events are taking place in Middlesex University, Hendon Campus."
+				},
+				{
 					type:"sheetMap",
 					fallbackSrc:"img_directionsMap.jpg",
 					zoom:"12", // 0-18
 					showDevicePosition:true,
 					styles:
 					{
-						width:"280px",
-						height:"300px",
+						width:"272px",
+						height:"350px",
 					},
 					markers:
 					[
@@ -1534,9 +1654,19 @@ localContent =
 							title:"Middlesex University",
 							lat:"51.589949",
 							lon:"-0.228975",
-							desc:"This is a little test description for the marker MDX UNI"
+							desc:"The Burroughs, Hendon, London NW4 4BT"
 						}
 					]
+				},
+				{
+					type:"sheetCopy",
+					text:"Address:<br/>The Burroughs, Hendon, London NW4 4BT."
+				},
+				{
+					type:"linkBtn",
+					label:"Public transport",
+					extOpen:true,
+					url:"http://m.tfl.gov.uk"
 				}
 			]
 		},
@@ -1582,8 +1712,8 @@ localContent =
 						showDevicePosition:true,
 						styles:
 						{
-							width:"280px",
-							height:"300px",
+							width:"272px",
+							height:"350px",
 						},
 						markers:
 						[
@@ -1591,22 +1721,10 @@ localContent =
 								title:"Middlesex University",
 								lat:"51.589949",
 								lon:"-0.228975",
-								desc:"This is a little test description for the marker MDX UNI"
-							},
-							{
-								title:"Kaifeng",
-								lat:"51.589896",
-								lon:"-0.224158",
-								desc:"This is a little test description for the marker Kaifeng"
-							},
-							{
-								title:"The Claddagh Ring",
-								lat:"51.590183",
-								lon:"-0.226078",
-								desc:"This is a little test description for the marker Claddagh Ring"
+								desc:"The Burroughs, Hendon, London NW4 4BT"
 							}
 						]
-					}
+					},
 				]
 			},
 			{
@@ -1968,7 +2086,6 @@ localContent =
 		return el;
 	}
 }
-
 
 
 
