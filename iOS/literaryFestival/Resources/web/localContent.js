@@ -10,10 +10,10 @@ localContent =
 	date:
 	{
 		year:"2013",	// e.g. 2013
-		month:"02",		// e.g. 02
-		day:"25",		// e.g. 04
-		hour:"21",		// e.g. 03
-		minute:"22"		// e.g. 05
+		month:"03",		// e.g. 02
+		day:"08",		// e.g. 04
+		hour:"20",		// e.g. 03
+		minute:"00"		// e.g. 05
 	},
 	
 	forceUpdate:false, // ONLY SET TO true WHEN YOU CAN'T USE DATE TO PERFORM AN UPDATE!!
@@ -82,11 +82,6 @@ localContent =
 					type:"tableBtn",
 					rel:"day2",
 					label:"Wednesday 27th March"
-				},
-				{
-					type:"tableBtn",
-					rel:"twiction",
-					label:"Twiction"
 				}
 			]
 		},
@@ -1420,6 +1415,16 @@ localContent =
 					type:"tableBtn",
 					rel:"twiction",
 					label:"Twiction"
+				},
+				{
+					type:"tableBtn",
+					rel:"author4",
+					label:"Abimbola Dare (Workshop)"
+				},
+				{
+					type:"tableBtn",
+					rel:"author8",
+					label:"Laura Hird (Workshop)"
 				}			
 			]
 		},	
@@ -1667,6 +1672,26 @@ localContent =
 					label:"Public transport",
 					extOpen:true,
 					url:"http://m.tfl.gov.uk"
+				},
+				{
+					type:"sheetCopy",
+					text:"Middlesex University’s Hendon Campus is situated in the heart of North London. Access to the beautiful airy campus is an easy trip from central London and you’ll find any information on how to find us right ..."
+				},
+				{
+					type:"linkBtn",
+					label:"here",
+					extOpen:true,
+					url:"http://www.mdx.ac.uk/Assets/Hendon_Campus_Pocketmap_12_13%20web.pdf"
+				},
+				{
+					type:"sheetCopy",
+					text:"By Tube:<br/>Hendon Central station  (Northern Line, Edgware  branch) is only 30 minutes  away from Central London.  The walk from the station to Hendon Campus takes approximately 10 minutes. Turn right out of the station, walk up the road to the main junction and then turn right into The Burroughs. As you approach the campus, the Hendon Town Hall and Library are located on the left. Cross the road here and continue past the fire station and you will shortly arrive at the main entrance.<br/><br/>By rail:<br/>Fast and frequent rail services run via Hendon rail station to central London and destinations such as Luton and Gatwick airports and Bedford. Catch the 183 bus from Station Road directly to the main entrance.<br/><br/>By bus:<br/>Buses 143, 183 and 326 provide a direct service from the main entrance to Archway, Golders Green and Barnet. These services also provide links to Brent Cross Shopping Centre, Hendon Central Underground and Hendon rail stations.<br/><br/>By car:<br/>From the North: Leave the M1 at Junction 2 for the A1 south. Turn right at the 2nd set of traffic lights onto the A504 (Finchley Lane). Continue through the next set of traffic lights. From the A406 (North Circular): Westbound: Take the A1 at Henlys Corner. Turn left at the 1st set of traffic lights onto the A504 (Finchley Lane). Continue through the next set of traffic lights. Eastbound: Take the A41 (Hendon Way) north at the Brent Cross Interchange. Turn right at the 2nd set of traffic lights. Parking is provided for staff and pre-arranged visitors only.<br/><br/>For further information about information about accessibility and maps of Hendon Campus please click ..."
+				},
+				{
+					type:"linkBtn",
+					label:"here",
+					extOpen:true,
+					url:"http://www.mdx.ac.uk/Assets/Hendon_Campus_Pocketmap_12_13%20web.pdf"
 				}
 			]
 		},
@@ -2086,7 +2111,6 @@ localContent =
 		return el;
 	}
 }
-
 
 
 
