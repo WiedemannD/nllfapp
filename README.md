@@ -13,13 +13,9 @@ _iOS/literaryFestival/Resources/web_
 - Open links with extOpen=true query parameter in default browser (some code in the iOS files were required for that. Don't know if Android needs a similar adaptation)
 
 **Unfinished feaures/platforms:** 
-- RSS aggregation
-- Content for first submission isn't ready and added yet
-- Design isn't ready and applied yet
-- iOS app icons and launch images aren't included yet
 - Android optimization of HTML/JS/CSS
 - Android wrapper
-
+(- RSS aggregation)
 
 **Update mechanism in generall**
 Find file examples in _update_ directory.
@@ -39,4 +35,4 @@ _content.js_ will be saved completely into JSs localStorage, so its filesize mus
 
 
 **Connected accounts**
-- google maps api: middlesexunict@gmail.com
+- Google maps api/Apple Dev account: middlesexunict@gmail.com
